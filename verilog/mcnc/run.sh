@@ -7,6 +7,8 @@ FLAGS="--no-verify -s 4000000 -n 400000 -t ${TIME}"
 
 which ${ACTION}
 which cat.py
+which yosys
+YOSYS=$(yosys --version)
 
 for bench in ${BENCHES}; do
     echo "==================================" 1>&2
@@ -14,9 +16,9 @@ for bench in ${BENCHES}; do
     stem=$(basename ${fullpath} .v)
     echo "Running ${stem}" 1>&2
     echo "==================================" 1>&2
-    ${ACTION} ${fullpath} ${FLAGS} --report ${stem}_rpt.json >>/dev/null
+    ${ACTION} ${fullpath} ${FLAGS} --report ${stem}_rpt.json ${stem}_opt.v 1>&2
     cat ${stem}_rpt.json 1>&2
     echo " " 1>&2
 done
 
-ls *_rpt.json | xargs cat.py > results.json
+ls *_rpt.json | xargs cat.py --version ${YOSYS} > results.json
