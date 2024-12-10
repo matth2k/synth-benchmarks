@@ -21,4 +21,4 @@ for bench in ${BENCHES}; do
     echo " " 1>&2
 done
 
-ls *_rpt.json | xargs cat.py --version ${YOSYS} > results.json
+ls *_rpt.json | xargs cat.py --version "${YOSYS}" > results.json
