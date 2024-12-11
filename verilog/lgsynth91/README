@@ -1,1 +1,4 @@
 https://ddd.fit.cvut.cz/www/prj/Benchmarks/
+
+Note: Some benchmarks here get the following error (ex: x3_synth)
+Error: Custom { kind: Other, error: "Variable name is already reserved. Check for missing parentheses." }
