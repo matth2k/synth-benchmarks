@@ -1,0 +1,2852 @@
+{
+  "modules": {
+    "ADDERFDS": {
+      "build_time": 1.6565189239999998,
+      "circuit_stats": {
+        "after": {
+          "depth": 7,
+          "lut_count": 30,
+          "lut_distribution": {
+            "2": 4,
+            "3": 8,
+            "5": 13,
+            "6": 5
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 7,
+          "lut_count": 31,
+          "lut_distribution": {
+            "2": 6,
+            "3": 11,
+            "5": 10,
+            "6": 4
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.002688922,
+      "input_size": 73,
+      "num_classes": 368,
+      "num_inputs": 33,
+      "num_iterations": 21,
+      "num_nodes": 6475,
+      "num_outputs": 17,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "C1355.iscas": {
+      "build_time": 12.449629251,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 68,
+          "lut_distribution": {
+            "3": 16,
+            "4": 8,
+            "5": 18,
+            "6": 26
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 68,
+          "lut_distribution": {
+            "3": 24,
+            "4": 8,
+            "5": 18,
+            "6": 18
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.011783679,
+      "input_size": 119,
+      "num_classes": 211,
+      "num_inputs": 41,
+      "num_iterations": 35,
+      "num_nodes": 29039,
+      "num_outputs": 32,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "C17.iscas": {
+      "build_time": 0.001103559,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 2,
+          "lut_distribution": {
+            "4": 2
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 2,
+          "lut_distribution": {
+            "4": 2
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 1.6516e-05,
+      "input_size": 10,
+      "num_classes": 38,
+      "num_inputs": 5,
+      "num_iterations": 7,
+      "num_nodes": 84,
+      "num_outputs": 2,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "C1908.iscas": {
+      "build_time": 43.450362602,
+      "circuit_stats": {
+        "after": {
+          "depth": 6,
+          "lut_count": 89,
+          "lut_distribution": {
+            "2": 11,
+            "3": 18,
+            "4": 1,
+            "5": 22,
+            "6": 37
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 6,
+          "lut_count": 94,
+          "lut_distribution": {
+            "2": 22,
+            "3": 29,
+            "4": 9,
+            "5": 13,
+            "6": 21
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.052203221,
+      "input_size": 173,
+      "num_classes": 9028,
+      "num_inputs": 33,
+      "num_iterations": 48,
+      "num_nodes": 72344,
+      "num_outputs": 25,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "C2670.iscas": {
+      "build_time": 24.372278665,
+      "circuit_stats": {
+        "after": {
+          "depth": 6,
+          "lut_count": 117,
+          "lut_distribution": {
+            "1": 12,
+            "2": 7,
+            "3": 20,
+            "4": 9,
+            "5": 14,
+            "6": 55
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 6,
+          "lut_count": 118,
+          "lut_distribution": {
+            "1": 13,
+            "2": 11,
+            "3": 25,
+            "4": 8,
+            "5": 8,
+            "6": 53
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.035417624,
+      "input_size": 413,
+      "num_classes": 11577,
+      "num_inputs": 233,
+      "num_iterations": 42,
+      "num_nodes": 59855,
+      "num_outputs": 140,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "C3540.iscas": {
+      "build_time": 100.059191475,
+      "circuit_stats": {
+        "after": {
+          "depth": 8,
+          "lut_count": 274,
+          "lut_distribution": {
+            "2": 9,
+            "3": 14,
+            "4": 48,
+            "5": 78,
+            "6": 125
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 8,
+          "lut_count": 276,
+          "lut_distribution": {
+            "2": 49,
+            "3": 31,
+            "4": 47,
+            "5": 48,
+            "6": 101
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.160609386,
+      "input_size": 460,
+      "num_classes": 35263,
+      "num_inputs": 50,
+      "num_iterations": 60,
+      "num_nodes": 155252,
+      "num_outputs": 22,
+      "saturated": false,
+      "stop_reason": "100.13987969 Seconds"
+    },
+    "C432.iscas": {
+      "build_time": 13.130936005,
+      "circuit_stats": {
+        "after": {
+          "depth": 8,
+          "lut_count": 47,
+          "lut_distribution": {
+            "2": 1,
+            "3": 1,
+            "4": 7,
+            "5": 3,
+            "6": 35
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 8,
+          "lut_count": 47,
+          "lut_distribution": {
+            "2": 2,
+            "3": 7,
+            "4": 7,
+            "5": 3,
+            "6": 28
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.019968031,
+      "input_size": 99,
+      "num_classes": 1548,
+      "num_inputs": 36,
+      "num_iterations": 36,
+      "num_nodes": 28235,
+      "num_outputs": 7,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "C499.iscas": {
+      "build_time": 15.983531378,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 70,
+          "lut_distribution": {
+            "2": 19,
+            "4": 9,
+            "5": 9,
+            "6": 33
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 74,
+          "lut_distribution": {
+            "2": 21,
+            "3": 2,
+            "4": 25,
+            "5": 9,
+            "6": 17
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.010228533,
+      "input_size": 128,
+      "num_classes": 322,
+      "num_inputs": 41,
+      "num_iterations": 38,
+      "num_nodes": 32462,
+      "num_outputs": 32,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "C5315.iscas": {
+      "build_time": 99.87194732800003,
+      "circuit_stats": {
+        "after": {
+          "depth": 6,
+          "lut_count": 267,
+          "lut_distribution": {
+            "1": 11,
+            "2": 17,
+            "3": 41,
+            "4": 27,
+            "5": 37,
+            "6": 134
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 6,
+          "lut_count": 269,
+          "lut_distribution": {
+            "1": 11,
+            "2": 37,
+            "3": 52,
+            "4": 25,
+            "5": 37,
+            "6": 107
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.18991407,
+      "input_size": 552,
+      "num_classes": 32732,
+      "num_inputs": 178,
+      "num_iterations": 60,
+      "num_nodes": 177704,
+      "num_outputs": 123,
+      "saturated": false,
+      "stop_reason": "100.03125199 Seconds"
+    },
+    "C6288.iscas": {
+      "build_time": 101.85291974800002,
+      "circuit_stats": {
+        "after": {
+          "depth": 16,
+          "lut_count": 513,
+          "lut_distribution": {
+            "2": 138,
+            "3": 1,
+            "4": 111,
+            "5": 17,
+            "6": 246
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 16,
+          "lut_count": 519,
+          "lut_distribution": {
+            "2": 149,
+            "3": 107,
+            "4": 17,
+            "5": 29,
+            "6": 217
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.438671059,
+      "input_size": 614,
+      "num_classes": 12427,
+      "num_inputs": 32,
+      "num_iterations": 41,
+      "num_nodes": 220286,
+      "num_outputs": 32,
+      "saturated": false,
+      "stop_reason": "101.892252886 Seconds"
+    },
+    "C7552.iscas": {
+      "build_time": 99.93500920700001,
+      "circuit_stats": {
+        "after": {
+          "depth": 8,
+          "lut_count": 327,
+          "lut_distribution": {
+            "1": 1,
+            "2": 8,
+            "3": 73,
+            "4": 55,
+            "5": 69,
+            "6": 121
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 8,
+          "lut_count": 333,
+          "lut_distribution": {
+            "1": 1,
+            "2": 72,
+            "3": 126,
+            "4": 39,
+            "5": 23,
+            "6": 72
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.358752318,
+      "input_size": 653,
+      "num_classes": 44710,
+      "num_inputs": 207,
+      "num_iterations": 61,
+      "num_nodes": 285586,
+      "num_outputs": 108,
+      "saturated": false,
+      "stop_reason": "100.000438322 Seconds"
+    },
+    "C880.iscas": {
+      "build_time": 14.257463304999998,
+      "circuit_stats": {
+        "after": {
+          "depth": 6,
+          "lut_count": 81,
+          "lut_distribution": {
+            "2": 17,
+            "3": 11,
+            "4": 10,
+            "5": 9,
+            "6": 34
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 6,
+          "lut_count": 85,
+          "lut_distribution": {
+            "2": 32,
+            "3": 6,
+            "4": 8,
+            "5": 7,
+            "6": 32
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.018806191,
+      "input_size": 185,
+      "num_classes": 6872,
+      "num_inputs": 60,
+      "num_iterations": 37,
+      "num_nodes": 35465,
+      "num_outputs": 26,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "CM138": {
+      "build_time": 1.340185185,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 8,
+          "lut_distribution": {
+            "6": 8
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 8,
+          "lut_distribution": {
+            "6": 8
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.001058991,
+      "input_size": 19,
+      "num_classes": 71,
+      "num_inputs": 6,
+      "num_iterations": 19,
+      "num_nodes": 5823,
+      "num_outputs": 8,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "CM150": {
+      "build_time": 1.0490815419999997,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 6,
+          "lut_distribution": {
+            "2": 1,
+            "6": 5
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 6,
+          "lut_distribution": {
+            "2": 1,
+            "6": 5
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.001403933,
+      "input_size": 30,
+      "num_classes": 918,
+      "num_inputs": 21,
+      "num_iterations": 19,
+      "num_nodes": 4848,
+      "num_outputs": 1,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "CM151": {
+      "build_time": 0.356116937,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 4,
+          "lut_distribution": {
+            "4": 2,
+            "6": 2
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 4,
+          "lut_distribution": {
+            "4": 2,
+            "6": 2
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000960575,
+      "input_size": 20,
+      "num_classes": 425,
+      "num_inputs": 12,
+      "num_iterations": 17,
+      "num_nodes": 1909,
+      "num_outputs": 2,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "CM162": {
+      "build_time": 1.8068811580000002,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 10,
+          "lut_distribution": {
+            "2": 2,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 5
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 10,
+          "lut_distribution": {
+            "2": 2,
+            "3": 1,
+            "4": 1,
+            "5": 4,
+            "6": 2
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.001321817,
+      "input_size": 33,
+      "num_classes": 803,
+      "num_inputs": 14,
+      "num_iterations": 24,
+      "num_nodes": 5627,
+      "num_outputs": 5,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "CM163": {
+      "build_time": 0.423189833,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 7,
+          "lut_distribution": {
+            "3": 1,
+            "5": 4,
+            "6": 2
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 7,
+          "lut_distribution": {
+            "3": 1,
+            "5": 4,
+            "6": 2
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000430857,
+      "input_size": 30,
+      "num_classes": 1175,
+      "num_inputs": 16,
+      "num_iterations": 17,
+      "num_nodes": 3094,
+      "num_outputs": 5,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "CM42": {
+      "build_time": 0.004541046,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 10,
+          "lut_distribution": {
+            "4": 10
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 10,
+          "lut_distribution": {
+            "4": 10
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 5.0063e-05,
+      "input_size": 19,
+      "num_classes": 30,
+      "num_inputs": 4,
+      "num_iterations": 7,
+      "num_nodes": 260,
+      "num_outputs": 10,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "CM82": {
+      "build_time": 0.017972032000000002,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 3,
+          "lut_distribution": {
+            "3": 1,
+            "5": 2
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 3,
+          "lut_distribution": {
+            "3": 1,
+            "5": 2
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 5.7566e-05,
+      "input_size": 12,
+      "num_classes": 30,
+      "num_inputs": 5,
+      "num_iterations": 11,
+      "num_nodes": 273,
+      "num_outputs": 3,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "CM85": {
+      "build_time": 0.906159956,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 6,
+          "lut_distribution": {
+            "5": 2,
+            "6": 4
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 6,
+          "lut_distribution": {
+            "5": 2,
+            "6": 4
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000939527,
+      "input_size": 23,
+      "num_classes": 1473,
+      "num_inputs": 11,
+      "num_iterations": 20,
+      "num_nodes": 4587,
+      "num_outputs": 3,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "DES": {
+      "build_time": 101.50183641600002,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 919,
+          "lut_distribution": {
+            "2": 39,
+            "3": 21,
+            "4": 137,
+            "5": 109,
+            "6": 613
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 922,
+          "lut_distribution": {
+            "1": 1,
+            "2": 55,
+            "3": 89,
+            "4": 248,
+            "5": 197,
+            "6": 332
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.835034607,
+      "input_size": 1414,
+      "num_classes": 81707,
+      "num_inputs": 256,
+      "num_iterations": 56,
+      "num_nodes": 662601,
+      "num_outputs": 245,
+      "saturated": false,
+      "stop_reason": "101.454503674 Seconds"
+    },
+    "PARITYFDS": {
+      "build_time": 0.175275782,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 7,
+          "lut_distribution": {
+            "2": 4,
+            "4": 2,
+            "6": 1
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 7,
+          "lut_distribution": {
+            "2": 4,
+            "4": 2,
+            "6": 1
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000111099,
+      "input_size": 26,
+      "num_classes": 26,
+      "num_inputs": 16,
+      "num_iterations": 16,
+      "num_nodes": 795,
+      "num_outputs": 1,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "alu2_cl": {
+      "build_time": 83.46365732099999,
+      "circuit_stats": {
+        "after": {
+          "depth": 7,
+          "lut_count": 106,
+          "lut_distribution": {
+            "2": 9,
+            "3": 8,
+            "4": 11,
+            "5": 32,
+            "6": 46
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 7,
+          "lut_count": 117,
+          "lut_distribution": {
+            "2": 28,
+            "3": 18,
+            "4": 16,
+            "5": 26,
+            "6": 29
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.153696716,
+      "input_size": 208,
+      "num_classes": 30769,
+      "num_inputs": 10,
+      "num_iterations": 53,
+      "num_nodes": 125148,
+      "num_outputs": 6,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "alu4_cl": {
+      "build_time": 101.059874091,
+      "circuit_stats": {
+        "after": {
+          "depth": 8,
+          "lut_count": 189,
+          "lut_distribution": {
+            "2": 16,
+            "3": 15,
+            "4": 19,
+            "5": 49,
+            "6": 90
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 8,
+          "lut_count": 204,
+          "lut_distribution": {
+            "1": 1,
+            "2": 50,
+            "3": 30,
+            "4": 27,
+            "5": 42,
+            "6": 54
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.260243383,
+      "input_size": 344,
+      "num_classes": 60169,
+      "num_inputs": 14,
+      "num_iterations": 49,
+      "num_nodes": 233370,
+      "num_outputs": 8,
+      "saturated": false,
+      "stop_reason": "101.091204998 Seconds"
+    },
+    "apex6": {
+      "build_time": 27.231682432999996,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 166,
+          "lut_distribution": {
+            "2": 13,
+            "3": 12,
+            "4": 13,
+            "5": 63,
+            "6": 65
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 168,
+          "lut_distribution": {
+            "2": 26,
+            "3": 13,
+            "4": 15,
+            "5": 61,
+            "6": 53
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.02371557,
+      "input_size": 366,
+      "num_classes": 10831,
+      "num_inputs": 135,
+      "num_iterations": 46,
+      "num_nodes": 68903,
+      "num_outputs": 99,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "apex7": {
+      "build_time": 5.97893026,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 65,
+          "lut_distribution": {
+            "2": 5,
+            "3": 21,
+            "4": 15,
+            "5": 5,
+            "6": 19
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 65,
+          "lut_distribution": {
+            "2": 6,
+            "3": 21,
+            "4": 15,
+            "5": 7,
+            "6": 16
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.005857891,
+      "input_size": 153,
+      "num_classes": 5173,
+      "num_inputs": 49,
+      "num_iterations": 31,
+      "num_nodes": 20534,
+      "num_outputs": 37,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "b1": {
+      "build_time": 0.00021748699999999999,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 3,
+          "lut_distribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 3,
+          "lut_distribution": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 1.003e-05,
+      "input_size": 10,
+      "num_classes": 12,
+      "num_inputs": 3,
+      "num_iterations": 4,
+      "num_nodes": 19,
+      "num_outputs": 4,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "b9": {
+      "build_time": 3.9116283060000003,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 31,
+          "lut_distribution": {
+            "2": 3,
+            "3": 5,
+            "4": 6,
+            "5": 5,
+            "6": 12
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 33,
+          "lut_distribution": {
+            "1": 1,
+            "2": 7,
+            "3": 5,
+            "4": 4,
+            "5": 6,
+            "6": 10
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.002860319,
+      "input_size": 102,
+      "num_classes": 4369,
+      "num_inputs": 41,
+      "num_iterations": 27,
+      "num_nodes": 13922,
+      "num_outputs": 21,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "c8": {
+      "build_time": 2.967504866,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 28,
+          "lut_distribution": {
+            "2": 1,
+            "3": 14,
+            "4": 1,
+            "5": 3,
+            "6": 9
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 29,
+          "lut_distribution": {
+            "2": 1,
+            "3": 15,
+            "4": 3,
+            "5": 2,
+            "6": 8
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.002026141,
+      "input_size": 75,
+      "num_classes": 1652,
+      "num_inputs": 28,
+      "num_iterations": 27,
+      "num_nodes": 8627,
+      "num_outputs": 18,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "cc": {
+      "build_time": 1.4802589830000001,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 16,
+          "lut_distribution": {
+            "1": 1,
+            "2": 4,
+            "4": 1,
+            "5": 2,
+            "6": 8
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 16,
+          "lut_distribution": {
+            "1": 2,
+            "2": 4,
+            "4": 1,
+            "5": 1,
+            "6": 8
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.001355141,
+      "input_size": 47,
+      "num_classes": 1552,
+      "num_inputs": 21,
+      "num_iterations": 20,
+      "num_nodes": 7574,
+      "num_outputs": 20,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "cht": {
+      "build_time": 0.33695440899999995,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 36,
+          "lut_distribution": {
+            "4": 27,
+            "5": 8,
+            "6": 1
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 36,
+          "lut_distribution": {
+            "4": 27,
+            "5": 8,
+            "6": 1
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000542107,
+      "input_size": 87,
+      "num_classes": 948,
+      "num_inputs": 47,
+      "num_iterations": 16,
+      "num_nodes": 3240,
+      "num_outputs": 36,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "clmB": {
+      "build_time": 5.5366e-05,
+      "circuit_stats": {
+        "after": {
+          "depth": 0,
+          "lut_count": 0,
+          "lut_distribution": {},
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 0,
+          "lut_count": 0,
+          "lut_distribution": {},
+          "reg_count": 0
+        }
+      },
+      "extract_time": 8.3208e-05,
+      "input_size": 370,
+      "num_classes": 370,
+      "num_inputs": 369,
+      "num_iterations": 1,
+      "num_nodes": 370,
+      "num_outputs": 369,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "cmb": {
+      "build_time": 0.7149043620000001,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 11,
+          "lut_distribution": {
+            "2": 3,
+            "4": 4,
+            "6": 4
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 11,
+          "lut_distribution": {
+            "2": 3,
+            "4": 4,
+            "6": 4
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.00090668,
+      "input_size": 37,
+      "num_classes": 520,
+      "num_inputs": 16,
+      "num_iterations": 18,
+      "num_nodes": 3491,
+      "num_outputs": 4,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "comp": {
+      "build_time": 2.2965132870000002,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 19,
+          "lut_distribution": {
+            "2": 2,
+            "3": 3,
+            "4": 3,
+            "6": 11
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 19,
+          "lut_distribution": {
+            "2": 2,
+            "3": 3,
+            "4": 3,
+            "6": 11
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.006190443,
+      "input_size": 61,
+      "num_classes": 1720,
+      "num_inputs": 32,
+      "num_iterations": 21,
+      "num_nodes": 9715,
+      "num_outputs": 3,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "cordic": {
+      "build_time": 0.7130414680000001,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 9,
+          "lut_distribution": {
+            "4": 4,
+            "5": 2,
+            "6": 3
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 9,
+          "lut_distribution": {
+            "4": 4,
+            "5": 2,
+            "6": 3
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000730753,
+      "input_size": 40,
+      "num_classes": 611,
+      "num_inputs": 23,
+      "num_iterations": 20,
+      "num_nodes": 3098,
+      "num_outputs": 2,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "count": {
+      "build_time": 3.4198046099999995,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 26,
+          "lut_distribution": {
+            "2": 2,
+            "3": 2,
+            "4": 2,
+            "5": 8,
+            "6": 12
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 27,
+          "lut_distribution": {
+            "2": 5,
+            "3": 1,
+            "4": 2,
+            "5": 11,
+            "6": 8
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.003715087,
+      "input_size": 73,
+      "num_classes": 1324,
+      "num_inputs": 35,
+      "num_iterations": 28,
+      "num_nodes": 12203,
+      "num_outputs": 16,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "cu": {
+      "build_time": 0.8687331540000002,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 17,
+          "lut_distribution": {
+            "2": 1,
+            "3": 3,
+            "4": 4,
+            "5": 6,
+            "6": 3
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 17,
+          "lut_distribution": {
+            "1": 1,
+            "2": 2,
+            "3": 8,
+            "4": 3,
+            "5": 1,
+            "6": 2
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000698379,
+      "input_size": 44,
+      "num_classes": 587,
+      "num_inputs": 14,
+      "num_iterations": 20,
+      "num_nodes": 4174,
+      "num_outputs": 11,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "dalu": {
+      "build_time": 88.243016475,
+      "circuit_stats": {
+        "after": {
+          "depth": 6,
+          "lut_count": 216,
+          "lut_distribution": {
+            "2": 24,
+            "3": 22,
+            "4": 28,
+            "5": 27,
+            "6": 115
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 6,
+          "lut_count": 237,
+          "lut_distribution": {
+            "2": 59,
+            "3": 35,
+            "4": 22,
+            "5": 31,
+            "6": 90
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.252765242,
+      "input_size": 396,
+      "num_classes": 29366,
+      "num_inputs": 75,
+      "num_iterations": 53,
+      "num_nodes": 156480,
+      "num_outputs": 16,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "decod": {
+      "build_time": 0.145390848,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 16,
+          "lut_distribution": {
+            "5": 16
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 16,
+          "lut_distribution": {
+            "5": 16
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000327666,
+      "input_size": 27,
+      "num_classes": 53,
+      "num_inputs": 5,
+      "num_iterations": 12,
+      "num_nodes": 1957,
+      "num_outputs": 16,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "example2.blif": {
+      "build_time": 23.367062259999997,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 87,
+          "lut_distribution": {
+            "2": 11,
+            "3": 19,
+            "4": 8,
+            "5": 16,
+            "6": 33
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 88,
+          "lut_distribution": {
+            "2": 14,
+            "3": 22,
+            "4": 15,
+            "5": 17,
+            "6": 20
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.040461735,
+      "input_size": 208,
+      "num_classes": 5885,
+      "num_inputs": 85,
+      "num_iterations": 47,
+      "num_nodes": 44986,
+      "num_outputs": 66,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "f51m": {
+      "build_time": 2.683849131,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 23,
+          "lut_distribution": {
+            "1": 1,
+            "2": 4,
+            "3": 2,
+            "4": 1,
+            "5": 1,
+            "6": 14
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 23,
+          "lut_distribution": {
+            "1": 1,
+            "2": 4,
+            "3": 2,
+            "4": 1,
+            "5": 1,
+            "6": 14
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.003974007,
+      "input_size": 53,
+      "num_classes": 5754,
+      "num_inputs": 8,
+      "num_iterations": 21,
+      "num_nodes": 15977,
+      "num_outputs": 8,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "frg1": {
+      "build_time": 10.567273447,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 56,
+          "lut_distribution": {
+            "2": 6,
+            "3": 6,
+            "4": 7,
+            "5": 13,
+            "6": 24
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 58,
+          "lut_distribution": {
+            "2": 8,
+            "3": 9,
+            "4": 9,
+            "5": 14,
+            "6": 18
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.008085151,
+      "input_size": 124,
+      "num_classes": 4160,
+      "num_inputs": 28,
+      "num_iterations": 41,
+      "num_nodes": 24452,
+      "num_outputs": 3,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "frg2": {
+      "build_time": 44.080314853999994,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 199,
+          "lut_distribution": {
+            "1": 6,
+            "2": 21,
+            "3": 18,
+            "4": 42,
+            "5": 44,
+            "6": 68
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 202,
+          "lut_distribution": {
+            "1": 6,
+            "2": 40,
+            "3": 40,
+            "4": 35,
+            "5": 28,
+            "6": 53
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.058983913,
+      "input_size": 409,
+      "num_classes": 14370,
+      "num_inputs": 143,
+      "num_iterations": 50,
+      "num_nodes": 83561,
+      "num_outputs": 139,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "i1": {
+      "build_time": 0.387043717,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 14,
+          "lut_distribution": {
+            "2": 4,
+            "3": 5,
+            "4": 2,
+            "5": 1,
+            "6": 2
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 16,
+          "lut_distribution": {
+            "2": 10,
+            "3": 1,
+            "4": 2,
+            "5": 1,
+            "6": 2
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000453096,
+      "input_size": 50,
+      "num_classes": 610,
+      "num_inputs": 25,
+      "num_iterations": 17,
+      "num_nodes": 2252,
+      "num_outputs": 16,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "i10": {
+      "build_time": 99.954581711,
+      "circuit_stats": {
+        "after": {
+          "depth": 9,
+          "lut_count": 559,
+          "lut_distribution": {
+            "1": 11,
+            "2": 59,
+            "3": 60,
+            "4": 76,
+            "5": 108,
+            "6": 245
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 9,
+          "lut_count": 580,
+          "lut_distribution": {
+            "1": 11,
+            "2": 189,
+            "3": 112,
+            "4": 79,
+            "5": 53,
+            "6": 136
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.652872708,
+      "input_size": 1045,
+      "num_classes": 68730,
+      "num_inputs": 257,
+      "num_iterations": 57,
+      "num_nodes": 450241,
+      "num_outputs": 224,
+      "saturated": false,
+      "stop_reason": "100.06057033 Seconds"
+    },
+    "i2": {
+      "build_time": 6.477431447999999,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 52,
+          "lut_distribution": {
+            "2": 5,
+            "3": 6,
+            "4": 5,
+            "5": 8,
+            "6": 28
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 52,
+          "lut_distribution": {
+            "2": 5,
+            "3": 6,
+            "4": 5,
+            "5": 8,
+            "6": 28
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.007243664,
+      "input_size": 269,
+      "num_classes": 882,
+      "num_inputs": 201,
+      "num_iterations": 28,
+      "num_nodes": 22116,
+      "num_outputs": 1,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "i3": {
+      "build_time": 3.7211602939999997,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 38,
+          "lut_distribution": {
+            "2": 10,
+            "4": 12,
+            "6": 16
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 38,
+          "lut_distribution": {
+            "2": 10,
+            "4": 12,
+            "6": 16
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.002985214,
+      "input_size": 178,
+      "num_classes": 293,
+      "num_inputs": 132,
+      "num_iterations": 23,
+      "num_nodes": 12083,
+      "num_outputs": 6,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "i4": {
+      "build_time": 7.0104620660000005,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 42,
+          "lut_distribution": {
+            "2": 6,
+            "6": 36
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 42,
+          "lut_distribution": {
+            "2": 6,
+            "6": 36
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.017466516,
+      "input_size": 240,
+      "num_classes": 1376,
+      "num_inputs": 192,
+      "num_iterations": 21,
+      "num_nodes": 27266,
+      "num_outputs": 6,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "i5": {
+      "build_time": 4.178705614,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 70,
+          "lut_distribution": {
+            "2": 3,
+            "3": 23,
+            "4": 8,
+            "5": 22,
+            "6": 14
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 70,
+          "lut_distribution": {
+            "2": 4,
+            "3": 44,
+            "4": 1,
+            "5": 13,
+            "6": 8
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.007958236,
+      "input_size": 210,
+      "num_classes": 1012,
+      "num_inputs": 133,
+      "num_iterations": 27,
+      "num_nodes": 15470,
+      "num_outputs": 66,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "i6": {
+      "build_time": 0.39199171,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 67,
+          "lut_distribution": {
+            "4": 28,
+            "5": 39
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 67,
+          "lut_distribution": {
+            "4": 28,
+            "5": 39
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000999446,
+      "input_size": 209,
+      "num_classes": 470,
+      "num_inputs": 138,
+      "num_iterations": 14,
+      "num_nodes": 5755,
+      "num_outputs": 67,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "i7": {
+      "build_time": 7.629178369999999,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 67,
+          "lut_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 28,
+            "6": 36
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 67,
+          "lut_distribution": {
+            "3": 1,
+            "4": 2,
+            "5": 28,
+            "6": 36
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.013203654,
+      "input_size": 271,
+      "num_classes": 1122,
+      "num_inputs": 199,
+      "num_iterations": 25,
+      "num_nodes": 30389,
+      "num_outputs": 67,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "i8": {
+      "build_time": 99.894759521,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 259,
+          "lut_distribution": {
+            "2": 7,
+            "3": 44,
+            "4": 5,
+            "5": 38,
+            "6": 165
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 266,
+          "lut_distribution": {
+            "2": 38,
+            "3": 30,
+            "4": 24,
+            "5": 63,
+            "6": 111
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.189284169,
+      "input_size": 465,
+      "num_classes": 17599,
+      "num_inputs": 133,
+      "num_iterations": 49,
+      "num_nodes": 222409,
+      "num_outputs": 81,
+      "saturated": false,
+      "stop_reason": "100.001999843 Seconds"
+    },
+    "i9": {
+      "build_time": 100.629648633,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 129,
+          "lut_distribution": {
+            "3": 19,
+            "4": 27,
+            "5": 5,
+            "6": 78
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 150,
+          "lut_distribution": {
+            "2": 24,
+            "3": 29,
+            "4": 30,
+            "5": 21,
+            "6": 46
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.169717763,
+      "input_size": 260,
+      "num_classes": 8173,
+      "num_inputs": 88,
+      "num_iterations": 56,
+      "num_nodes": 212599,
+      "num_outputs": 63,
+      "saturated": false,
+      "stop_reason": "100.749618641 Seconds"
+    },
+    "k2": {
+      "build_time": 100.24215644199998,
+      "circuit_stats": {
+        "after": {
+          "depth": 5,
+          "lut_count": 522,
+          "lut_distribution": {
+            "2": 42,
+            "3": 53,
+            "4": 69,
+            "5": 99,
+            "6": 259
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 5,
+          "lut_count": 537,
+          "lut_distribution": {
+            "2": 132,
+            "3": 87,
+            "4": 87,
+            "5": 85,
+            "6": 146
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.402601842,
+      "input_size": 718,
+      "num_classes": 39290,
+      "num_inputs": 45,
+      "num_iterations": 66,
+      "num_nodes": 390496,
+      "num_outputs": 45,
+      "saturated": false,
+      "stop_reason": "100.249798257 Seconds"
+    },
+    "lal": {
+      "build_time": 2.009198214,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 24,
+          "lut_distribution": {
+            "2": 5,
+            "4": 7,
+            "5": 4,
+            "6": 8
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 24,
+          "lut_distribution": {
+            "2": 6,
+            "3": 4,
+            "4": 6,
+            "5": 3,
+            "6": 5
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.001633283,
+      "input_size": 72,
+      "num_classes": 803,
+      "num_inputs": 26,
+      "num_iterations": 23,
+      "num_nodes": 7223,
+      "num_outputs": 19,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "lif/9symml": {
+      "build_time": 5.335289983,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 39,
+          "lut_distribution": {
+            "2": 11,
+            "4": 2,
+            "5": 2,
+            "6": 24
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 39,
+          "lut_distribution": {
+            "2": 11,
+            "4": 2,
+            "5": 3,
+            "6": 23
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.015816091,
+      "input_size": 80,
+      "num_classes": 14730,
+      "num_inputs": 9,
+      "num_iterations": 27,
+      "num_nodes": 32401,
+      "num_outputs": 1,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "mux": {
+      "build_time": 0.979197113,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 6,
+          "lut_distribution": {
+            "3": 1,
+            "6": 5
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 6,
+          "lut_distribution": {
+            "3": 1,
+            "6": 5
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.001583961,
+      "input_size": 31,
+      "num_classes": 1113,
+      "num_inputs": 21,
+      "num_iterations": 18,
+      "num_nodes": 4714,
+      "num_outputs": 1,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "mux_cl": {
+      "build_time": 1.727614969,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 3,
+          "lut_distribution": {
+            "3": 1,
+            "6": 2
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 3,
+          "lut_distribution": {
+            "3": 1,
+            "6": 2
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.001143032,
+      "input_size": 16,
+      "num_classes": 1872,
+      "num_inputs": 11,
+      "num_iterations": 24,
+      "num_nodes": 6384,
+      "num_outputs": 1,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "pair": {
+      "build_time": 100.80728269099998,
+      "circuit_stats": {
+        "after": {
+          "depth": 5,
+          "lut_count": 345,
+          "lut_distribution": {
+            "2": 54,
+            "3": 19,
+            "4": 37,
+            "5": 73,
+            "6": 162
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 5,
+          "lut_count": 356,
+          "lut_distribution": {
+            "2": 87,
+            "3": 35,
+            "4": 47,
+            "5": 73,
+            "6": 114
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.177078645,
+      "input_size": 654,
+      "num_classes": 34765,
+      "num_inputs": 173,
+      "num_iterations": 58,
+      "num_nodes": 201383,
+      "num_outputs": 137,
+      "saturated": false,
+      "stop_reason": "100.835538531 Seconds"
+    },
+    "pcle_cl": {
+      "build_time": 2.6533005070000004,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 13,
+          "lut_distribution": {
+            "3": 2,
+            "5": 2,
+            "6": 9
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 13,
+          "lut_distribution": {
+            "3": 2,
+            "4": 2,
+            "5": 5,
+            "6": 4
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.001462196,
+      "input_size": 41,
+      "num_classes": 696,
+      "num_inputs": 19,
+      "num_iterations": 26,
+      "num_nodes": 7943,
+      "num_outputs": 9,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "pcler8_cl": {
+      "build_time": 3.2025038010000006,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 23,
+          "lut_distribution": {
+            "2": 9,
+            "3": 2,
+            "4": 1,
+            "5": 1,
+            "6": 10
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 23,
+          "lut_distribution": {
+            "2": 11,
+            "3": 1,
+            "4": 2,
+            "5": 1,
+            "6": 8
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.002178943,
+      "input_size": 59,
+      "num_classes": 943,
+      "num_inputs": 27,
+      "num_iterations": 27,
+      "num_nodes": 8442,
+      "num_outputs": 17,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "pm1": {
+      "build_time": 0.8736818869999999,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 16,
+          "lut_distribution": {
+            "1": 3,
+            "2": 1,
+            "3": 3,
+            "4": 2,
+            "5": 4,
+            "6": 3
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 18,
+          "lut_distribution": {
+            "1": 3,
+            "2": 5,
+            "3": 4,
+            "4": 2,
+            "5": 2,
+            "6": 2
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.000552013,
+      "input_size": 50,
+      "num_classes": 844,
+      "num_inputs": 16,
+      "num_iterations": 23,
+      "num_nodes": 3776,
+      "num_outputs": 13,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "rot": {
+      "build_time": 100.46140272199997,
+      "circuit_stats": {
+        "after": {
+          "depth": 7,
+          "lut_count": 176,
+          "lut_distribution": {
+            "1": 2,
+            "2": 32,
+            "3": 22,
+            "4": 27,
+            "5": 27,
+            "6": 66
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 7,
+          "lut_count": 196,
+          "lut_distribution": {
+            "1": 2,
+            "2": 75,
+            "3": 46,
+            "4": 25,
+            "5": 21,
+            "6": 27
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.134639257,
+      "input_size": 422,
+      "num_classes": 30179,
+      "num_inputs": 135,
+      "num_iterations": 61,
+      "num_nodes": 133124,
+      "num_outputs": 107,
+      "saturated": false,
+      "stop_reason": "100.57034375 Seconds"
+    },
+    "s1196.bench": {
+      "build_time": 42.324693986,
+      "circuit_stats": {
+        "after": {
+          "depth": 5,
+          "lut_count": 106,
+          "lut_distribution": {
+            "2": 14,
+            "3": 7,
+            "4": 9,
+            "5": 26,
+            "6": 50
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 5,
+          "lut_count": 112,
+          "lut_distribution": {
+            "2": 28,
+            "3": 11,
+            "4": 10,
+            "5": 28,
+            "6": 35
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.052854202,
+      "input_size": 207,
+      "num_classes": 22113,
+      "num_inputs": 14,
+      "num_iterations": 49,
+      "num_nodes": 76075,
+      "num_outputs": 14,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "s953.bench": {
+      "build_time": 4.33e-05,
+      "circuit_stats": {
+        "after": {
+          "depth": 0,
+          "lut_count": 0,
+          "lut_distribution": {},
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 0,
+          "lut_count": 0,
+          "lut_distribution": {},
+          "reg_count": 0
+        }
+      },
+      "extract_time": 7.815e-06,
+      "input_size": 2,
+      "num_classes": 2,
+      "num_inputs": 0,
+      "num_iterations": 1,
+      "num_nodes": 2,
+      "num_outputs": 23,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "sct": {
+      "build_time": 1.74328982,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 18,
+          "lut_distribution": {
+            "2": 1,
+            "3": 1,
+            "4": 7,
+            "5": 3,
+            "6": 6
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 19,
+          "lut_distribution": {
+            "2": 3,
+            "3": 5,
+            "4": 7,
+            "5": 3,
+            "6": 1
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.001827987,
+      "input_size": 55,
+      "num_classes": 1379,
+      "num_inputs": 19,
+      "num_iterations": 23,
+      "num_nodes": 7084,
+      "num_outputs": 15,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "t481": {
+      "build_time": 100.72406416199999,
+      "circuit_stats": {
+        "after": {
+          "depth": 6,
+          "lut_count": 181,
+          "lut_distribution": {
+            "2": 11,
+            "3": 23,
+            "4": 16,
+            "5": 44,
+            "6": 87
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 6,
+          "lut_count": 188,
+          "lut_distribution": {
+            "2": 46,
+            "3": 35,
+            "4": 20,
+            "5": 40,
+            "6": 47
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.148453394,
+      "input_size": 299,
+      "num_classes": 20115,
+      "num_inputs": 16,
+      "num_iterations": 62,
+      "num_nodes": 156297,
+      "num_outputs": 1,
+      "saturated": false,
+      "stop_reason": "100.733363948 Seconds"
+    },
+    "tcon": {
+      "build_time": 0.000648359,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 8,
+          "lut_distribution": {
+            "3": 8
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 8,
+          "lut_distribution": {
+            "3": 8
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 2.2922e-05,
+      "input_size": 27,
+      "num_classes": 32,
+      "num_inputs": 17,
+      "num_iterations": 4,
+      "num_nodes": 80,
+      "num_outputs": 16,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "term1": {
+      "build_time": 3.339378301,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 24,
+          "lut_distribution": {
+            "1": 1,
+            "2": 5,
+            "3": 1,
+            "4": 3,
+            "5": 5,
+            "6": 9
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 25,
+          "lut_distribution": {
+            "1": 1,
+            "2": 6,
+            "3": 2,
+            "4": 3,
+            "5": 6,
+            "6": 7
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.002608166,
+      "input_size": 83,
+      "num_classes": 2236,
+      "num_inputs": 34,
+      "num_iterations": 30,
+      "num_nodes": 9653,
+      "num_outputs": 10,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "too_large": {
+      "build_time": 101.14187160300001,
+      "circuit_stats": {
+        "after": {
+          "depth": 6,
+          "lut_count": 818,
+          "lut_distribution": {
+            "2": 87,
+            "3": 81,
+            "4": 87,
+            "5": 159,
+            "6": 404
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 6,
+          "lut_count": 833,
+          "lut_distribution": {
+            "2": 171,
+            "3": 114,
+            "4": 124,
+            "5": 182,
+            "6": 242
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.825209404,
+      "input_size": 1119,
+      "num_classes": 47846,
+      "num_inputs": 38,
+      "num_iterations": 59,
+      "num_nodes": 470004,
+      "num_outputs": 3,
+      "saturated": false,
+      "stop_reason": "101.161203325 Seconds"
+    },
+    "traffic_cl": {
+      "build_time": 0.013021479,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 1,
+          "lut_distribution": {
+            "5": 1
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 1,
+          "lut_distribution": {
+            "5": 1
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 6.9081e-05,
+      "input_size": 7,
+      "num_classes": 11,
+      "num_inputs": 5,
+      "num_iterations": 11,
+      "num_nodes": 130,
+      "num_outputs": 1,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "ttt2": {
+      "build_time": 3.8231174870000006,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 39,
+          "lut_distribution": {
+            "2": 4,
+            "3": 8,
+            "4": 7,
+            "5": 8,
+            "6": 12
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 39,
+          "lut_distribution": {
+            "2": 4,
+            "3": 8,
+            "4": 7,
+            "5": 10,
+            "6": 10
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.003865462,
+      "input_size": 96,
+      "num_classes": 5479,
+      "num_inputs": 24,
+      "num_iterations": 27,
+      "num_nodes": 15505,
+      "num_outputs": 21,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "unreg": {
+      "build_time": 2.817614215,
+      "circuit_stats": {
+        "after": {
+          "depth": 1,
+          "lut_count": 16,
+          "lut_distribution": {
+            "6": 16
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 1,
+          "lut_count": 16,
+          "lut_distribution": {
+            "6": 16
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.00314942,
+      "input_size": 56,
+      "num_classes": 1493,
+      "num_inputs": 36,
+      "num_iterations": 20,
+      "num_nodes": 12997,
+      "num_outputs": 16,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "vda": {
+      "build_time": 100.00176766099997,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 265,
+          "lut_distribution": {
+            "2": 24,
+            "3": 29,
+            "4": 29,
+            "5": 52,
+            "6": 131
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 270,
+          "lut_distribution": {
+            "2": 60,
+            "3": 46,
+            "4": 38,
+            "5": 46,
+            "6": 80
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.186915375,
+      "input_size": 381,
+      "num_classes": 18215,
+      "num_inputs": 17,
+      "num_iterations": 57,
+      "num_nodes": 164747,
+      "num_outputs": 39,
+      "saturated": false,
+      "stop_reason": "100.076348435 Seconds"
+    },
+    "x1": {
+      "build_time": 21.081919664999997,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 98,
+          "lut_distribution": {
+            "2": 17,
+            "3": 17,
+            "4": 12,
+            "5": 9,
+            "6": 43
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 98,
+          "lut_distribution": {
+            "1": 1,
+            "2": 23,
+            "3": 17,
+            "4": 8,
+            "5": 16,
+            "6": 33
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.022625363,
+      "input_size": 212,
+      "num_classes": 11284,
+      "num_inputs": 51,
+      "num_iterations": 41,
+      "num_nodes": 48284,
+      "num_outputs": 35,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "x2": {
+      "build_time": 1.184615704,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 11,
+          "lut_distribution": {
+            "3": 4,
+            "4": 1,
+            "5": 2,
+            "6": 4
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 11,
+          "lut_distribution": {
+            "3": 4,
+            "4": 2,
+            "5": 2,
+            "6": 3
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.001100375,
+      "input_size": 32,
+      "num_classes": 882,
+      "num_inputs": 10,
+      "num_iterations": 24,
+      "num_nodes": 4063,
+      "num_outputs": 7,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "x4": {
+      "build_time": 19.523244272,
+      "circuit_stats": {
+        "after": {
+          "depth": 3,
+          "lut_count": 111,
+          "lut_distribution": {
+            "1": 6,
+            "2": 12,
+            "3": 16,
+            "4": 9,
+            "5": 34,
+            "6": 34
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 3,
+          "lut_count": 114,
+          "lut_distribution": {
+            "1": 6,
+            "2": 23,
+            "3": 14,
+            "4": 11,
+            "5": 31,
+            "6": 29
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.019019981,
+      "input_size": 247,
+      "num_classes": 4803,
+      "num_inputs": 94,
+      "num_iterations": 43,
+      "num_nodes": 38593,
+      "num_outputs": 71,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "xx3.blif": {
+      "build_time": 31.271988587000006,
+      "circuit_stats": {
+        "after": {
+          "depth": 4,
+          "lut_count": 157,
+          "lut_distribution": {
+            "2": 9,
+            "3": 17,
+            "4": 10,
+            "5": 59,
+            "6": 62
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 4,
+          "lut_count": 161,
+          "lut_distribution": {
+            "2": 22,
+            "3": 21,
+            "4": 8,
+            "5": 57,
+            "6": 53
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 0.048533568,
+      "input_size": 354,
+      "num_classes": 12581,
+      "num_inputs": 135,
+      "num_iterations": 49,
+      "num_nodes": 83372,
+      "num_outputs": 99,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    },
+    "z4ml": {
+      "build_time": 0.021127739,
+      "circuit_stats": {
+        "after": {
+          "depth": 2,
+          "lut_count": 5,
+          "lut_distribution": {
+            "3": 3,
+            "5": 2
+          },
+          "reg_count": 0
+        },
+        "before": {
+          "depth": 2,
+          "lut_count": 5,
+          "lut_distribution": {
+            "3": 3,
+            "5": 2
+          },
+          "reg_count": 0
+        }
+      },
+      "extract_time": 6.3968e-05,
+      "input_size": 17,
+      "num_classes": 35,
+      "num_inputs": 7,
+      "num_iterations": 11,
+      "num_nodes": 288,
+      "num_outputs": 4,
+      "saturated": true,
+      "stop_reason": "Saturated"
+    }
+  },
+  "version": "Yosys 0.33 (git sha1 2584903a060)"
+}

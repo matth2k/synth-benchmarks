@@ -1,22 +1,19 @@
 #!/bin/bash
 set -e pipefail
-BENCHES="9symml_synth.v  apex6_synth.v   cm42a_synth.v     frg2_synth.v      mm9b_synth.v      s13207.1_synth.v  s510_synth.v     ttt2_synth.v
-C1355_synth.v   apex7_synth.v   cm82a_synth.v     i10_synth.v       mult16a_synth.v   s1423_synth.v     s526_synth.v     unreg_synth.v
-C17_synth.v     b1_synth.v      cm85a_synth.v     i1_synth.v        mult16b_synth.v   s1488_synth.v     s526n_synth.v    vda_synth.v
-C1908_synth.v   b9_synth.v      cmb_synth.v       i2_synth.v        mult32a_synth.v   s1494_synth.v     s641_synth.v     x1_synth.v
-C2670_synth.v   bigkey_synth.v  comp_synth.v      i3_synth.v        mult32b_synth.v   s208.1_synth.v    s713_synth.v     x2_synth.v
-C3540_synth.v   c8_synth.v      cordic_synth.v    i5_synth.v        mux_synth.v       s27_synth.v       s820_synth.v     x3_synth.v
-C432_synth.v    cc_synth.v      count_synth.v     i6_synth.v        my_adder_synth.v  s298_synth.v      s832_synth.v     x4_synth.v
-C499_synth.v    cht_synth.v     cu_synth.v        i7_synth.v        pair_synth.v      s344_synth.v      s838.1_synth.v   z4ml_synth.v
-C5315_synth.v   clmb_synth.v    dalu_synth.v      i8_synth.v        parity_synth.v    s349_synth.v      s9234.1_synth.v
-C6288_synth.v   cm138a_synth.v  decod_synth.v     i9_synth.v        pcle_synth.v      s382_synth.v      s953_synth.v
-C7552_synth.v   cm150a_synth.v  des_synth.v       k2_synth.v        pcler8_synth.v    s38417_synth.v    sbc_synth.v
-C880_synth.v    cm151a_synth.v  dsip_synth.v      lal_synth.v       pm1_synth.v       s386_synth.v      sct_synth.v
-cm152a_synth.v  example2_synth.v  majority_synth.v  rot_synth.v       s400_synth.v    t481_synth.v      alu2_synth.v    
-cm162a_synth.v  f51m_synth.v      mm4a_synth.v      s420.1_synth.v    tcon_synth.v    alu4_synth.v    cm163a_synth.v  frg1_synth.v      mm9a_synth.v      s1196_synth.v     s444_synth.v      term1_synth.v"
-
+BENCHES="9symml_orig.v alu2_orig.v cm138a_orig.v count_orig.v i2_orig.v pm1_orig.v term1_orig.v
+C1355_orig.v alu4_orig.v cm150a_orig.v cu_orig.v i3_orig.v rot_orig.v too_large_orig.v
+C1908_orig.v apex7_orig.v cm152a_orig.v decod_orig.v i5_orig.v unreg_orig.v
+C17_orig.v apex6_orig.v cm151a_orig.v dalu_orig.v i4_orig.v s1196_orig.v ttt2_orig.v
+C2670_orig.v b1_orig.v cm162a_orig.v des_orig.v i6_orig.v vda_orig.v
+C3540_orig.v b9_orig.v cm163a_orig.v i7_orig.v x1_orig.v
+C432_orig.v cm42a_orig.v example2_orig.v i8_orig.v mux_orig.v x2_orig.v
+C499_orig.v c8_orig.v cm82a_orig.v f51m_orig.v i9_orig.v my_adder_orig.v s953_orig.v x3_orig.v
+C5315_orig.v cc_orig.v cm85a_orig.v frg1_orig.v k2_orig.v pair_orig.v x4_orig.v
+C6288_orig.v cht_orig.v cmb_orig.v frg2_orig.v lal_orig.v parity_orig.v sct_orig.v z4ml_orig.v
+C7552_orig.v comp_orig.v i10_orig.v majority_orig.v pcle_orig.v t481_orig.v C880_orig.v
+clmb_orig.v cordic_orig.v i1_orig.v pcler8_orig.v tcon_orig.v"
 ACTION=lvv
-TIME=35
+TIME=100
 FLAGS="--no-verify -s 4000000 -n 400000 -t ${TIME}"
 
 which ${ACTION}
@@ -35,4 +32,4 @@ for bench in ${BENCHES}; do
     echo " " 1>&2
 done
 
-ls *_rpt.json | xargs cat.py --version "${YOSYS}" > results.json
+ls *_rpt.json | xargs cat.py --version "${YOSYS}" > results_$(date +%Y%m%d)_100sec.json
