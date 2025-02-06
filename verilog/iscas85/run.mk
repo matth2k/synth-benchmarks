@@ -9,12 +9,15 @@ CAT_TOOL=cat.py
 TIMEOUT=28800 # 8 hours timeout
 FLAGS+=-t $(TIMEOUT) -s 1000000 -n 1000000 --no-verify
 
-.PHONY: all clean
+.PHONY: all clean clean_lite
 
 all: $(BENCHMARK_NAME)_$(TOOL)_results.json
 
 clean: 
 	rm -rf *.v.rpt *.tcl *.ys *.json
+
+clean_lite: 
+	rm -rf *.v.rpt *.tcl *.ys
 
 $(BENCHMARK_NAME)_$(TOOL)_results.json: $(RPTS)
 	$(CAT_TOOL) --version $(INFO) $(RPTS) > $@
