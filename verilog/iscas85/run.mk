@@ -7,7 +7,8 @@ INFO=$(which yosys)
 CAT_TOOL=cat.py
 
 TIMEOUT=28800 # 8 hours timeout
-FLAGS+=-t $(TIMEOUT) -s 1000000 -n 1000000 --no-verify
+EXTRA_FLAGS=
+FLAGS+=-t $(TIMEOUT) -s 10000000 -n 10000000 --no-verify $(EXTRA_FLAGS) 
 
 .PHONY: all clean clean_lite
 
