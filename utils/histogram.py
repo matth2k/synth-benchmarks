@@ -23,6 +23,7 @@ CIRCUTIT_STATS = {
 def plot_histogram(circuit_data, title, ylim, path=None):
     x = list(range(1, 7))
     y = [ 0 if str(i) not in circuit_data else circuit_data[str(i)] for i in x]
+    plt.figure(figsize=(800, 800))
     plt.bar(x, y)
     plt.title(title)
     plt.xlabel("k-LUT")
