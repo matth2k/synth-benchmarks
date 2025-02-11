@@ -2823,5 +2823,5 @@
       "stop_reason": "3678.870885253 Seconds"
     }
   },
-  "version": "/work/shared/common/yosys/33/bin/yosys"
+  "version": "/work/shared/common/yosys/33/bin/yosys with decomp"
 }
