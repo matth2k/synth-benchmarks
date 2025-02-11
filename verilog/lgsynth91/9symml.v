@@ -1,5 +1,5 @@
 // IWLS benchmark module "lif/9symml" printed on Wed May 29 16:25:53 2002
-module \lif/9symml (\1 , \2 , \3 , \4 , \5 , \6 , \7 , \8 , \9 , \52 );
+module 9symml (\1 , \2 , \3 , \4 , \5 , \6 , \7 , \8 , \9 , \52 );
 input
   \1 ,
   \2 ,

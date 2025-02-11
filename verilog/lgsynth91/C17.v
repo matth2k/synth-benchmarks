@@ -1,5 +1,5 @@
 // IWLS benchmark module "C17.iscas" printed on Wed May 29 16:27:48 2002
-module \C17.iscas (\1GAT(0) , \2GAT(1) , \3GAT(2) , \6GAT(3) , \7GAT(4) , \22GAT(10) , \23GAT(9) );
+module C17 (\1GAT(0) , \2GAT(1) , \3GAT(2) , \6GAT(3) , \7GAT(4) , \22GAT(10) , \23GAT(9) );
 input
   \2GAT(1) ,
   \7GAT(4) ,

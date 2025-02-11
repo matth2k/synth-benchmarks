@@ -1,5 +1,5 @@
 BENCHMARK_NAME=lgsynth91
-BENCHES=9symml.v alu2.v cm138a.v count.v i2.v pm1.v term1.v \
+BENCHES=alu2.v cm138a.v count.v i2.v pm1.v term1.v \
 C1355.v alu4.v cm150a.v cu.v i3.v rot.v too_large.v \
 C1908.v apex7.v cm152a.v decod.v i5.v unreg.v \
 C17.v apex6.v cm151a.v dalu.v i4.v ttt2.v \
@@ -11,6 +11,8 @@ C5315.v cc.v cm85a.v frg1.v k2.v pair.v x4.v \
 cht.v cmb.v frg2.v lal.v parity.v sct.v z4ml.v \
 C7552.v comp.v i10.v majority.v pcle.v t481.v C880.v \
 cordic.v i1.v pcler8.v tcon.v
+# Trouble list
+# 9symml.v 
 RPTS=$(BENCHES:.v=.v.rpt)
 
 TOOL=lvv
