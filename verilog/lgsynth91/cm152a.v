@@ -1,5 +1,5 @@
 // IWLS benchmark module "mux_cl" printed on Wed May 29 16:31:28 2002
-module mux_cl(a, b, c, d, e, f, g, h, i, j, k, l);
+module cm152a(a, b, c, d, e, f, g, h, i, j, k, l);
 input
   a,
   b,

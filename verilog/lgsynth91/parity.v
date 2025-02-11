@@ -1,5 +1,5 @@
 // IWLS benchmark module "PARITYFDS" printed on Wed May 29 17:28:06 2002
-module PARITYFDS(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q);
+module parity(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q);
 input
   a,
   b,

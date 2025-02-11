@@ -1,5 +1,5 @@
 // IWLS benchmark module "CM163" printed on Wed May 29 16:31:28 2002
-module CM163(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u);
+module cm163a(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u);
 input
   a,
   b,

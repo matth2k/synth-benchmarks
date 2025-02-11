@@ -1,5 +1,5 @@
 // IWLS benchmark module "CM82" printed on Wed May 29 16:31:28 2002
-module CM82(a, b, c, d, e, f, g, h);
+module cm82a(a, b, c, d, e, f, g, h);
 input
   a,
   b,

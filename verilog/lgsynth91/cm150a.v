@@ -1,5 +1,5 @@
 // IWLS benchmark module "CM150" printed on Wed May 29 16:31:28 2002
-module CM150(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v);
+module cm150a(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v);
 input
   a,
   b,

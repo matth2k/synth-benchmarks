@@ -1,5 +1,5 @@
 // IWLS benchmark module "MultiplierB_16" printed on Wed May 29 22:12:32 2002
-module MultiplierB_16(\1 , \3 , \4 , \5 , \6 , \7 , \8 , \9 , \10 , \11 , \12 , \13 , \14 , \15 , \16 , \17 , \18 , \50 );
+module mult16b(\1 , \3 , \4 , \5 , \6 , \7 , \8 , \9 , \10 , \11 , \12 , \13 , \14 , \15 , \16 , \17 , \18 , \50 );
 input
   \1 ,
   \3 ,

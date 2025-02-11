@@ -1,5 +1,5 @@
 // IWLS benchmark module "traffic_cl" printed on Wed May 29 17:27:52 2002
-module traffic_cl(a, b, c, d, e, f);
+module majority(a, b, c, d, e, f);
 input
   a,
   b,

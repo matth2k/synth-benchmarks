@@ -1,5 +1,5 @@
 // IWLS benchmark module "pcle_cl" printed on Wed May 29 17:28:07 2002
-module pcle_cl(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, \xx , y, z, a0, b0);
+module pcle(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, \xx , y, z, a0, b0);
 input
   a,
   b,

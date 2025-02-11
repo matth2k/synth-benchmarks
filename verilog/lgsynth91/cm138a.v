@@ -1,5 +1,5 @@
 // IWLS benchmark module "CM138" printed on Wed May 29 16:31:28 2002
-module CM138(a, b, c, d, e, f, g, h, i, j, k, l, m, n);
+module cm138a(a, b, c, d, e, f, g, h, i, j, k, l, m, n);
 input
   a,
   b,

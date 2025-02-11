@@ -1,5 +1,5 @@
 // IWLS benchmark module "alu4_cl" printed on Wed May 29 16:25:59 2002
-module alu2_cl(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p);
+module alu2(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p);
 input
   a,
   b,
