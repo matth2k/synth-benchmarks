@@ -67,6 +67,39 @@ if __name__ == "__main__":
     for difference in differences:
         if len(set(difference[2])) > 1:
             print(
-                f"INFO: Difference for module {difference[0]}. Baseline {difference[1]}. Results {difference[2]}",
+                f"INFO: Multiple results for {difference[0]}. Baseline {difference[1]}. Results {difference[2]}",
                 file=sys.stderr,
             )
+
+    results = []
+    for result in differences:
+        before = result[1]
+        best = min(result[2])
+        name = result[0]
+        group = (before - best, best, before, name)
+        results.append(group)
+
+    results.sort()
+
+    output = dict()
+    resultList = dict()
+    for result in results:
+        if result[0] > 0:
+            print(
+                f"INFO: Best result for {result[3]}: {result[2]} -> {result[1]} (-{result[0]})",
+                file=sys.stderr,
+            )
+
+        resultList[result[3]] = {
+            "lut_count": {
+                "best": result[1],
+                "initial": result[2],
+                "difference": result[0],
+                "percent_difference": (
+                    (result[0] / result[2]) * 100 if result[2] != 0 else 0.0
+                ),
+            }
+        }
+
+    output["modules"] = resultList
+    json.dump(output, sys.stdout, indent=2, sort_keys=True)
