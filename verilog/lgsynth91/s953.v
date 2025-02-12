@@ -1,5 +1,5 @@
 // IWLS benchmark module "s953.bench" printed on Wed May 29 21:45:20 2002
-module \s953.bench (Rdy1RtHS1, Rdy2RtHS1, Rdy1BmHS1, Rdy2BmHS1, IInDoneHS1, RtTSHS1, TpArrayHS1, OutputHS1, WantBmHS1, WantRtHS1, OutAvHS1, FullOHS1, FullIIHS1, Prog_2, Prog_1, Prog_0, ReWhBufHS1, TgWhBufHS1, SeOutAvHS1, LdProgHS1, Mode2HS1, ReRtTSHS1, ShftIIRHS1, NewTrHS1, Mode1HS1, ShftORHS1, ActRtHS1, Mode0HS1, TxHIInHS1, LxHIInHS1, NewLineHS1, ActBmHS1, GoBmHS1, LoadOHHS1, DumpIIHS1, SeFullOHS1, GoRtHS1, LoadIIHHS1, SeFullIIHS1);
+module s953 (Rdy1RtHS1, Rdy2RtHS1, Rdy1BmHS1, Rdy2BmHS1, IInDoneHS1, RtTSHS1, TpArrayHS1, OutputHS1, WantBmHS1, WantRtHS1, OutAvHS1, FullOHS1, FullIIHS1, Prog_2, Prog_1, Prog_0, ReWhBufHS1, TgWhBufHS1, SeOutAvHS1, LdProgHS1, Mode2HS1, ReRtTSHS1, ShftIIRHS1, NewTrHS1, Mode1HS1, ShftORHS1, ActRtHS1, Mode0HS1, TxHIInHS1, LxHIInHS1, NewLineHS1, ActBmHS1, GoBmHS1, LoadOHHS1, DumpIIHS1, SeFullOHS1, GoRtHS1, LoadIIHHS1, SeFullIIHS1);
 input
   WantBmHS1,
   IInDoneHS1,
