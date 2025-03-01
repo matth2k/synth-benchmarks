@@ -25,7 +25,7 @@ if __name__ == "__main__":
     iterations = sorted(iteration_dict.keys())
     avg_build_times = [sum(times) / len(times) for times in [iteration_dict[iter] for iter in iterations]]
 
-    plt.plot(iterations, avg_build_times, marker='o')
+    plt.plot(iterations, avg_build_times)
     plt.xlabel("Number of Iterations")
     plt.ylabel("Average Build Time (s)")
     plt.tight_layout()
