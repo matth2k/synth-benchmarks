@@ -1,24 +1,26 @@
 #!/bin/bash
-set -e pipefail
-BENCHES="adder.v arbiter.v bar.v cavlc.v ctrl.v dec.v div.v hyp.v i2c.v int2float.v log2.v max.v mem_ctrl.v multiplier.v priority.v router.v sin.v sqrt.v square.v voter.v"
-ACTION=lvv
-TIME=35
-FLAGS="--no-verify -s 4000000 -n 400000 -t ${TIME}"
+set -eo pipefail
 
-which ${ACTION}
-which cat.py
-which yosys
-YOSYS=$(yosys --version)
+make -f run.mk clean_lite
 
-for bench in ${BENCHES}; do
-    echo "==================================" 1>&2
-    fullpath=$(realpath ${PWD}/${bench})
-    stem=$(basename ${fullpath} .v)
-    echo "Running ${stem}" 1>&2
-    echo "==================================" 1>&2
-    ${ACTION} ${fullpath} ${FLAGS} --report ${stem}_rpt.json 1>&2
-    cat ${stem}_rpt.json 1>&2
-    echo " " 1>&2
-done
+source /opt/xilinx/Vivado/2022.1/settings64.sh
+make -f run.mk all TOOL=lvv-vivado INFO=v2022, -j 16  TIMEOUT=600
+mv epfl_lvv-vivado_results.json vivado_no_decomp.json
+rm -rf *.rpt
 
-ls *_rpt.json | xargs cat.py --version "${YOSYS}" > results.json
+source /work/shared/common/yosys/33/setup.sh
+make -f run.mk epfl_lvv_results.json TOOL=lvv INFO=yosys33, -j 16 TIMEOUT=600
+mv epfl_lvv_results.json yosys_no_decomp.json
+rm -rf *.rpt
+
+source /work/shared/common/yosys/33/setup.sh
+make -f run.mk all TOOL=lvv INFO=yosys33,dyn-decomp -j 16  TIMEOUT=3600 EXTRA_FLAGS="--decomp"
+mv epfl_lvv_results.json yosys_decomp.json
+rm -rf *.rpt
+
+source /opt/xilinx/Vivado/2022.1/settings64.sh
+make -f run.mk all TOOL=lvv-vivado INFO=v2022,dyn-decomp -j 16  TIMEOUT=3600 EXTRA_FLAGS="--decomp"
+mv epfl_lvv-vivado_results.json vivado_decomp.json
+rm -rf *.rpt
+
+python3 ../../utils/merge.py yosys_no_decomp.json vivado_no_decomp.json yosys_decomp.json vivado_decomp.json > epfl_master.json
