@@ -8,7 +8,7 @@ FSTEM=synth
 
 .PHONY: all clean
 
-all: mux_4_1.png mux_4_1_retime.png mux_4_1_retime_dsd.png
+all: mux_4_1.png mux_4_1_retime.png mux_4_1_retime_dsd.png mux_4_1.svg mux_4_1_retime.svg mux_4_1_retime_dsd.svg
 
 
 mux_4_1_retime.v: mux_4_1.v
@@ -22,6 +22,9 @@ clean:
 
 %.png: %.dot
 	dot -Tpng $< > $@
+
+%.svg: %.dot
+	dot -Tsvg $< > $@
 
 %.dot: %.dot.ys
 	+$(YOSYS) -s $<

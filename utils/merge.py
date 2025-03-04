@@ -31,7 +31,7 @@ def get_module_list(inputList):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Given a list of cat'ed json files, this script compares the 'afters' of the re-synthesized modules. This means this script should be ran on files using the same pre-synthesis step (yosys/vivado)."
+        description="Given a list of cat'ed json files, this script re-roots the compile reports by compiler configuration. This means this script should be ran on files using different compiler configurations."
     )
     parser.add_argument(
         "inputs", nargs="*", type=argparse.FileType("r"), default=[sys.stdin]
