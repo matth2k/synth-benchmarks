@@ -3,8 +3,8 @@ BENCHES=multPipe_n1.v multPipe_n2.v multPipe_n4.v multPipe_n8.v multPipe_n16.v
 
 RPTS=$(BENCHES:.v=.v.rpt)
 
-TOOL=lvv
-INFO=$(which yosys)
+TOOL=fam
+INFO=$(which fam)
 CAT_TOOL=cat.py
 
 TIMEOUT=1
@@ -16,7 +16,7 @@ FLAGS+=-t $(TIMEOUT) -s 10000000 -n 10000000 --no-verify $(EXTRA_FLAGS)
 all: $(BENCHMARK_NAME)_$(TOOL)_results.json
 
 clean: 
-	rm -rf *.v.rpt *.tcl *.ys *.json
+	rm -rf *.v.rpt *.tcl *.ys *.json *.yxil
 
 clean_lite: 
 	rm -rf *.v.rpt *.tcl *.ys
