@@ -16,4 +16,4 @@ cd epfl
 cd ..
 cp ./epfl/epfl_master.json .
 
-append.py iscas85_master.json lgsynth91_master.json > master.json
+append.py iscas85_master.json lgsynth91_master.json epfl_master.json > master.json
