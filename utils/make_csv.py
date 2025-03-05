@@ -63,22 +63,18 @@ if __name__ == "__main__":
 
         if best_before[0] > 0:
             percent_improvement = (best_after[0] - best_before[0]) / best_before[0]
-            row[1] = (
-                str(row[1])
-                + (5 - len(str(row[1]))) * " "
-                + f"({percent_improvement:.2%})"
-            )
+            row[1] = str(row[1]) + "\quad" + f"({percent_improvement:.2%})"
             row[1] = row[1].replace("%", "\%")
             if best_after[0] - best_before[0] != 0:
                 improvements.append(percent_improvement)
 
-        rows_sorted.append((best_after[0] - best_before[0], row))
+        rows_sorted.append((best_after[0], best_after[0] - best_before[0], row))
 
-    rows_sorted.sort(key=lambda x: x[0], reverse=False)
+    rows_sorted.sort(key=lambda x: x[0], reverse=True)
     avg_improvement = sum(improvements) / float(len(improvements))
-    for metric, row in rows_sorted:
+    for size, metric, row in rows_sorted:
         if metric == 0:
-            break
+            continue
         cw.writerow(row)
 
     print(f"{avg_improvement:.2%} average improvement among improved", file=sys.stderr)
