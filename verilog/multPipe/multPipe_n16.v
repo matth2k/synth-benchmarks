@@ -22719,6 +22719,314 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   ) _2917_ (
     .C(clk),
     .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_0 ),
+    .Q(out_0),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2918_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_1 ),
+    .Q(out_1),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2919_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_2 ),
+    .Q(out_2),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2920_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_3 ),
+    .Q(out_3),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2921_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_4 ),
+    .Q(out_4),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2922_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_5 ),
+    .Q(out_5),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2923_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_6 ),
+    .Q(out_6),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2924_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_7 ),
+    .Q(out_7),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2925_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_8 ),
+    .Q(out_8),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2926_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_9 ),
+    .Q(out_9),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2927_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_10 ),
+    .Q(out_10),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2928_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_11 ),
+    .Q(out_11),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2929_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_12 ),
+    .Q(out_12),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2930_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_13 ),
+    .Q(out_13),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2931_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_14 ),
+    .Q(out_14),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2932_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_15 ),
+    .Q(out_15),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2933_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_16 ),
+    .Q(out_16),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2934_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_17 ),
+    .Q(out_17),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2935_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_18 ),
+    .Q(out_18),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2936_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_19 ),
+    .Q(out_19),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2937_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_20 ),
+    .Q(out_20),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2938_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_21 ),
+    .Q(out_21),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2939_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_22 ),
+    .Q(out_22),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2940_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_23 ),
+    .Q(out_23),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2941_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_24 ),
+    .Q(out_24),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2942_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_25 ),
+    .Q(out_25),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2943_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_26 ),
+    .Q(out_26),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2944_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[15].pp.in_27 ),
+    .Q(out_27),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2945_ (
+    .C(clk),
+    .CE(1'h1),
     .D(\gen_stage_connect[15].pp.in_28 ),
     .Q(out_28),
     .R(1'h0)
@@ -22727,7 +23035,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2918_ (
+  ) _2946_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[15].pp.in_29 ),
@@ -22738,7 +23046,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2919_ (
+  ) _2947_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[15].pp.out_30 ),
@@ -22749,7 +23057,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2920_ (
+  ) _2948_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[15].pp.out_31 ),
@@ -22760,7 +23068,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2921_ (
+  ) _2949_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[14].pp.a_0 ),
@@ -22771,7 +23079,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2922_ (
+  ) _2950_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[14].pp.a_1 ),
@@ -22779,10 +23087,406 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2951_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.b_2 ),
+    .Q(\gen_stage_connect[12].pp.b_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2952_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.b_3 ),
+    .Q(\gen_stage_connect[12].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2953_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.b_4 ),
+    .Q(\gen_stage_connect[12].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2954_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.b_5 ),
+    .Q(\gen_stage_connect[12].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2955_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.b_6 ),
+    .Q(\gen_stage_connect[12].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2956_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.b_7 ),
+    .Q(\gen_stage_connect[12].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2957_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.b_8 ),
+    .Q(\gen_stage_connect[12].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2958_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.b_9 ),
+    .Q(\gen_stage_connect[12].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2923_ (
+  ) _2959_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_0 ),
+    .Q(\gen_stage_connect[15].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2960_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_1 ),
+    .Q(\gen_stage_connect[15].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2961_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_2 ),
+    .Q(\gen_stage_connect[15].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2962_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_3 ),
+    .Q(\gen_stage_connect[15].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2963_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_4 ),
+    .Q(\gen_stage_connect[15].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2964_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_5 ),
+    .Q(\gen_stage_connect[15].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2965_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_6 ),
+    .Q(\gen_stage_connect[15].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2966_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_7 ),
+    .Q(\gen_stage_connect[15].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2967_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_8 ),
+    .Q(\gen_stage_connect[15].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2968_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_9 ),
+    .Q(\gen_stage_connect[15].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2969_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_10 ),
+    .Q(\gen_stage_connect[15].pp.in_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2970_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_11 ),
+    .Q(\gen_stage_connect[15].pp.in_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2971_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_12 ),
+    .Q(\gen_stage_connect[15].pp.in_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2972_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_13 ),
+    .Q(\gen_stage_connect[15].pp.in_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2973_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_14 ),
+    .Q(\gen_stage_connect[15].pp.in_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2974_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_15 ),
+    .Q(\gen_stage_connect[15].pp.in_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2975_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_16 ),
+    .Q(\gen_stage_connect[15].pp.in_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2976_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_17 ),
+    .Q(\gen_stage_connect[15].pp.in_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2977_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_18 ),
+    .Q(\gen_stage_connect[15].pp.in_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2978_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_19 ),
+    .Q(\gen_stage_connect[15].pp.in_19 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2979_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_20 ),
+    .Q(\gen_stage_connect[15].pp.in_20 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2980_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_21 ),
+    .Q(\gen_stage_connect[15].pp.in_21 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2981_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_22 ),
+    .Q(\gen_stage_connect[15].pp.in_22 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2982_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_23 ),
+    .Q(\gen_stage_connect[15].pp.in_23 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2983_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_24 ),
+    .Q(\gen_stage_connect[15].pp.in_24 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2984_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_25 ),
+    .Q(\gen_stage_connect[15].pp.in_25 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2985_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_26 ),
+    .Q(\gen_stage_connect[15].pp.in_26 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2986_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[14].pp.in_27 ),
+    .Q(\gen_stage_connect[15].pp.in_27 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2987_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[14].pp.out_28 ),
@@ -22793,7 +23497,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2924_ (
+  ) _2988_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[14].pp.out_29 ),
@@ -22804,7 +23508,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2925_ (
+  ) _2989_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[14].pp.out_30 ),
@@ -22815,7 +23519,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2926_ (
+  ) _2990_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[14].pp.out_31 ),
@@ -22826,7 +23530,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2927_ (
+  ) _2991_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[13].pp.a_0 ),
@@ -22837,7 +23541,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2928_ (
+  ) _2992_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[13].pp.a_1 ),
@@ -22848,7 +23552,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2929_ (
+  ) _2993_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[13].pp.a_2 ),
@@ -22859,7 +23563,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2930_ (
+  ) _2994_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[13].pp.a_3 ),
@@ -22867,38 +23571,516 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(3'h0)
-  ) _2931_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2995_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[13].pp.out_26 ),
-    .Q(out_26)
+    .D(\gen_stage_connect[6].pp.b_2 ),
+    .Q(\gen_stage_connect[7].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(3'h0)
-  ) _2932_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2996_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[13].pp.out_27 ),
-    .Q(out_27)
+    .D(\gen_stage_connect[6].pp.b_3 ),
+    .Q(\gen_stage_connect[7].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2997_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_4 ),
+    .Q(\gen_stage_connect[7].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2998_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_5 ),
+    .Q(\gen_stage_connect[7].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _2999_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_6 ),
+    .Q(\gen_stage_connect[7].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3000_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_7 ),
+    .Q(\gen_stage_connect[7].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3001_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_8 ),
+    .Q(\gen_stage_connect[7].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3002_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_9 ),
+    .Q(\gen_stage_connect[7].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3003_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_10 ),
+    .Q(\gen_stage_connect[7].pp.b_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3004_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_11 ),
+    .Q(\gen_stage_connect[7].pp.b_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3005_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_12 ),
+    .Q(\gen_stage_connect[7].pp.b_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3006_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_13 ),
+    .Q(\gen_stage_connect[7].pp.b_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3007_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_14 ),
+    .Q(\gen_stage_connect[7].pp.b_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3008_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_15 ),
+    .Q(\gen_stage_connect[7].pp.b_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3009_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_16 ),
+    .Q(\gen_stage_connect[7].pp.b_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3010_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_17 ),
+    .Q(\gen_stage_connect[7].pp.b_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3011_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_18 ),
+    .Q(\gen_stage_connect[7].pp.b_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3012_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.b_19 ),
+    .Q(\gen_stage_connect[7].pp.b_17 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2933_ (
+  ) _3013_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_0 ),
+    .Q(\gen_stage_connect[14].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3014_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_1 ),
+    .Q(\gen_stage_connect[14].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3015_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_2 ),
+    .Q(\gen_stage_connect[14].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3016_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_3 ),
+    .Q(\gen_stage_connect[14].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3017_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_4 ),
+    .Q(\gen_stage_connect[14].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3018_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_5 ),
+    .Q(\gen_stage_connect[14].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3019_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_6 ),
+    .Q(\gen_stage_connect[14].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3020_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_7 ),
+    .Q(\gen_stage_connect[14].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3021_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_8 ),
+    .Q(\gen_stage_connect[14].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3022_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_9 ),
+    .Q(\gen_stage_connect[14].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3023_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_10 ),
+    .Q(\gen_stage_connect[14].pp.in_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3024_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_11 ),
+    .Q(\gen_stage_connect[14].pp.in_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3025_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_12 ),
+    .Q(\gen_stage_connect[14].pp.in_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3026_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_13 ),
+    .Q(\gen_stage_connect[14].pp.in_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3027_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_14 ),
+    .Q(\gen_stage_connect[14].pp.in_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3028_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_15 ),
+    .Q(\gen_stage_connect[14].pp.in_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3029_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_16 ),
+    .Q(\gen_stage_connect[14].pp.in_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3030_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_17 ),
+    .Q(\gen_stage_connect[14].pp.in_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3031_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_18 ),
+    .Q(\gen_stage_connect[14].pp.in_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3032_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_19 ),
+    .Q(\gen_stage_connect[14].pp.in_19 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3033_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_20 ),
+    .Q(\gen_stage_connect[14].pp.in_20 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3034_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_21 ),
+    .Q(\gen_stage_connect[14].pp.in_21 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3035_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_22 ),
+    .Q(\gen_stage_connect[14].pp.in_22 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3036_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_23 ),
+    .Q(\gen_stage_connect[14].pp.in_23 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3037_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_24 ),
+    .Q(\gen_stage_connect[14].pp.in_24 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3038_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.in_25 ),
+    .Q(\gen_stage_connect[14].pp.in_25 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3039_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.out_26 ),
+    .Q(\gen_stage_connect[14].pp.in_26 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3040_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.out_27 ),
+    .Q(\gen_stage_connect[14].pp.in_27 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3041_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[13].pp.out_28 ),
@@ -22909,7 +24091,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2934_ (
+  ) _3042_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[13].pp.out_29 ),
@@ -22920,7 +24102,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2935_ (
+  ) _3043_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[13].pp.out_30 ),
@@ -22931,7 +24113,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2936_ (
+  ) _3044_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[13].pp.out_31 ),
@@ -22942,7 +24124,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2937_ (
+  ) _3045_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.a_0 ),
@@ -22953,7 +24135,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2938_ (
+  ) _3046_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.a_1 ),
@@ -22964,7 +24146,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2939_ (
+  ) _3047_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.a_2 ),
@@ -22975,7 +24157,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2940_ (
+  ) _3048_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.a_3 ),
@@ -22986,7 +24168,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2941_ (
+  ) _3049_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.a_4 ),
@@ -22997,7 +24179,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2942_ (
+  ) _3050_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.a_5 ),
@@ -23005,38 +24187,340 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(4'h0)
-  ) _2943_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3051_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[12].pp.out_24 ),
-    .Q(out_24)
+    .D(\gen_stage_connect[13].pp.b_2 ),
+    .Q(\gen_stage_connect[14].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(4'h0)
-  ) _2944_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3052_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[12].pp.out_25 ),
-    .Q(out_25)
+    .D(\gen_stage_connect[13].pp.b_3 ),
+    .Q(\gen_stage_connect[14].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3053_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.b_4 ),
+    .Q(\gen_stage_connect[14].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3054_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[13].pp.b_5 ),
+    .Q(\gen_stage_connect[14].pp.b_3 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2945_ (
+  ) _3055_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_0 ),
+    .Q(\gen_stage_connect[13].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3056_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_1 ),
+    .Q(\gen_stage_connect[13].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3057_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_2 ),
+    .Q(\gen_stage_connect[13].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3058_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_3 ),
+    .Q(\gen_stage_connect[13].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3059_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_4 ),
+    .Q(\gen_stage_connect[13].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3060_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_5 ),
+    .Q(\gen_stage_connect[13].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3061_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_6 ),
+    .Q(\gen_stage_connect[13].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3062_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_7 ),
+    .Q(\gen_stage_connect[13].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3063_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_8 ),
+    .Q(\gen_stage_connect[13].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3064_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_9 ),
+    .Q(\gen_stage_connect[13].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3065_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_10 ),
+    .Q(\gen_stage_connect[13].pp.in_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3066_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_11 ),
+    .Q(\gen_stage_connect[13].pp.in_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3067_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_12 ),
+    .Q(\gen_stage_connect[13].pp.in_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3068_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_13 ),
+    .Q(\gen_stage_connect[13].pp.in_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3069_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_14 ),
+    .Q(\gen_stage_connect[13].pp.in_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3070_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_15 ),
+    .Q(\gen_stage_connect[13].pp.in_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3071_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_16 ),
+    .Q(\gen_stage_connect[13].pp.in_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3072_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_17 ),
+    .Q(\gen_stage_connect[13].pp.in_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3073_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_18 ),
+    .Q(\gen_stage_connect[13].pp.in_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3074_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_19 ),
+    .Q(\gen_stage_connect[13].pp.in_19 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3075_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_20 ),
+    .Q(\gen_stage_connect[13].pp.in_20 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3076_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_21 ),
+    .Q(\gen_stage_connect[13].pp.in_21 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3077_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_22 ),
+    .Q(\gen_stage_connect[13].pp.in_22 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3078_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.in_23 ),
+    .Q(\gen_stage_connect[13].pp.in_23 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3079_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.out_24 ),
+    .Q(\gen_stage_connect[13].pp.in_24 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3080_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.out_25 ),
+    .Q(\gen_stage_connect[13].pp.in_25 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3081_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.out_26 ),
@@ -23047,7 +24531,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2946_ (
+  ) _3082_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.out_27 ),
@@ -23058,7 +24542,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2947_ (
+  ) _3083_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.out_28 ),
@@ -23069,7 +24553,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2948_ (
+  ) _3084_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.out_29 ),
@@ -23080,7 +24564,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2949_ (
+  ) _3085_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.out_30 ),
@@ -23091,7 +24575,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2950_ (
+  ) _3086_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[12].pp.out_31 ),
@@ -23102,7 +24586,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2951_ (
+  ) _3087_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.a_0 ),
@@ -23113,7 +24597,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2952_ (
+  ) _3088_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.a_1 ),
@@ -23124,7 +24608,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2953_ (
+  ) _3089_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.a_2 ),
@@ -23135,7 +24619,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2954_ (
+  ) _3090_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.a_3 ),
@@ -23146,7 +24630,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2955_ (
+  ) _3091_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.a_4 ),
@@ -23157,7 +24641,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2956_ (
+  ) _3092_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.a_5 ),
@@ -23168,7 +24652,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2957_ (
+  ) _3093_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.a_6 ),
@@ -23179,7 +24663,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2958_ (
+  ) _3094_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.a_7 ),
@@ -23187,38 +24671,494 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(5'h00)
-  ) _2959_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3095_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[11].pp.out_22 ),
-    .Q(out_22)
+    .D(\gen_stage_connect[5].pp.b_2 ),
+    .Q(\gen_stage_connect[6].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(5'h00)
-  ) _2960_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3096_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[11].pp.out_23 ),
-    .Q(out_23)
+    .D(\gen_stage_connect[5].pp.b_3 ),
+    .Q(\gen_stage_connect[6].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3097_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_4 ),
+    .Q(\gen_stage_connect[6].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3098_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_5 ),
+    .Q(\gen_stage_connect[6].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3099_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_6 ),
+    .Q(\gen_stage_connect[6].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3100_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_7 ),
+    .Q(\gen_stage_connect[6].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3101_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_8 ),
+    .Q(\gen_stage_connect[6].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3102_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_9 ),
+    .Q(\gen_stage_connect[6].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3103_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_10 ),
+    .Q(\gen_stage_connect[6].pp.b_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3104_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_11 ),
+    .Q(\gen_stage_connect[6].pp.b_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3105_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_12 ),
+    .Q(\gen_stage_connect[6].pp.b_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3106_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_13 ),
+    .Q(\gen_stage_connect[6].pp.b_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3107_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_14 ),
+    .Q(\gen_stage_connect[6].pp.b_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3108_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_15 ),
+    .Q(\gen_stage_connect[6].pp.b_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3109_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_16 ),
+    .Q(\gen_stage_connect[6].pp.b_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3110_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_17 ),
+    .Q(\gen_stage_connect[6].pp.b_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3111_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_18 ),
+    .Q(\gen_stage_connect[6].pp.b_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3112_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_19 ),
+    .Q(\gen_stage_connect[6].pp.b_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3113_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_20 ),
+    .Q(\gen_stage_connect[6].pp.b_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3114_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.b_21 ),
+    .Q(\gen_stage_connect[6].pp.b_19 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2961_ (
+  ) _3115_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_0 ),
+    .Q(\gen_stage_connect[12].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3116_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_1 ),
+    .Q(\gen_stage_connect[12].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3117_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_2 ),
+    .Q(\gen_stage_connect[12].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3118_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_3 ),
+    .Q(\gen_stage_connect[12].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3119_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_4 ),
+    .Q(\gen_stage_connect[12].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3120_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_5 ),
+    .Q(\gen_stage_connect[12].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3121_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_6 ),
+    .Q(\gen_stage_connect[12].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3122_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_7 ),
+    .Q(\gen_stage_connect[12].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3123_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_8 ),
+    .Q(\gen_stage_connect[12].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3124_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_9 ),
+    .Q(\gen_stage_connect[12].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3125_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_10 ),
+    .Q(\gen_stage_connect[12].pp.in_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3126_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_11 ),
+    .Q(\gen_stage_connect[12].pp.in_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3127_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_12 ),
+    .Q(\gen_stage_connect[12].pp.in_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3128_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_13 ),
+    .Q(\gen_stage_connect[12].pp.in_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3129_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_14 ),
+    .Q(\gen_stage_connect[12].pp.in_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3130_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_15 ),
+    .Q(\gen_stage_connect[12].pp.in_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3131_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_16 ),
+    .Q(\gen_stage_connect[12].pp.in_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3132_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_17 ),
+    .Q(\gen_stage_connect[12].pp.in_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3133_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_18 ),
+    .Q(\gen_stage_connect[12].pp.in_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3134_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_19 ),
+    .Q(\gen_stage_connect[12].pp.in_19 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3135_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_20 ),
+    .Q(\gen_stage_connect[12].pp.in_20 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3136_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.in_21 ),
+    .Q(\gen_stage_connect[12].pp.in_21 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3137_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.out_22 ),
+    .Q(\gen_stage_connect[12].pp.in_22 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3138_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[11].pp.out_23 ),
+    .Q(\gen_stage_connect[12].pp.in_23 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3139_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.out_24 ),
@@ -23229,7 +25169,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2962_ (
+  ) _3140_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.out_25 ),
@@ -23240,7 +25180,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2963_ (
+  ) _3141_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.out_26 ),
@@ -23251,7 +25191,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2964_ (
+  ) _3142_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.out_27 ),
@@ -23262,7 +25202,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2965_ (
+  ) _3143_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.out_28 ),
@@ -23273,7 +25213,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2966_ (
+  ) _3144_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.out_29 ),
@@ -23284,7 +25224,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2967_ (
+  ) _3145_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.out_30 ),
@@ -23295,7 +25235,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2968_ (
+  ) _3146_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[11].pp.out_31 ),
@@ -23306,7 +25246,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2969_ (
+  ) _3147_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.a_0 ),
@@ -23317,7 +25257,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2970_ (
+  ) _3148_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.a_1 ),
@@ -23328,7 +25268,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2971_ (
+  ) _3149_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.a_2 ),
@@ -23339,7 +25279,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2972_ (
+  ) _3150_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.a_3 ),
@@ -23350,7 +25290,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2973_ (
+  ) _3151_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.a_4 ),
@@ -23361,7 +25301,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2974_ (
+  ) _3152_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.a_5 ),
@@ -23372,7 +25312,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2975_ (
+  ) _3153_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.a_6 ),
@@ -23383,7 +25323,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2976_ (
+  ) _3154_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.a_7 ),
@@ -23394,7 +25334,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2977_ (
+  ) _3155_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.a_8 ),
@@ -23405,7 +25345,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2978_ (
+  ) _3156_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.a_9 ),
@@ -23413,38 +25353,362 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(6'h00)
-  ) _2979_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3157_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[10].pp.out_20 ),
-    .Q(out_20)
+    .D(\gen_stage_connect[10].pp.b_2 ),
+    .Q(\gen_stage_connect[11].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(6'h00)
-  ) _2980_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3158_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[10].pp.out_21 ),
-    .Q(out_21)
+    .D(\gen_stage_connect[10].pp.b_3 ),
+    .Q(\gen_stage_connect[11].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3159_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.b_4 ),
+    .Q(\gen_stage_connect[11].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3160_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.b_5 ),
+    .Q(\gen_stage_connect[11].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3161_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.b_6 ),
+    .Q(\gen_stage_connect[11].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3162_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.b_7 ),
+    .Q(\gen_stage_connect[11].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3163_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.b_8 ),
+    .Q(\gen_stage_connect[11].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3164_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.b_9 ),
+    .Q(\gen_stage_connect[11].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3165_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.b_10 ),
+    .Q(\gen_stage_connect[11].pp.b_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3166_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.b_11 ),
+    .Q(\gen_stage_connect[11].pp.b_9 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2981_ (
+  ) _3167_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_0 ),
+    .Q(\gen_stage_connect[11].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3168_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_1 ),
+    .Q(\gen_stage_connect[11].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3169_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_2 ),
+    .Q(\gen_stage_connect[11].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3170_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_3 ),
+    .Q(\gen_stage_connect[11].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3171_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_4 ),
+    .Q(\gen_stage_connect[11].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3172_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_5 ),
+    .Q(\gen_stage_connect[11].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3173_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_6 ),
+    .Q(\gen_stage_connect[11].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3174_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_7 ),
+    .Q(\gen_stage_connect[11].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3175_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_8 ),
+    .Q(\gen_stage_connect[11].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3176_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_9 ),
+    .Q(\gen_stage_connect[11].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3177_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_10 ),
+    .Q(\gen_stage_connect[11].pp.in_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3178_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_11 ),
+    .Q(\gen_stage_connect[11].pp.in_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3179_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_12 ),
+    .Q(\gen_stage_connect[11].pp.in_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3180_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_13 ),
+    .Q(\gen_stage_connect[11].pp.in_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3181_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_14 ),
+    .Q(\gen_stage_connect[11].pp.in_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3182_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_15 ),
+    .Q(\gen_stage_connect[11].pp.in_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3183_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_16 ),
+    .Q(\gen_stage_connect[11].pp.in_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3184_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_17 ),
+    .Q(\gen_stage_connect[11].pp.in_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3185_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_18 ),
+    .Q(\gen_stage_connect[11].pp.in_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3186_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.in_19 ),
+    .Q(\gen_stage_connect[11].pp.in_19 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3187_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.out_20 ),
+    .Q(\gen_stage_connect[11].pp.in_20 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3188_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[10].pp.out_21 ),
+    .Q(\gen_stage_connect[11].pp.in_21 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3189_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.out_22 ),
@@ -23455,7 +25719,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2982_ (
+  ) _3190_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.out_23 ),
@@ -23466,7 +25730,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2983_ (
+  ) _3191_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.out_24 ),
@@ -23477,7 +25741,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2984_ (
+  ) _3192_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.out_25 ),
@@ -23488,7 +25752,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2985_ (
+  ) _3193_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.out_26 ),
@@ -23499,7 +25763,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2986_ (
+  ) _3194_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.out_27 ),
@@ -23510,7 +25774,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2987_ (
+  ) _3195_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.out_28 ),
@@ -23521,7 +25785,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2988_ (
+  ) _3196_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.out_29 ),
@@ -23532,7 +25796,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2989_ (
+  ) _3197_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.out_30 ),
@@ -23543,7 +25807,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2990_ (
+  ) _3198_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[10].pp.out_31 ),
@@ -23554,7 +25818,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2991_ (
+  ) _3199_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_0 ),
@@ -23565,7 +25829,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2992_ (
+  ) _3200_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_1 ),
@@ -23576,7 +25840,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2993_ (
+  ) _3201_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_2 ),
@@ -23587,7 +25851,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2994_ (
+  ) _3202_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_3 ),
@@ -23598,7 +25862,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2995_ (
+  ) _3203_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_4 ),
@@ -23609,7 +25873,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2996_ (
+  ) _3204_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_5 ),
@@ -23620,7 +25884,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2997_ (
+  ) _3205_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_6 ),
@@ -23631,7 +25895,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2998_ (
+  ) _3206_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_7 ),
@@ -23642,7 +25906,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _2999_ (
+  ) _3207_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_8 ),
@@ -23653,7 +25917,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3000_ (
+  ) _3208_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_9 ),
@@ -23664,7 +25928,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3001_ (
+  ) _3209_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_10 ),
@@ -23675,7 +25939,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3002_ (
+  ) _3210_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.a_11 ),
@@ -23683,38 +25947,472 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(7'h00)
-  ) _3003_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3211_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[9].pp.out_18 ),
-    .Q(out_18)
+    .D(\gen_stage_connect[4].pp.b_2 ),
+    .Q(\gen_stage_connect[5].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(7'h00)
-  ) _3004_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3212_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[9].pp.out_19 ),
-    .Q(out_19)
+    .D(\gen_stage_connect[4].pp.b_3 ),
+    .Q(\gen_stage_connect[5].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3213_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_4 ),
+    .Q(\gen_stage_connect[5].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3214_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_5 ),
+    .Q(\gen_stage_connect[5].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3215_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_6 ),
+    .Q(\gen_stage_connect[5].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3216_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_7 ),
+    .Q(\gen_stage_connect[5].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3217_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_8 ),
+    .Q(\gen_stage_connect[5].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3218_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_9 ),
+    .Q(\gen_stage_connect[5].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3219_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_10 ),
+    .Q(\gen_stage_connect[5].pp.b_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3220_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_11 ),
+    .Q(\gen_stage_connect[5].pp.b_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3221_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_12 ),
+    .Q(\gen_stage_connect[5].pp.b_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3222_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_13 ),
+    .Q(\gen_stage_connect[5].pp.b_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3223_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_14 ),
+    .Q(\gen_stage_connect[5].pp.b_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3224_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_15 ),
+    .Q(\gen_stage_connect[5].pp.b_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3225_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_16 ),
+    .Q(\gen_stage_connect[5].pp.b_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3226_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_17 ),
+    .Q(\gen_stage_connect[5].pp.b_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3227_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_18 ),
+    .Q(\gen_stage_connect[5].pp.b_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3228_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_19 ),
+    .Q(\gen_stage_connect[5].pp.b_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3229_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_20 ),
+    .Q(\gen_stage_connect[5].pp.b_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3230_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_21 ),
+    .Q(\gen_stage_connect[5].pp.b_19 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3231_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_22 ),
+    .Q(\gen_stage_connect[5].pp.b_20 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3232_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.b_23 ),
+    .Q(\gen_stage_connect[5].pp.b_21 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3005_ (
+  ) _3233_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_0 ),
+    .Q(\gen_stage_connect[10].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3234_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_1 ),
+    .Q(\gen_stage_connect[10].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3235_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_2 ),
+    .Q(\gen_stage_connect[10].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3236_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_3 ),
+    .Q(\gen_stage_connect[10].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3237_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_4 ),
+    .Q(\gen_stage_connect[10].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3238_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_5 ),
+    .Q(\gen_stage_connect[10].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3239_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_6 ),
+    .Q(\gen_stage_connect[10].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3240_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_7 ),
+    .Q(\gen_stage_connect[10].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3241_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_8 ),
+    .Q(\gen_stage_connect[10].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3242_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_9 ),
+    .Q(\gen_stage_connect[10].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3243_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_10 ),
+    .Q(\gen_stage_connect[10].pp.in_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3244_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_11 ),
+    .Q(\gen_stage_connect[10].pp.in_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3245_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_12 ),
+    .Q(\gen_stage_connect[10].pp.in_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3246_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_13 ),
+    .Q(\gen_stage_connect[10].pp.in_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3247_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_14 ),
+    .Q(\gen_stage_connect[10].pp.in_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3248_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_15 ),
+    .Q(\gen_stage_connect[10].pp.in_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3249_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_16 ),
+    .Q(\gen_stage_connect[10].pp.in_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3250_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.in_17 ),
+    .Q(\gen_stage_connect[10].pp.in_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3251_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.out_18 ),
+    .Q(\gen_stage_connect[10].pp.in_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3252_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.out_19 ),
+    .Q(\gen_stage_connect[10].pp.in_19 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3253_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_20 ),
@@ -23725,7 +26423,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3006_ (
+  ) _3254_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_21 ),
@@ -23736,7 +26434,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3007_ (
+  ) _3255_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_22 ),
@@ -23747,7 +26445,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3008_ (
+  ) _3256_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_23 ),
@@ -23758,7 +26456,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3009_ (
+  ) _3257_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_24 ),
@@ -23769,7 +26467,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3010_ (
+  ) _3258_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_25 ),
@@ -23780,7 +26478,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3011_ (
+  ) _3259_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_26 ),
@@ -23791,7 +26489,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3012_ (
+  ) _3260_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_27 ),
@@ -23802,7 +26500,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3013_ (
+  ) _3261_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_28 ),
@@ -23813,7 +26511,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3014_ (
+  ) _3262_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_29 ),
@@ -23824,7 +26522,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3015_ (
+  ) _3263_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_30 ),
@@ -23835,7 +26533,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3016_ (
+  ) _3264_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[9].pp.out_31 ),
@@ -23846,7 +26544,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3017_ (
+  ) _3265_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_0 ),
@@ -23857,7 +26555,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3018_ (
+  ) _3266_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_1 ),
@@ -23868,7 +26566,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3019_ (
+  ) _3267_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_2 ),
@@ -23879,7 +26577,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3020_ (
+  ) _3268_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_3 ),
@@ -23890,7 +26588,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3021_ (
+  ) _3269_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_4 ),
@@ -23901,7 +26599,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3022_ (
+  ) _3270_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_5 ),
@@ -23912,7 +26610,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3023_ (
+  ) _3271_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_6 ),
@@ -23923,7 +26621,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3024_ (
+  ) _3272_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_7 ),
@@ -23934,7 +26632,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3025_ (
+  ) _3273_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_8 ),
@@ -23945,7 +26643,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3026_ (
+  ) _3274_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_9 ),
@@ -23956,7 +26654,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3027_ (
+  ) _3275_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_10 ),
@@ -23967,7 +26665,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3028_ (
+  ) _3276_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_11 ),
@@ -23978,7 +26676,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3029_ (
+  ) _3277_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_12 ),
@@ -23989,7 +26687,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3030_ (
+  ) _3278_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.a_13 ),
@@ -23997,38 +26695,230 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(8'h00)
-  ) _3031_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3279_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[8].pp.out_16 ),
-    .Q(out_16)
+    .D(\gen_stage_connect[14].pp.b_2 ),
+    .Q(\gen_stage_connect[15].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(8'h00)
-  ) _3032_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3280_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[8].pp.out_17 ),
-    .Q(out_17)
+    .D(\gen_stage_connect[14].pp.b_3 ),
+    .Q(\gen_stage_connect[15].pp.b_1 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3033_ (
+  ) _3281_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_0 ),
+    .Q(\gen_stage_connect[9].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3282_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_1 ),
+    .Q(\gen_stage_connect[9].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3283_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_2 ),
+    .Q(\gen_stage_connect[9].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3284_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_3 ),
+    .Q(\gen_stage_connect[9].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3285_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_4 ),
+    .Q(\gen_stage_connect[9].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3286_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_5 ),
+    .Q(\gen_stage_connect[9].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3287_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_6 ),
+    .Q(\gen_stage_connect[9].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3288_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_7 ),
+    .Q(\gen_stage_connect[9].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3289_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_8 ),
+    .Q(\gen_stage_connect[9].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3290_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_9 ),
+    .Q(\gen_stage_connect[9].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3291_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_10 ),
+    .Q(\gen_stage_connect[9].pp.in_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3292_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_11 ),
+    .Q(\gen_stage_connect[9].pp.in_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3293_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_12 ),
+    .Q(\gen_stage_connect[9].pp.in_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3294_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_13 ),
+    .Q(\gen_stage_connect[9].pp.in_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3295_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_14 ),
+    .Q(\gen_stage_connect[9].pp.in_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3296_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.in_15 ),
+    .Q(\gen_stage_connect[9].pp.in_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3297_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.out_16 ),
+    .Q(\gen_stage_connect[9].pp.in_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3298_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.out_17 ),
+    .Q(\gen_stage_connect[9].pp.in_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3299_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_18 ),
@@ -24039,7 +26929,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3034_ (
+  ) _3300_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_19 ),
@@ -24050,7 +26940,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3035_ (
+  ) _3301_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_20 ),
@@ -24061,7 +26951,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3036_ (
+  ) _3302_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_21 ),
@@ -24072,7 +26962,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3037_ (
+  ) _3303_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_22 ),
@@ -24083,7 +26973,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3038_ (
+  ) _3304_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_23 ),
@@ -24094,7 +26984,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3039_ (
+  ) _3305_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_24 ),
@@ -24105,7 +26995,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3040_ (
+  ) _3306_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_25 ),
@@ -24116,7 +27006,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3041_ (
+  ) _3307_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_26 ),
@@ -24127,7 +27017,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3042_ (
+  ) _3308_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_27 ),
@@ -24138,7 +27028,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3043_ (
+  ) _3309_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_28 ),
@@ -24149,7 +27039,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3044_ (
+  ) _3310_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_29 ),
@@ -24160,7 +27050,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3045_ (
+  ) _3311_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_30 ),
@@ -24171,7 +27061,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3046_ (
+  ) _3312_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[8].pp.out_31 ),
@@ -24182,7 +27072,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3047_ (
+  ) _3313_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_0 ),
@@ -24193,7 +27083,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3048_ (
+  ) _3314_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_1 ),
@@ -24204,7 +27094,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3049_ (
+  ) _3315_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_2 ),
@@ -24215,7 +27105,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3050_ (
+  ) _3316_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_3 ),
@@ -24226,7 +27116,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3051_ (
+  ) _3317_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_4 ),
@@ -24237,7 +27127,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3052_ (
+  ) _3318_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_5 ),
@@ -24248,7 +27138,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3053_ (
+  ) _3319_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_6 ),
@@ -24259,7 +27149,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3054_ (
+  ) _3320_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_7 ),
@@ -24270,7 +27160,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3055_ (
+  ) _3321_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_8 ),
@@ -24281,7 +27171,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3056_ (
+  ) _3322_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_9 ),
@@ -24292,7 +27182,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3057_ (
+  ) _3323_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_10 ),
@@ -24303,7 +27193,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3058_ (
+  ) _3324_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_11 ),
@@ -24314,7 +27204,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3059_ (
+  ) _3325_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_12 ),
@@ -24325,7 +27215,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3060_ (
+  ) _3326_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_13 ),
@@ -24336,7 +27226,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3061_ (
+  ) _3327_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_14 ),
@@ -24347,7 +27237,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3062_ (
+  ) _3328_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.a_15 ),
@@ -24355,38 +27245,450 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(9'h000)
-  ) _3063_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3329_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[7].pp.out_14 ),
-    .Q(out_14)
+    .D(\gen_stage_connect[3].pp.b_2 ),
+    .Q(\gen_stage_connect[4].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(9'h000)
-  ) _3064_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3330_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[7].pp.out_15 ),
-    .Q(out_15)
+    .D(\gen_stage_connect[3].pp.b_3 ),
+    .Q(\gen_stage_connect[4].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3331_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_4 ),
+    .Q(\gen_stage_connect[4].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3332_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_5 ),
+    .Q(\gen_stage_connect[4].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3333_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_6 ),
+    .Q(\gen_stage_connect[4].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3334_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_7 ),
+    .Q(\gen_stage_connect[4].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3335_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_8 ),
+    .Q(\gen_stage_connect[4].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3336_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_9 ),
+    .Q(\gen_stage_connect[4].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3337_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_10 ),
+    .Q(\gen_stage_connect[4].pp.b_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3338_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_11 ),
+    .Q(\gen_stage_connect[4].pp.b_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3339_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_12 ),
+    .Q(\gen_stage_connect[4].pp.b_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3340_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_13 ),
+    .Q(\gen_stage_connect[4].pp.b_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3341_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_14 ),
+    .Q(\gen_stage_connect[4].pp.b_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3342_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_15 ),
+    .Q(\gen_stage_connect[4].pp.b_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3343_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_16 ),
+    .Q(\gen_stage_connect[4].pp.b_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3344_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_17 ),
+    .Q(\gen_stage_connect[4].pp.b_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3345_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_18 ),
+    .Q(\gen_stage_connect[4].pp.b_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3346_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_19 ),
+    .Q(\gen_stage_connect[4].pp.b_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3347_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_20 ),
+    .Q(\gen_stage_connect[4].pp.b_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3348_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_21 ),
+    .Q(\gen_stage_connect[4].pp.b_19 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3349_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_22 ),
+    .Q(\gen_stage_connect[4].pp.b_20 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3350_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_23 ),
+    .Q(\gen_stage_connect[4].pp.b_21 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3351_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_24 ),
+    .Q(\gen_stage_connect[4].pp.b_22 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3352_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.b_25 ),
+    .Q(\gen_stage_connect[4].pp.b_23 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3065_ (
+  ) _3353_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_0 ),
+    .Q(\gen_stage_connect[8].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3354_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_1 ),
+    .Q(\gen_stage_connect[8].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3355_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_2 ),
+    .Q(\gen_stage_connect[8].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3356_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_3 ),
+    .Q(\gen_stage_connect[8].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3357_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_4 ),
+    .Q(\gen_stage_connect[8].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3358_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_5 ),
+    .Q(\gen_stage_connect[8].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3359_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_6 ),
+    .Q(\gen_stage_connect[8].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3360_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_7 ),
+    .Q(\gen_stage_connect[8].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3361_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_8 ),
+    .Q(\gen_stage_connect[8].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3362_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_9 ),
+    .Q(\gen_stage_connect[8].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3363_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_10 ),
+    .Q(\gen_stage_connect[8].pp.in_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3364_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_11 ),
+    .Q(\gen_stage_connect[8].pp.in_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3365_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_12 ),
+    .Q(\gen_stage_connect[8].pp.in_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3366_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.in_13 ),
+    .Q(\gen_stage_connect[8].pp.in_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3367_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.out_14 ),
+    .Q(\gen_stage_connect[8].pp.in_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3368_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.out_15 ),
+    .Q(\gen_stage_connect[8].pp.in_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3369_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_16 ),
@@ -24397,7 +27699,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3066_ (
+  ) _3370_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_17 ),
@@ -24408,7 +27710,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3067_ (
+  ) _3371_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_18 ),
@@ -24419,7 +27721,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3068_ (
+  ) _3372_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_19 ),
@@ -24430,7 +27732,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3069_ (
+  ) _3373_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_20 ),
@@ -24441,7 +27743,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3070_ (
+  ) _3374_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_21 ),
@@ -24452,7 +27754,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3071_ (
+  ) _3375_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_22 ),
@@ -24463,7 +27765,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3072_ (
+  ) _3376_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_23 ),
@@ -24474,7 +27776,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3073_ (
+  ) _3377_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_24 ),
@@ -24485,7 +27787,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3074_ (
+  ) _3378_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_25 ),
@@ -24496,7 +27798,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3075_ (
+  ) _3379_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_26 ),
@@ -24507,7 +27809,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3076_ (
+  ) _3380_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_27 ),
@@ -24518,7 +27820,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3077_ (
+  ) _3381_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_28 ),
@@ -24529,7 +27831,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3078_ (
+  ) _3382_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_29 ),
@@ -24540,7 +27842,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3079_ (
+  ) _3383_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_30 ),
@@ -24551,7 +27853,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3080_ (
+  ) _3384_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[7].pp.out_31 ),
@@ -24562,7 +27864,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3081_ (
+  ) _3385_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_0 ),
@@ -24573,7 +27875,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3082_ (
+  ) _3386_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_1 ),
@@ -24584,7 +27886,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3083_ (
+  ) _3387_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_2 ),
@@ -24595,7 +27897,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3084_ (
+  ) _3388_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_3 ),
@@ -24606,7 +27908,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3085_ (
+  ) _3389_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_4 ),
@@ -24617,7 +27919,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3086_ (
+  ) _3390_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_5 ),
@@ -24628,7 +27930,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3087_ (
+  ) _3391_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_6 ),
@@ -24639,7 +27941,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3088_ (
+  ) _3392_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_7 ),
@@ -24650,7 +27952,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3089_ (
+  ) _3393_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_8 ),
@@ -24661,7 +27963,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3090_ (
+  ) _3394_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_9 ),
@@ -24672,7 +27974,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3091_ (
+  ) _3395_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_10 ),
@@ -24683,7 +27985,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3092_ (
+  ) _3396_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_11 ),
@@ -24694,7 +27996,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3093_ (
+  ) _3397_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_12 ),
@@ -24705,7 +28007,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3094_ (
+  ) _3398_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_13 ),
@@ -24716,7 +28018,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3095_ (
+  ) _3399_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_14 ),
@@ -24727,7 +28029,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3096_ (
+  ) _3400_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_15 ),
@@ -24738,7 +28040,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3097_ (
+  ) _3401_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_16 ),
@@ -24749,7 +28051,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3098_ (
+  ) _3402_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.a_17 ),
@@ -24757,38 +28059,296 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(10'h000)
-  ) _3099_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3403_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[6].pp.out_12 ),
-    .Q(out_12)
+    .D(\gen_stage_connect[9].pp.b_2 ),
+    .Q(\gen_stage_connect[10].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(10'h000)
-  ) _3100_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3404_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[6].pp.out_13 ),
-    .Q(out_13)
+    .D(\gen_stage_connect[9].pp.b_3 ),
+    .Q(\gen_stage_connect[10].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3405_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.b_4 ),
+    .Q(\gen_stage_connect[10].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3406_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.b_5 ),
+    .Q(\gen_stage_connect[10].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3407_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.b_6 ),
+    .Q(\gen_stage_connect[10].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3408_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.b_7 ),
+    .Q(\gen_stage_connect[10].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3409_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.b_8 ),
+    .Q(\gen_stage_connect[10].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3410_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.b_9 ),
+    .Q(\gen_stage_connect[10].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3411_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.b_10 ),
+    .Q(\gen_stage_connect[10].pp.b_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3412_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.b_11 ),
+    .Q(\gen_stage_connect[10].pp.b_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3413_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.b_12 ),
+    .Q(\gen_stage_connect[10].pp.b_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3414_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[9].pp.b_13 ),
+    .Q(\gen_stage_connect[10].pp.b_11 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3101_ (
+  ) _3415_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_0 ),
+    .Q(\gen_stage_connect[7].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3416_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_1 ),
+    .Q(\gen_stage_connect[7].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3417_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_2 ),
+    .Q(\gen_stage_connect[7].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3418_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_3 ),
+    .Q(\gen_stage_connect[7].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3419_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_4 ),
+    .Q(\gen_stage_connect[7].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3420_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_5 ),
+    .Q(\gen_stage_connect[7].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3421_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_6 ),
+    .Q(\gen_stage_connect[7].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3422_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_7 ),
+    .Q(\gen_stage_connect[7].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3423_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_8 ),
+    .Q(\gen_stage_connect[7].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3424_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_9 ),
+    .Q(\gen_stage_connect[7].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3425_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_10 ),
+    .Q(\gen_stage_connect[7].pp.in_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3426_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.in_11 ),
+    .Q(\gen_stage_connect[7].pp.in_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3427_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.out_12 ),
+    .Q(\gen_stage_connect[7].pp.in_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3428_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[6].pp.out_13 ),
+    .Q(\gen_stage_connect[7].pp.in_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3429_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_14 ),
@@ -24799,7 +28359,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3102_ (
+  ) _3430_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_15 ),
@@ -24810,7 +28370,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3103_ (
+  ) _3431_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_16 ),
@@ -24821,7 +28381,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3104_ (
+  ) _3432_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_17 ),
@@ -24832,7 +28392,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3105_ (
+  ) _3433_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_18 ),
@@ -24843,7 +28403,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3106_ (
+  ) _3434_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_19 ),
@@ -24854,7 +28414,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3107_ (
+  ) _3435_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_20 ),
@@ -24865,7 +28425,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3108_ (
+  ) _3436_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_21 ),
@@ -24876,7 +28436,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3109_ (
+  ) _3437_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_22 ),
@@ -24887,7 +28447,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3110_ (
+  ) _3438_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_23 ),
@@ -24898,7 +28458,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3111_ (
+  ) _3439_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_24 ),
@@ -24909,7 +28469,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3112_ (
+  ) _3440_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_25 ),
@@ -24920,7 +28480,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3113_ (
+  ) _3441_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_26 ),
@@ -24931,7 +28491,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3114_ (
+  ) _3442_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_27 ),
@@ -24942,7 +28502,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3115_ (
+  ) _3443_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_28 ),
@@ -24953,7 +28513,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3116_ (
+  ) _3444_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_29 ),
@@ -24964,7 +28524,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3117_ (
+  ) _3445_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_30 ),
@@ -24975,7 +28535,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3118_ (
+  ) _3446_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[6].pp.out_31 ),
@@ -24986,7 +28546,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3119_ (
+  ) _3447_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_0 ),
@@ -24997,7 +28557,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3120_ (
+  ) _3448_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_1 ),
@@ -25008,7 +28568,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3121_ (
+  ) _3449_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_2 ),
@@ -25019,7 +28579,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3122_ (
+  ) _3450_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_3 ),
@@ -25030,7 +28590,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3123_ (
+  ) _3451_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_4 ),
@@ -25041,7 +28601,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3124_ (
+  ) _3452_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_5 ),
@@ -25052,7 +28612,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3125_ (
+  ) _3453_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_6 ),
@@ -25063,7 +28623,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3126_ (
+  ) _3454_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_7 ),
@@ -25074,7 +28634,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3127_ (
+  ) _3455_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_8 ),
@@ -25085,7 +28645,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3128_ (
+  ) _3456_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_9 ),
@@ -25096,7 +28656,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3129_ (
+  ) _3457_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_10 ),
@@ -25107,7 +28667,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3130_ (
+  ) _3458_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_11 ),
@@ -25118,7 +28678,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3131_ (
+  ) _3459_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_12 ),
@@ -25129,7 +28689,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3132_ (
+  ) _3460_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_13 ),
@@ -25140,7 +28700,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3133_ (
+  ) _3461_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_14 ),
@@ -25151,7 +28711,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3134_ (
+  ) _3462_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_15 ),
@@ -25162,7 +28722,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3135_ (
+  ) _3463_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_16 ),
@@ -25173,7 +28733,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3136_ (
+  ) _3464_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_17 ),
@@ -25184,7 +28744,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3137_ (
+  ) _3465_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_18 ),
@@ -25195,7 +28755,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3138_ (
+  ) _3466_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.a_19 ),
@@ -25203,38 +28763,428 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(11'h000)
-  ) _3139_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3467_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[5].pp.out_10 ),
-    .Q(out_10)
+    .D(\gen_stage_connect[2].pp.b_2 ),
+    .Q(\gen_stage_connect[3].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(11'h000)
-  ) _3140_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3468_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[5].pp.out_11 ),
-    .Q(out_11)
+    .D(\gen_stage_connect[2].pp.b_3 ),
+    .Q(\gen_stage_connect[3].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3469_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_4 ),
+    .Q(\gen_stage_connect[3].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3470_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_5 ),
+    .Q(\gen_stage_connect[3].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3471_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_6 ),
+    .Q(\gen_stage_connect[3].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3472_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_7 ),
+    .Q(\gen_stage_connect[3].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3473_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_8 ),
+    .Q(\gen_stage_connect[3].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3474_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_9 ),
+    .Q(\gen_stage_connect[3].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3475_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_10 ),
+    .Q(\gen_stage_connect[3].pp.b_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3476_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_11 ),
+    .Q(\gen_stage_connect[3].pp.b_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3477_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_12 ),
+    .Q(\gen_stage_connect[3].pp.b_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3478_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_13 ),
+    .Q(\gen_stage_connect[3].pp.b_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3479_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_14 ),
+    .Q(\gen_stage_connect[3].pp.b_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3480_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_15 ),
+    .Q(\gen_stage_connect[3].pp.b_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3481_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_16 ),
+    .Q(\gen_stage_connect[3].pp.b_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3482_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_17 ),
+    .Q(\gen_stage_connect[3].pp.b_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3483_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_18 ),
+    .Q(\gen_stage_connect[3].pp.b_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3484_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_19 ),
+    .Q(\gen_stage_connect[3].pp.b_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3485_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_20 ),
+    .Q(\gen_stage_connect[3].pp.b_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3486_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_21 ),
+    .Q(\gen_stage_connect[3].pp.b_19 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3487_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_22 ),
+    .Q(\gen_stage_connect[3].pp.b_20 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3488_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_23 ),
+    .Q(\gen_stage_connect[3].pp.b_21 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3489_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_24 ),
+    .Q(\gen_stage_connect[3].pp.b_22 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3490_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_25 ),
+    .Q(\gen_stage_connect[3].pp.b_23 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3491_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_26 ),
+    .Q(\gen_stage_connect[3].pp.b_24 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3492_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.b_27 ),
+    .Q(\gen_stage_connect[3].pp.b_25 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3141_ (
+  ) _3493_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.in_0 ),
+    .Q(\gen_stage_connect[6].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3494_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.in_1 ),
+    .Q(\gen_stage_connect[6].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3495_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.in_2 ),
+    .Q(\gen_stage_connect[6].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3496_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.in_3 ),
+    .Q(\gen_stage_connect[6].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3497_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.in_4 ),
+    .Q(\gen_stage_connect[6].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3498_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.in_5 ),
+    .Q(\gen_stage_connect[6].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3499_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.in_6 ),
+    .Q(\gen_stage_connect[6].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3500_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.in_7 ),
+    .Q(\gen_stage_connect[6].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3501_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.in_8 ),
+    .Q(\gen_stage_connect[6].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3502_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.in_9 ),
+    .Q(\gen_stage_connect[6].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3503_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.out_10 ),
+    .Q(\gen_stage_connect[6].pp.in_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3504_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[5].pp.out_11 ),
+    .Q(\gen_stage_connect[6].pp.in_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3505_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_12 ),
@@ -25245,7 +29195,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3142_ (
+  ) _3506_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_13 ),
@@ -25256,7 +29206,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3143_ (
+  ) _3507_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_14 ),
@@ -25267,7 +29217,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3144_ (
+  ) _3508_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_15 ),
@@ -25278,7 +29228,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3145_ (
+  ) _3509_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_16 ),
@@ -25289,7 +29239,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3146_ (
+  ) _3510_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_17 ),
@@ -25300,7 +29250,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3147_ (
+  ) _3511_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_18 ),
@@ -25311,7 +29261,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3148_ (
+  ) _3512_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_19 ),
@@ -25322,7 +29272,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3149_ (
+  ) _3513_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_20 ),
@@ -25333,7 +29283,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3150_ (
+  ) _3514_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_21 ),
@@ -25344,7 +29294,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3151_ (
+  ) _3515_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_22 ),
@@ -25355,7 +29305,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3152_ (
+  ) _3516_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_23 ),
@@ -25366,7 +29316,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3153_ (
+  ) _3517_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_24 ),
@@ -25377,7 +29327,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3154_ (
+  ) _3518_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_25 ),
@@ -25388,7 +29338,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3155_ (
+  ) _3519_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_26 ),
@@ -25399,7 +29349,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3156_ (
+  ) _3520_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_27 ),
@@ -25410,7 +29360,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3157_ (
+  ) _3521_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_28 ),
@@ -25421,7 +29371,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3158_ (
+  ) _3522_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_29 ),
@@ -25432,7 +29382,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3159_ (
+  ) _3523_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_30 ),
@@ -25443,7 +29393,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3160_ (
+  ) _3524_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[5].pp.out_31 ),
@@ -25454,7 +29404,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3161_ (
+  ) _3525_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_0 ),
@@ -25465,7 +29415,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3162_ (
+  ) _3526_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_1 ),
@@ -25476,7 +29426,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3163_ (
+  ) _3527_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_2 ),
@@ -25487,7 +29437,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3164_ (
+  ) _3528_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_3 ),
@@ -25498,7 +29448,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3165_ (
+  ) _3529_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_4 ),
@@ -25509,7 +29459,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3166_ (
+  ) _3530_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_5 ),
@@ -25520,7 +29470,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3167_ (
+  ) _3531_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_6 ),
@@ -25531,7 +29481,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3168_ (
+  ) _3532_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_7 ),
@@ -25542,7 +29492,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3169_ (
+  ) _3533_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_8 ),
@@ -25553,7 +29503,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3170_ (
+  ) _3534_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_9 ),
@@ -25564,7 +29514,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3171_ (
+  ) _3535_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_10 ),
@@ -25575,7 +29525,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3172_ (
+  ) _3536_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_11 ),
@@ -25586,7 +29536,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3173_ (
+  ) _3537_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_12 ),
@@ -25597,7 +29547,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3174_ (
+  ) _3538_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_13 ),
@@ -25608,7 +29558,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3175_ (
+  ) _3539_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_14 ),
@@ -25619,7 +29569,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3176_ (
+  ) _3540_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_15 ),
@@ -25630,7 +29580,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3177_ (
+  ) _3541_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_16 ),
@@ -25641,7 +29591,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3178_ (
+  ) _3542_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_17 ),
@@ -25652,7 +29602,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3179_ (
+  ) _3543_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_18 ),
@@ -25663,7 +29613,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3180_ (
+  ) _3544_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_19 ),
@@ -25674,7 +29624,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3181_ (
+  ) _3545_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_20 ),
@@ -25685,7 +29635,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3182_ (
+  ) _3546_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.a_21 ),
@@ -25693,38 +29643,186 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(12'h000)
-  ) _3183_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3547_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[4].pp.out_8 ),
-    .Q(out_8)
+    .D(\gen_stage_connect[12].pp.b_2 ),
+    .Q(\gen_stage_connect[13].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(12'h000)
-  ) _3184_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3548_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[4].pp.out_9 ),
-    .Q(out_9)
+    .D(\gen_stage_connect[12].pp.b_3 ),
+    .Q(\gen_stage_connect[13].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3549_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.b_4 ),
+    .Q(\gen_stage_connect[13].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3550_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.b_5 ),
+    .Q(\gen_stage_connect[13].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3551_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.b_6 ),
+    .Q(\gen_stage_connect[13].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3552_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[12].pp.b_7 ),
+    .Q(\gen_stage_connect[13].pp.b_5 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3185_ (
+  ) _3553_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.in_0 ),
+    .Q(\gen_stage_connect[5].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3554_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.in_1 ),
+    .Q(\gen_stage_connect[5].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3555_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.in_2 ),
+    .Q(\gen_stage_connect[5].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3556_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.in_3 ),
+    .Q(\gen_stage_connect[5].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3557_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.in_4 ),
+    .Q(\gen_stage_connect[5].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3558_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.in_5 ),
+    .Q(\gen_stage_connect[5].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3559_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.in_6 ),
+    .Q(\gen_stage_connect[5].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3560_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.in_7 ),
+    .Q(\gen_stage_connect[5].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3561_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.out_8 ),
+    .Q(\gen_stage_connect[5].pp.in_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3562_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[4].pp.out_9 ),
+    .Q(\gen_stage_connect[5].pp.in_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3563_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_10 ),
@@ -25735,7 +29833,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3186_ (
+  ) _3564_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_11 ),
@@ -25746,7 +29844,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3187_ (
+  ) _3565_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_12 ),
@@ -25757,7 +29855,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3188_ (
+  ) _3566_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_13 ),
@@ -25768,7 +29866,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3189_ (
+  ) _3567_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_14 ),
@@ -25779,7 +29877,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3190_ (
+  ) _3568_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_15 ),
@@ -25790,7 +29888,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3191_ (
+  ) _3569_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_16 ),
@@ -25801,7 +29899,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3192_ (
+  ) _3570_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_17 ),
@@ -25812,7 +29910,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3193_ (
+  ) _3571_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_18 ),
@@ -25823,7 +29921,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3194_ (
+  ) _3572_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_19 ),
@@ -25834,7 +29932,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3195_ (
+  ) _3573_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_20 ),
@@ -25845,7 +29943,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3196_ (
+  ) _3574_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_21 ),
@@ -25856,7 +29954,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3197_ (
+  ) _3575_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_22 ),
@@ -25867,7 +29965,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3198_ (
+  ) _3576_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_23 ),
@@ -25878,7 +29976,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3199_ (
+  ) _3577_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_24 ),
@@ -25889,7 +29987,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3200_ (
+  ) _3578_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_25 ),
@@ -25900,7 +29998,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3201_ (
+  ) _3579_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_26 ),
@@ -25911,7 +30009,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3202_ (
+  ) _3580_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_27 ),
@@ -25922,7 +30020,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3203_ (
+  ) _3581_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_28 ),
@@ -25933,7 +30031,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3204_ (
+  ) _3582_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_29 ),
@@ -25944,7 +30042,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3205_ (
+  ) _3583_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_30 ),
@@ -25955,7 +30053,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3206_ (
+  ) _3584_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[4].pp.out_31 ),
@@ -25966,7 +30064,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3207_ (
+  ) _3585_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_0 ),
@@ -25977,7 +30075,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3208_ (
+  ) _3586_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_1 ),
@@ -25988,7 +30086,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3209_ (
+  ) _3587_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_2 ),
@@ -25999,7 +30097,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3210_ (
+  ) _3588_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_3 ),
@@ -26010,7 +30108,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3211_ (
+  ) _3589_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_4 ),
@@ -26021,7 +30119,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3212_ (
+  ) _3590_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_5 ),
@@ -26032,7 +30130,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3213_ (
+  ) _3591_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_6 ),
@@ -26043,7 +30141,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3214_ (
+  ) _3592_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_7 ),
@@ -26054,7 +30152,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3215_ (
+  ) _3593_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_8 ),
@@ -26065,7 +30163,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3216_ (
+  ) _3594_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_9 ),
@@ -26076,7 +30174,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3217_ (
+  ) _3595_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_10 ),
@@ -26087,7 +30185,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3218_ (
+  ) _3596_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_11 ),
@@ -26098,7 +30196,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3219_ (
+  ) _3597_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_12 ),
@@ -26109,7 +30207,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3220_ (
+  ) _3598_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_13 ),
@@ -26120,7 +30218,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3221_ (
+  ) _3599_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_14 ),
@@ -26131,7 +30229,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3222_ (
+  ) _3600_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_15 ),
@@ -26142,7 +30240,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3223_ (
+  ) _3601_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_16 ),
@@ -26153,7 +30251,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3224_ (
+  ) _3602_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_17 ),
@@ -26164,7 +30262,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3225_ (
+  ) _3603_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_18 ),
@@ -26175,7 +30273,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3226_ (
+  ) _3604_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_19 ),
@@ -26186,7 +30284,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3227_ (
+  ) _3605_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_20 ),
@@ -26197,7 +30295,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3228_ (
+  ) _3606_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_21 ),
@@ -26208,7 +30306,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3229_ (
+  ) _3607_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_22 ),
@@ -26219,7 +30317,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3230_ (
+  ) _3608_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.a_23 ),
@@ -26230,7 +30328,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3231_ (
+  ) _3609_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.b_2 ),
@@ -26241,7 +30339,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3232_ (
+  ) _3610_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.b_3 ),
@@ -26249,38 +30347,384 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(13'h0000)
-  ) _3233_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3611_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[3].pp.out_6 ),
-    .Q(out_6)
+    .D(\gen_stage_connect[1].pp.b_4 ),
+    .Q(\gen_stage_connect[2].pp.b_2 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(13'h0000)
-  ) _3234_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3612_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[3].pp.out_7 ),
-    .Q(out_7)
+    .D(\gen_stage_connect[1].pp.b_5 ),
+    .Q(\gen_stage_connect[2].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3613_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_6 ),
+    .Q(\gen_stage_connect[2].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3614_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_7 ),
+    .Q(\gen_stage_connect[2].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3615_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_8 ),
+    .Q(\gen_stage_connect[2].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3616_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_9 ),
+    .Q(\gen_stage_connect[2].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3617_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_10 ),
+    .Q(\gen_stage_connect[2].pp.b_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3618_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_11 ),
+    .Q(\gen_stage_connect[2].pp.b_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3619_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_12 ),
+    .Q(\gen_stage_connect[2].pp.b_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3620_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_13 ),
+    .Q(\gen_stage_connect[2].pp.b_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3621_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_14 ),
+    .Q(\gen_stage_connect[2].pp.b_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3622_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_15 ),
+    .Q(\gen_stage_connect[2].pp.b_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3623_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_16 ),
+    .Q(\gen_stage_connect[2].pp.b_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3624_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_17 ),
+    .Q(\gen_stage_connect[2].pp.b_15 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3625_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_18 ),
+    .Q(\gen_stage_connect[2].pp.b_16 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3626_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_19 ),
+    .Q(\gen_stage_connect[2].pp.b_17 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3627_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_20 ),
+    .Q(\gen_stage_connect[2].pp.b_18 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3628_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_21 ),
+    .Q(\gen_stage_connect[2].pp.b_19 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3629_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_22 ),
+    .Q(\gen_stage_connect[2].pp.b_20 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3630_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_23 ),
+    .Q(\gen_stage_connect[2].pp.b_21 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3631_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_24 ),
+    .Q(\gen_stage_connect[2].pp.b_22 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3632_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_25 ),
+    .Q(\gen_stage_connect[2].pp.b_23 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3633_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_26 ),
+    .Q(\gen_stage_connect[2].pp.b_24 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3634_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_27 ),
+    .Q(\gen_stage_connect[2].pp.b_25 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3635_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_28 ),
+    .Q(\gen_stage_connect[2].pp.b_26 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3636_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.b_29 ),
+    .Q(\gen_stage_connect[2].pp.b_27 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3235_ (
+  ) _3637_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.in_0 ),
+    .Q(\gen_stage_connect[4].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3638_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.in_1 ),
+    .Q(\gen_stage_connect[4].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3639_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.in_2 ),
+    .Q(\gen_stage_connect[4].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3640_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.in_3 ),
+    .Q(\gen_stage_connect[4].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3641_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.in_4 ),
+    .Q(\gen_stage_connect[4].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3642_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.in_5 ),
+    .Q(\gen_stage_connect[4].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3643_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.out_6 ),
+    .Q(\gen_stage_connect[4].pp.in_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3644_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[3].pp.out_7 ),
+    .Q(\gen_stage_connect[4].pp.in_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3645_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_8 ),
@@ -26291,7 +30735,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3236_ (
+  ) _3646_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_9 ),
@@ -26302,7 +30746,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3237_ (
+  ) _3647_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_10 ),
@@ -26313,7 +30757,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3238_ (
+  ) _3648_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_11 ),
@@ -26324,7 +30768,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3239_ (
+  ) _3649_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_12 ),
@@ -26335,7 +30779,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3240_ (
+  ) _3650_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_13 ),
@@ -26346,7 +30790,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3241_ (
+  ) _3651_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_14 ),
@@ -26357,7 +30801,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3242_ (
+  ) _3652_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_15 ),
@@ -26368,7 +30812,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3243_ (
+  ) _3653_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_16 ),
@@ -26379,7 +30823,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3244_ (
+  ) _3654_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_17 ),
@@ -26390,7 +30834,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3245_ (
+  ) _3655_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_18 ),
@@ -26401,7 +30845,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3246_ (
+  ) _3656_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_19 ),
@@ -26412,7 +30856,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3247_ (
+  ) _3657_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_20 ),
@@ -26423,7 +30867,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3248_ (
+  ) _3658_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_21 ),
@@ -26434,7 +30878,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3249_ (
+  ) _3659_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_22 ),
@@ -26445,7 +30889,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3250_ (
+  ) _3660_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_23 ),
@@ -26456,7 +30900,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3251_ (
+  ) _3661_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_24 ),
@@ -26467,7 +30911,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3252_ (
+  ) _3662_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_25 ),
@@ -26478,7 +30922,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3253_ (
+  ) _3663_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_26 ),
@@ -26489,7 +30933,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3254_ (
+  ) _3664_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_27 ),
@@ -26500,7 +30944,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3255_ (
+  ) _3665_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_28 ),
@@ -26511,7 +30955,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3256_ (
+  ) _3666_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_29 ),
@@ -26522,7 +30966,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3257_ (
+  ) _3667_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_30 ),
@@ -26533,7 +30977,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3258_ (
+  ) _3668_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[3].pp.out_31 ),
@@ -26544,7 +30988,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3259_ (
+  ) _3669_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_0 ),
@@ -26555,7 +30999,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3260_ (
+  ) _3670_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_1 ),
@@ -26566,7 +31010,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3261_ (
+  ) _3671_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_2 ),
@@ -26577,7 +31021,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3262_ (
+  ) _3672_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_3 ),
@@ -26588,7 +31032,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3263_ (
+  ) _3673_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_4 ),
@@ -26599,7 +31043,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3264_ (
+  ) _3674_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_5 ),
@@ -26610,7 +31054,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3265_ (
+  ) _3675_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_6 ),
@@ -26621,7 +31065,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3266_ (
+  ) _3676_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_7 ),
@@ -26632,7 +31076,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3267_ (
+  ) _3677_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_8 ),
@@ -26643,7 +31087,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3268_ (
+  ) _3678_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_9 ),
@@ -26654,7 +31098,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3269_ (
+  ) _3679_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_10 ),
@@ -26665,7 +31109,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3270_ (
+  ) _3680_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_11 ),
@@ -26676,7 +31120,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3271_ (
+  ) _3681_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_12 ),
@@ -26687,7 +31131,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3272_ (
+  ) _3682_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_13 ),
@@ -26698,7 +31142,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3273_ (
+  ) _3683_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_14 ),
@@ -26709,7 +31153,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3274_ (
+  ) _3684_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_15 ),
@@ -26720,7 +31164,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3275_ (
+  ) _3685_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_16 ),
@@ -26731,7 +31175,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3276_ (
+  ) _3686_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_17 ),
@@ -26742,7 +31186,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3277_ (
+  ) _3687_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_18 ),
@@ -26753,7 +31197,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3278_ (
+  ) _3688_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_19 ),
@@ -26764,7 +31208,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3279_ (
+  ) _3689_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_20 ),
@@ -26775,7 +31219,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3280_ (
+  ) _3690_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_21 ),
@@ -26786,7 +31230,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3281_ (
+  ) _3691_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_22 ),
@@ -26797,7 +31241,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3282_ (
+  ) _3692_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_23 ),
@@ -26808,7 +31252,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3283_ (
+  ) _3693_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_24 ),
@@ -26819,7 +31263,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3284_ (
+  ) _3694_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.a_25 ),
@@ -26827,38 +31271,230 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(14'h0000)
-  ) _3285_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3695_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[2].pp.out_4 ),
-    .Q(out_4)
+    .D(\gen_stage_connect[8].pp.b_2 ),
+    .Q(\gen_stage_connect[9].pp.b_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(14'h0000)
-  ) _3286_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3696_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[2].pp.out_5 ),
-    .Q(out_5)
+    .D(\gen_stage_connect[8].pp.b_3 ),
+    .Q(\gen_stage_connect[9].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3697_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_4 ),
+    .Q(\gen_stage_connect[9].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3698_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_5 ),
+    .Q(\gen_stage_connect[9].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3699_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_6 ),
+    .Q(\gen_stage_connect[9].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3700_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_7 ),
+    .Q(\gen_stage_connect[9].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3701_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_8 ),
+    .Q(\gen_stage_connect[9].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3702_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_9 ),
+    .Q(\gen_stage_connect[9].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3703_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_10 ),
+    .Q(\gen_stage_connect[9].pp.b_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3704_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_11 ),
+    .Q(\gen_stage_connect[9].pp.b_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3705_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_12 ),
+    .Q(\gen_stage_connect[9].pp.b_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3706_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_13 ),
+    .Q(\gen_stage_connect[9].pp.b_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3707_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_14 ),
+    .Q(\gen_stage_connect[9].pp.b_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3708_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[8].pp.b_15 ),
+    .Q(\gen_stage_connect[9].pp.b_13 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3287_ (
+  ) _3709_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.in_0 ),
+    .Q(\gen_stage_connect[3].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3710_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.in_1 ),
+    .Q(\gen_stage_connect[3].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3711_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.in_2 ),
+    .Q(\gen_stage_connect[3].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3712_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.in_3 ),
+    .Q(\gen_stage_connect[3].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3713_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.out_4 ),
+    .Q(\gen_stage_connect[3].pp.in_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3714_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[2].pp.out_5 ),
+    .Q(\gen_stage_connect[3].pp.in_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3715_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_6 ),
@@ -26869,7 +31505,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3288_ (
+  ) _3716_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_7 ),
@@ -26880,7 +31516,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3289_ (
+  ) _3717_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_8 ),
@@ -26891,7 +31527,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3290_ (
+  ) _3718_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_9 ),
@@ -26902,7 +31538,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3291_ (
+  ) _3719_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_10 ),
@@ -26913,7 +31549,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3292_ (
+  ) _3720_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_11 ),
@@ -26924,7 +31560,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3293_ (
+  ) _3721_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_12 ),
@@ -26935,7 +31571,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3294_ (
+  ) _3722_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_13 ),
@@ -26946,7 +31582,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3295_ (
+  ) _3723_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_14 ),
@@ -26957,7 +31593,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3296_ (
+  ) _3724_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_15 ),
@@ -26968,7 +31604,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3297_ (
+  ) _3725_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_16 ),
@@ -26979,7 +31615,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3298_ (
+  ) _3726_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_17 ),
@@ -26990,7 +31626,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3299_ (
+  ) _3727_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_18 ),
@@ -27001,7 +31637,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3300_ (
+  ) _3728_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_19 ),
@@ -27012,7 +31648,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3301_ (
+  ) _3729_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_20 ),
@@ -27023,7 +31659,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3302_ (
+  ) _3730_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_21 ),
@@ -27034,7 +31670,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3303_ (
+  ) _3731_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_22 ),
@@ -27045,7 +31681,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3304_ (
+  ) _3732_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_23 ),
@@ -27056,7 +31692,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3305_ (
+  ) _3733_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_24 ),
@@ -27067,7 +31703,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3306_ (
+  ) _3734_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_25 ),
@@ -27078,7 +31714,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3307_ (
+  ) _3735_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_26 ),
@@ -27089,7 +31725,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3308_ (
+  ) _3736_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_27 ),
@@ -27100,7 +31736,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3309_ (
+  ) _3737_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_28 ),
@@ -27111,7 +31747,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3310_ (
+  ) _3738_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_29 ),
@@ -27122,7 +31758,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3311_ (
+  ) _3739_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_30 ),
@@ -27133,7 +31769,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3312_ (
+  ) _3740_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[2].pp.out_31 ),
@@ -27144,7 +31780,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3313_ (
+  ) _3741_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_0 ),
@@ -27155,7 +31791,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3314_ (
+  ) _3742_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_1 ),
@@ -27166,7 +31802,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3315_ (
+  ) _3743_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_2 ),
@@ -27177,7 +31813,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3316_ (
+  ) _3744_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_3 ),
@@ -27188,7 +31824,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3317_ (
+  ) _3745_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_4 ),
@@ -27199,7 +31835,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3318_ (
+  ) _3746_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_5 ),
@@ -27210,7 +31846,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3319_ (
+  ) _3747_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_6 ),
@@ -27221,7 +31857,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3320_ (
+  ) _3748_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_7 ),
@@ -27232,7 +31868,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3321_ (
+  ) _3749_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_8 ),
@@ -27243,7 +31879,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3322_ (
+  ) _3750_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_9 ),
@@ -27254,7 +31890,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3323_ (
+  ) _3751_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_10 ),
@@ -27265,7 +31901,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3324_ (
+  ) _3752_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_11 ),
@@ -27276,7 +31912,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3325_ (
+  ) _3753_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_12 ),
@@ -27287,7 +31923,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3326_ (
+  ) _3754_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_13 ),
@@ -27298,7 +31934,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3327_ (
+  ) _3755_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_14 ),
@@ -27309,7 +31945,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3328_ (
+  ) _3756_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_15 ),
@@ -27320,7 +31956,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3329_ (
+  ) _3757_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_16 ),
@@ -27331,7 +31967,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3330_ (
+  ) _3758_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_17 ),
@@ -27342,7 +31978,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3331_ (
+  ) _3759_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_18 ),
@@ -27353,7 +31989,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3332_ (
+  ) _3760_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_19 ),
@@ -27364,7 +32000,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3333_ (
+  ) _3761_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_20 ),
@@ -27375,7 +32011,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3334_ (
+  ) _3762_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_21 ),
@@ -27386,7 +32022,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3335_ (
+  ) _3763_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_22 ),
@@ -27397,7 +32033,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3336_ (
+  ) _3764_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_23 ),
@@ -27408,7 +32044,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3337_ (
+  ) _3765_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_24 ),
@@ -27419,7 +32055,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3338_ (
+  ) _3766_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_25 ),
@@ -27430,7 +32066,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3339_ (
+  ) _3767_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_26 ),
@@ -27441,7 +32077,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3340_ (
+  ) _3768_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.a_27 ),
@@ -27452,7 +32088,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3341_ (
+  ) _3769_ (
     .C(clk),
     .CE(1'h1),
     .D(b_2),
@@ -27463,7 +32099,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3342_ (
+  ) _3770_ (
     .C(clk),
     .CE(1'h1),
     .D(b_3),
@@ -27474,7 +32110,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3343_ (
+  ) _3771_ (
     .C(clk),
     .CE(1'h1),
     .D(b_4),
@@ -27485,7 +32121,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3344_ (
+  ) _3772_ (
     .C(clk),
     .CE(1'h1),
     .D(b_5),
@@ -27493,402 +32129,340 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(3'h0)
-  ) _3345_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3773_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_6),
-    .Q(\gen_stage_connect[3].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_4 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(3'h0)
-  ) _3346_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3774_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_7),
-    .Q(\gen_stage_connect[3].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_5 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(4'h0)
-  ) _3347_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3775_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_8),
-    .Q(\gen_stage_connect[4].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_6 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(4'h0)
-  ) _3348_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3776_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_9),
-    .Q(\gen_stage_connect[4].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_7 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(5'h00)
-  ) _3349_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3777_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_10),
-    .Q(\gen_stage_connect[5].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_8 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(5'h00)
-  ) _3350_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3778_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_11),
-    .Q(\gen_stage_connect[5].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_9 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(6'h00)
-  ) _3351_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3779_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_12),
-    .Q(\gen_stage_connect[6].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_10 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(6'h00)
-  ) _3352_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3780_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_13),
-    .Q(\gen_stage_connect[6].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_11 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(7'h00)
-  ) _3353_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3781_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_14),
-    .Q(\gen_stage_connect[7].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_12 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(7'h00)
-  ) _3354_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3782_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_15),
-    .Q(\gen_stage_connect[7].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_13 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(8'h00)
-  ) _3355_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3783_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_16),
-    .Q(\gen_stage_connect[8].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_14 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(8'h00)
-  ) _3356_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h0),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3784_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_17),
-    .Q(\gen_stage_connect[8].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_15 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(9'h000)
-  ) _3357_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3785_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_18),
-    .Q(\gen_stage_connect[9].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_16 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(9'h000)
-  ) _3358_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3786_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_19),
-    .Q(\gen_stage_connect[9].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_17 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(10'h000)
-  ) _3359_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3787_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_20),
-    .Q(\gen_stage_connect[10].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_18 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(10'h000)
-  ) _3360_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3788_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_21),
-    .Q(\gen_stage_connect[10].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_19 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(11'h000)
-  ) _3361_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3789_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_22),
-    .Q(\gen_stage_connect[11].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_20 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(11'h000)
-  ) _3362_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3790_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_23),
-    .Q(\gen_stage_connect[11].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_21 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(12'h000)
-  ) _3363_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3791_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_24),
-    .Q(\gen_stage_connect[12].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_22 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(12'h000)
-  ) _3364_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h0),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3792_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_25),
-    .Q(\gen_stage_connect[12].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_23 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(13'h0000)
-  ) _3365_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3793_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_26),
-    .Q(\gen_stage_connect[13].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_24 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(13'h0000)
-  ) _3366_ (
-    .A0(1'h0),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3794_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_27),
-    .Q(\gen_stage_connect[13].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_25 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(14'h0000)
-  ) _3367_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3795_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_28),
-    .Q(\gen_stage_connect[14].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_26 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(14'h0000)
-  ) _3368_ (
-    .A0(1'h1),
-    .A1(1'h0),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3796_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_29),
-    .Q(\gen_stage_connect[14].pp.b_1 )
+    .Q(\gen_stage_connect[1].pp.b_27 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(15'h0000)
-  ) _3369_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3797_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_30),
-    .Q(\gen_stage_connect[15].pp.b_0 )
+    .Q(\gen_stage_connect[1].pp.b_28 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(15'h0000)
-  ) _3370_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3798_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(b_31),
-    .Q(\gen_stage_connect[15].pp.b_1 )
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(15'h0000)
-  ) _3371_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h1),
-    .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[1].pp.out_2 ),
-    .Q(out_2)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(15'h0000)
-  ) _3372_ (
-    .A0(1'h0),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h1),
-    .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[1].pp.out_3 ),
-    .Q(out_3)
+    .Q(\gen_stage_connect[1].pp.b_29 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3373_ (
+  ) _3799_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.in_0 ),
+    .Q(\gen_stage_connect[2].pp.in_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3800_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.in_1 ),
+    .Q(\gen_stage_connect[2].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3801_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.out_2 ),
+    .Q(\gen_stage_connect[2].pp.in_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3802_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[1].pp.out_3 ),
+    .Q(\gen_stage_connect[2].pp.in_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3803_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_4 ),
@@ -27899,7 +32473,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3374_ (
+  ) _3804_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_5 ),
@@ -27910,7 +32484,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3375_ (
+  ) _3805_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_6 ),
@@ -27921,7 +32495,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3376_ (
+  ) _3806_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_7 ),
@@ -27932,7 +32506,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3377_ (
+  ) _3807_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_8 ),
@@ -27943,7 +32517,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3378_ (
+  ) _3808_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_9 ),
@@ -27954,7 +32528,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3379_ (
+  ) _3809_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_10 ),
@@ -27965,7 +32539,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3380_ (
+  ) _3810_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_11 ),
@@ -27976,7 +32550,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3381_ (
+  ) _3811_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_12 ),
@@ -27987,7 +32561,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3382_ (
+  ) _3812_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_13 ),
@@ -27998,7 +32572,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3383_ (
+  ) _3813_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_14 ),
@@ -28009,7 +32583,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3384_ (
+  ) _3814_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_15 ),
@@ -28020,7 +32594,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3385_ (
+  ) _3815_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_16 ),
@@ -28031,7 +32605,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3386_ (
+  ) _3816_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_17 ),
@@ -28042,7 +32616,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3387_ (
+  ) _3817_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_18 ),
@@ -28053,7 +32627,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3388_ (
+  ) _3818_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_19 ),
@@ -28064,7 +32638,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3389_ (
+  ) _3819_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_20 ),
@@ -28075,7 +32649,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3390_ (
+  ) _3820_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_21 ),
@@ -28086,7 +32660,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3391_ (
+  ) _3821_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_22 ),
@@ -28097,7 +32671,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3392_ (
+  ) _3822_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_23 ),
@@ -28108,7 +32682,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3393_ (
+  ) _3823_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_24 ),
@@ -28119,7 +32693,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3394_ (
+  ) _3824_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_25 ),
@@ -28130,7 +32704,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3395_ (
+  ) _3825_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_26 ),
@@ -28141,7 +32715,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3396_ (
+  ) _3826_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_27 ),
@@ -28152,7 +32726,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3397_ (
+  ) _3827_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_28 ),
@@ -28163,7 +32737,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3398_ (
+  ) _3828_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_29 ),
@@ -28174,7 +32748,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3399_ (
+  ) _3829_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_30 ),
@@ -28185,7 +32759,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3400_ (
+  ) _3830_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[1].pp.out_31 ),
@@ -28196,7 +32770,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3401_ (
+  ) _3831_ (
     .C(clk),
     .CE(1'h1),
     .D(a_0),
@@ -28207,7 +32781,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3402_ (
+  ) _3832_ (
     .C(clk),
     .CE(1'h1),
     .D(a_1),
@@ -28218,7 +32792,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3403_ (
+  ) _3833_ (
     .C(clk),
     .CE(1'h1),
     .D(a_2),
@@ -28229,7 +32803,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3404_ (
+  ) _3834_ (
     .C(clk),
     .CE(1'h1),
     .D(a_3),
@@ -28240,7 +32814,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3405_ (
+  ) _3835_ (
     .C(clk),
     .CE(1'h1),
     .D(a_4),
@@ -28251,7 +32825,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3406_ (
+  ) _3836_ (
     .C(clk),
     .CE(1'h1),
     .D(a_5),
@@ -28262,7 +32836,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3407_ (
+  ) _3837_ (
     .C(clk),
     .CE(1'h1),
     .D(a_6),
@@ -28273,7 +32847,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3408_ (
+  ) _3838_ (
     .C(clk),
     .CE(1'h1),
     .D(a_7),
@@ -28284,7 +32858,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3409_ (
+  ) _3839_ (
     .C(clk),
     .CE(1'h1),
     .D(a_8),
@@ -28295,7 +32869,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3410_ (
+  ) _3840_ (
     .C(clk),
     .CE(1'h1),
     .D(a_9),
@@ -28306,7 +32880,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3411_ (
+  ) _3841_ (
     .C(clk),
     .CE(1'h1),
     .D(a_10),
@@ -28317,7 +32891,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3412_ (
+  ) _3842_ (
     .C(clk),
     .CE(1'h1),
     .D(a_11),
@@ -28328,7 +32902,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3413_ (
+  ) _3843_ (
     .C(clk),
     .CE(1'h1),
     .D(a_12),
@@ -28339,7 +32913,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3414_ (
+  ) _3844_ (
     .C(clk),
     .CE(1'h1),
     .D(a_13),
@@ -28350,7 +32924,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3415_ (
+  ) _3845_ (
     .C(clk),
     .CE(1'h1),
     .D(a_14),
@@ -28361,7 +32935,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3416_ (
+  ) _3846_ (
     .C(clk),
     .CE(1'h1),
     .D(a_15),
@@ -28372,7 +32946,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3417_ (
+  ) _3847_ (
     .C(clk),
     .CE(1'h1),
     .D(a_16),
@@ -28383,7 +32957,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3418_ (
+  ) _3848_ (
     .C(clk),
     .CE(1'h1),
     .D(a_17),
@@ -28394,7 +32968,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3419_ (
+  ) _3849_ (
     .C(clk),
     .CE(1'h1),
     .D(a_18),
@@ -28405,7 +32979,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3420_ (
+  ) _3850_ (
     .C(clk),
     .CE(1'h1),
     .D(a_19),
@@ -28416,7 +32990,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3421_ (
+  ) _3851_ (
     .C(clk),
     .CE(1'h1),
     .D(a_20),
@@ -28427,7 +33001,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3422_ (
+  ) _3852_ (
     .C(clk),
     .CE(1'h1),
     .D(a_21),
@@ -28438,7 +33012,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3423_ (
+  ) _3853_ (
     .C(clk),
     .CE(1'h1),
     .D(a_22),
@@ -28449,7 +33023,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3424_ (
+  ) _3854_ (
     .C(clk),
     .CE(1'h1),
     .D(a_23),
@@ -28460,7 +33034,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3425_ (
+  ) _3855_ (
     .C(clk),
     .CE(1'h1),
     .D(a_24),
@@ -28471,7 +33045,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3426_ (
+  ) _3856_ (
     .C(clk),
     .CE(1'h1),
     .D(a_25),
@@ -28482,7 +33056,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3427_ (
+  ) _3857_ (
     .C(clk),
     .CE(1'h1),
     .D(a_26),
@@ -28493,7 +33067,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3428_ (
+  ) _3858_ (
     .C(clk),
     .CE(1'h1),
     .D(a_27),
@@ -28504,7 +33078,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3429_ (
+  ) _3859_ (
     .C(clk),
     .CE(1'h1),
     .D(a_28),
@@ -28515,7 +33089,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3430_ (
+  ) _3860_ (
     .C(clk),
     .CE(1'h1),
     .D(a_29),
@@ -28523,38 +33097,32 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
     .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(16'h0000)
-  ) _3431_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h1),
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3861_ (
+    .C(clk),
     .CE(1'h1),
-    .CLK(clk),
     .D(\gen_stage_connect[0].pp.out_0 ),
-    .Q(out_0)
-  );
-  (* module_not_derived = 32'd1 *)
-  (* src = "/usr/bin/../share/yosys/xilinx/cells_map.v:65.61-65.155" *)
-  SRL16E #(
-    .INIT(16'h0000)
-  ) _3432_ (
-    .A0(1'h1),
-    .A1(1'h1),
-    .A2(1'h1),
-    .A3(1'h1),
-    .CE(1'h1),
-    .CLK(clk),
-    .D(\gen_stage_connect[0].pp.out_1 ),
-    .Q(out_1)
+    .Q(\gen_stage_connect[1].pp.in_0 ),
+    .R(1'h0)
   );
   (* module_not_derived = 32'd1 *)
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3433_ (
+  ) _3862_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[0].pp.out_1 ),
+    .Q(\gen_stage_connect[1].pp.in_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3863_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_2 ),
@@ -28565,7 +33133,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3434_ (
+  ) _3864_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_3 ),
@@ -28576,7 +33144,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3435_ (
+  ) _3865_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_4 ),
@@ -28587,7 +33155,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3436_ (
+  ) _3866_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_5 ),
@@ -28598,7 +33166,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3437_ (
+  ) _3867_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_6 ),
@@ -28609,7 +33177,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3438_ (
+  ) _3868_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_7 ),
@@ -28620,7 +33188,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3439_ (
+  ) _3869_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_8 ),
@@ -28631,7 +33199,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3440_ (
+  ) _3870_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_9 ),
@@ -28642,7 +33210,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3441_ (
+  ) _3871_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_10 ),
@@ -28653,7 +33221,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3442_ (
+  ) _3872_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_11 ),
@@ -28664,7 +33232,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3443_ (
+  ) _3873_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_12 ),
@@ -28675,7 +33243,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3444_ (
+  ) _3874_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_13 ),
@@ -28686,7 +33254,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3445_ (
+  ) _3875_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_14 ),
@@ -28697,7 +33265,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3446_ (
+  ) _3876_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_15 ),
@@ -28708,7 +33276,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3447_ (
+  ) _3877_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_16 ),
@@ -28719,7 +33287,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3448_ (
+  ) _3878_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_17 ),
@@ -28730,7 +33298,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3449_ (
+  ) _3879_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_18 ),
@@ -28741,7 +33309,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3450_ (
+  ) _3880_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_19 ),
@@ -28752,7 +33320,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3451_ (
+  ) _3881_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_20 ),
@@ -28763,7 +33331,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3452_ (
+  ) _3882_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_21 ),
@@ -28774,7 +33342,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3453_ (
+  ) _3883_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_22 ),
@@ -28785,7 +33353,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3454_ (
+  ) _3884_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_23 ),
@@ -28796,7 +33364,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3455_ (
+  ) _3885_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_24 ),
@@ -28807,7 +33375,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3456_ (
+  ) _3886_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_25 ),
@@ -28818,7 +33386,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3457_ (
+  ) _3887_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_26 ),
@@ -28829,7 +33397,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3458_ (
+  ) _3888_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_27 ),
@@ -28840,7 +33408,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3459_ (
+  ) _3889_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_28 ),
@@ -28851,7 +33419,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3460_ (
+  ) _3890_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_29 ),
@@ -28862,7 +33430,7 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3461_ (
+  ) _3891_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_30 ),
@@ -28873,11 +33441,187 @@ module multPipe_n16(clk, a_0, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10,
   (* src = "multPipe.v:75.5-81.8|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
   FDRE #(
     .INIT(1'hx)
-  ) _3462_ (
+  ) _3892_ (
     .C(clk),
     .CE(1'h1),
     .D(\gen_stage_connect[0].pp.out_31 ),
     .Q(\gen_stage_connect[1].pp.in_31 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3893_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_2 ),
+    .Q(\gen_stage_connect[8].pp.b_0 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3894_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_3 ),
+    .Q(\gen_stage_connect[8].pp.b_1 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3895_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_4 ),
+    .Q(\gen_stage_connect[8].pp.b_2 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3896_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_5 ),
+    .Q(\gen_stage_connect[8].pp.b_3 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3897_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_6 ),
+    .Q(\gen_stage_connect[8].pp.b_4 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3898_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_7 ),
+    .Q(\gen_stage_connect[8].pp.b_5 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3899_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_8 ),
+    .Q(\gen_stage_connect[8].pp.b_6 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3900_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_9 ),
+    .Q(\gen_stage_connect[8].pp.b_7 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3901_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_10 ),
+    .Q(\gen_stage_connect[8].pp.b_8 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3902_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_11 ),
+    .Q(\gen_stage_connect[8].pp.b_9 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3903_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_12 ),
+    .Q(\gen_stage_connect[8].pp.b_10 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3904_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_13 ),
+    .Q(\gen_stage_connect[8].pp.b_11 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3905_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_14 ),
+    .Q(\gen_stage_connect[8].pp.b_12 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3906_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_15 ),
+    .Q(\gen_stage_connect[8].pp.b_13 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3907_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_16 ),
+    .Q(\gen_stage_connect[8].pp.b_14 ),
+    .R(1'h0)
+  );
+  (* module_not_derived = 32'd1 *)
+  (* src = "multPipe.v:84.7-92.10|/usr/bin/../share/yosys/xilinx/ff_map.v:68.41-68.95" *)
+  FDRE #(
+    .INIT(1'hx)
+  ) _3908_ (
+    .C(clk),
+    .CE(1'h1),
+    .D(\gen_stage_connect[7].pp.b_17 ),
+    .Q(\gen_stage_connect[8].pp.b_15 ),
     .R(1'h0)
   );
   assign _0403_ = \gen_stage_connect[2].pp.in_17 ;
