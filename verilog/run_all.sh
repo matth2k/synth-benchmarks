@@ -11,4 +11,9 @@ cd lgsynth91
 cd ..
 cp ./lgsynth91/lgsynth91_master.json .
 
+cd epfl
+./run.sh
+cd ..
+cp ./epfl/epfl_master.json .
+
 append.py iscas85_master.json lgsynth91_master.json > master.json

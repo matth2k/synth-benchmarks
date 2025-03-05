@@ -1,7 +1,6 @@
 BENCHMARK_NAME=epfl
-BENCHES=adder.v arbiter.v bar.v cavlc.v ctrl.v dec.v i2c.v int2float.v max.v router.v square.v voter.v
+BENCHES=adder.v arbiter.v bar.v cavlc.v ctrl.v dec.v i2c.v int2float.v max.v router.v square.v voter.v div.v mem_ctrl.v priority.v sin.v
 # Trouble list
-# div, mem_ctrl, priority, sin has a bug
 # hyp is really slow
 # log2.v, multiplier.v is slow
 RPTS=$(BENCHES:.v=.v.rpt)
@@ -19,10 +18,10 @@ FLAGS+=-t $(TIMEOUT) -s 10000000 -n 10000000 --no-verify $(EXTRA_FLAGS)
 all: $(BENCHMARK_NAME)_$(TOOL)_results.json
 
 clean: 
-	rm -rf *.v.rpt *.tcl *.ys *.json
+	rm -rf *.v.rpt *.tcl *.ys *.v.mk *.json
 
 clean_lite: 
-	rm -rf *.v.rpt *.tcl *.ys
+	rm -rf *.v.rpt *.tcl *.ys *.v.mk
 
 $(BENCHMARK_NAME)_$(TOOL)_results.json: $(RPTS)
 	$(CAT_TOOL) --version $(INFO) $(RPTS) > $@
