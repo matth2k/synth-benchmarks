@@ -45,9 +45,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     plt.figure(figsize=(12, 8))
-    plt.title("% LUT Count Drop vs. Number of Iterations until Saturation", fontsize=22)
-    plt.xlabel("Number of Iterations", fontsize=22)
-    plt.ylabel("% LUT Count Drop", fontsize=22)
+    plt.title("Marginal LUT Count Improvement vs. Rewrite Iterations", fontsize=22)
+    plt.xlabel("Rewrite Iteration", fontsize=22)
+    plt.ylabel("% LUT Count Decrease", fontsize=22)
     plt.xticks(fontsize=19)
     plt.yticks(fontsize=19)
 
