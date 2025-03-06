@@ -1,5 +1,5 @@
 BENCHMARK_NAME=epfl
-BENCHES=adder.v arbiter.v bar.v cavlc.v ctrl.v dec.v i2c.v int2float.v max.v router.v square.v voter.v div.v mem_ctrl.v priority.v sin.v
+BENCHES=adder.v arbiter.v bar.v cavlc.v ctrl.v dec.v i2c.v int2float.v max.v router.v square.v voter.v div.v mem_ctrl.v sin.v
 # Trouble list
 # hyp is really slow
 # log2.v, multiplier.v is slow
