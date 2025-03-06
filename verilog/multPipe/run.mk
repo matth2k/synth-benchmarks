@@ -5,6 +5,7 @@ PART=xczu7ev-ffvc1156-2-e #xczu9eg-ffvb1156-2-e
 PERIOD=3.0
 
 RPTS=$(BENCHES:.v=.v.rpt)
+BUILDS=./impl_multPipe_n1 ./impl_multPipe_n2 ./impl_multPipe_n4 ./impl_multPipe_n8 ./impl_multPipe_n16 ./impl_multPipe_n1_opt ./impl_multPipe_n2_opt ./impl_multPipe_n4_opt ./impl_multPipe_n8_opt ./impl_multPipe_n16_opt
 
 TOOL=fam
 INFO=$(which fam)
@@ -14,9 +15,11 @@ TIMEOUT=1
 EXTRA_FLAGS=
 FLAGS+=-t $(TIMEOUT) -s 10000000 -n 77 --no-verify $(EXTRA_FLAGS) 
 
-.PHONY: all clean clean_lite
+.PHONY: all clean clean_lite all_pnr
 
 all: $(BENCHMARK_NAME)_$(TOOL)_results.json
+
+all_pnr: $(BUILDS)
 
 clean: 
 	rm -rf *.v.rpt *.tcl *.ys *.tcl *.jou *.log *.json *.yxil ./impl_* *_opt.v *.xdc
