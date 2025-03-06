@@ -4,7 +4,7 @@ set -eo pipefail
 make -f run.mk clean_lite
 
 source /work/shared/common/yosys/33/setup.sh
-make -f run.mk multPipe_fam_results.json TOOL=fam INFO=fam, -j 16 TIMEOUT=300
+make -f run.mk multPipe_fam_results.json TOOL=fam INFO=fam, -j 16 TIMEOUT=300 EXTRA_FLAGS="-w 4"
 mv multPipe_fam_results.json yosys_no_decomp.json
 rm -rf *.rpt
 
