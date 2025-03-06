@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     plt.figure(figsize=(12, 8))
     plt.title('Marginal Cost of E-graph Rewrite Iteration', fontsize=22)
-    plt.plot(iterations, derivative_build_times, linewidth=2.5)
+    plt.plot(iterations[:70], derivative_build_times[:70], linewidth=2.5)
     plt.xlabel("Iteration", fontsize=22)
     plt.ylabel("Iteration Execution Time (s)", fontsize=22)
     plt.tight_layout()
@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     plt.figure(figsize=(12, 8))
     plt.title('Build Time vs. Number of Iterations', fontsize=22)
-    plt.plot(iterations, avg_build_times, linewidth=2.5)
+    plt.plot(iterations[:70], avg_build_times[:70], linewidth=2.5)
     plt.xlabel("Number of Iterations", fontsize=22)
     plt.ylabel("Average Build Time (s)", fontsize=22)
     plt.tight_layout()
