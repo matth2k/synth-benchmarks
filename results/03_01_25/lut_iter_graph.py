@@ -23,11 +23,17 @@ if __name__ == "__main__":
         default=-0.5,
     )
     parser.add_argument(
+        "--max-iteration",
+        type=int,
+        help="Maximum Number of Iterations that are shown",
+        default=65,
+    )
+    parser.add_argument(
         "-b",
         "--bin-size",
         type=float,
         help="Minimum distance to the nearest other Percent improvement. Ex: 0.3",
-        default=0.3,
+        default=0.7,
     )
     parser.add_argument(
         "-p",
@@ -39,7 +45,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     plt.figure(figsize=(12, 8))
-    plt.title("% LUT Count Drop vs. Number of Iterations until Saturation")
+    plt.title("% LUT Count Drop vs. Number of Iterations until Saturation", fontsize=22)
+    plt.xlabel("Number of Iterations", fontsize=22)
+    plt.ylabel("% LUT Count Drop", fontsize=22)
+    plt.xticks(fontsize=19)
+    plt.yticks(fontsize=19)
 
     with open("yosys33_iter_data.json", "r") as file:
         data = json.load(file)
@@ -70,12 +80,12 @@ if __name__ == "__main__":
         can_graph = True
         for plotted_value, length in zip(plotted_values, iteration_lengths):
             if abs(plotted_value - sorted_lut_percents[-1]) < args.bin_size:
-                if not args.pack or (abs(length - len(sorted_iterations)) < 30):
+                if not args.pack or (abs(length - len(sorted_iterations)) < 15):
                     can_graph = False
                     break
 
-        if can_graph and lut_percents[-1] < args.min_improvement:
-            (line,) = plt.plot(sorted_iterations, sorted_lut_percents)
+        if can_graph and lut_percents[-1] < args.min_improvement and len(sorted_iterations) < args.max_iteration:
+            (line,) = plt.plot(sorted_iterations, sorted_lut_percents, linewidth=2.5)
             line_color = line.get_color()
             plt.annotate(
                 f"{module} ({round(sorted_lut_percents[-1], 2)}%)",
@@ -84,6 +94,7 @@ if __name__ == "__main__":
                 xytext=(4, 0),
                 ha="left",
                 va="center",
+                fontsize=15,
                 bbox=dict(
                     facecolor="white", edgecolor=line_color, boxstyle="round,pad=0.3"
                 ),
@@ -91,8 +102,6 @@ if __name__ == "__main__":
             plotted_values.append(sorted_lut_percents[-1])
             iteration_lengths.append(len(sorted_iterations))
 
-    plt.xlim(0, max(iteration_lengths) + 10)
-    plt.xlabel("Number of Iterations")
-    plt.ylabel("% LUT Count Drop")
+    plt.xlim(0, max(iteration_lengths) + 13)
     plt.tight_layout()
-    plt.savefig("./lut_vs_iter_graph", bbox_inches="tight")
+    plt.savefig("./improvement", bbox_inches="tight")
