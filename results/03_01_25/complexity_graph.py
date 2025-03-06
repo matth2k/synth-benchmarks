@@ -24,10 +24,10 @@ if __name__ == "__main__":
     derivative_build_times = [0] + [avg_build_times[i] - avg_build_times[i-1] for i in range(1, len(avg_build_times))]
 
     plt.figure(figsize=(12, 8))
-    plt.title('Change in Build Time vs. Number of Iterations', fontsize=22)
+    plt.title('Marginal Cost of E-graph Rewrite Iteration', fontsize=22)
     plt.plot(iterations, derivative_build_times, linewidth=2.5)
-    plt.xlabel("Number of Iterations", fontsize=22)
-    plt.ylabel("Change in Build Time (s)", fontsize=22)
+    plt.xlabel("Iteration", fontsize=22)
+    plt.ylabel("Iteration Execution Time (s)", fontsize=22)
     plt.tight_layout()
     plt.xticks(fontsize=19)
     plt.yticks(fontsize=19)
