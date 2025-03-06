@@ -28,10 +28,10 @@ FLAGS+=-t $(TIMEOUT) -s 10000000 -n 10000000 --no-verify $(EXTRA_FLAGS)
 all: $(BENCHMARK_NAME)_$(TOOL)_results.json
 
 clean: 
-	rm -rf *.v.rpt *.tcl *.ys *.json
+	rm -rf *.v.rpt *.tcl *.ys *.v.mk *.json
 
 clean_lite: 
-	rm -rf *.v.rpt *.tcl *.ys
+	rm -rf *.v.rpt *.tcl *.ys *.v.mk
 
 $(BENCHMARK_NAME)_$(TOOL)_results.json: $(RPTS)
 	$(CAT_TOOL) --version $(INFO) $(RPTS) > $@
