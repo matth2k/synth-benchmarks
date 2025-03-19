@@ -37,6 +37,6 @@ if __name__ == "__main__":
 
     with open(csv_path, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["Bit Width", "Vivado2019 Before", "Vivado2019 After", "Percent LUT Improvement (%)"])
+        writer.writerow(["Bit Width", "Vivado2022 Before", "Vivado2022 After", "Percent LUT Improvement (%)"])
         for bit_length, before, after, improvement in zip(bit_lengths, v2022_before_vals, v2022_after_vals, v2022_improvements):
             writer.writerow([bit_length, before, after, f"{improvement:.2f}"])

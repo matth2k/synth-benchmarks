@@ -64,10 +64,12 @@ if __name__ == "__main__":
                 "after"
             ]["lut_count"]
             saturated = data["modules"][module][iteration_data]["saturated"]
+
+            if saturated or before_count == 0:
+                break
+
             lut_percents.append(percent_decrease(before_count, after_count))
 
-            if saturated:
-                break
 
         sorted_data = sorted(zip(iterations, lut_percents))
         sorted_iterations, sorted_lut_percents = zip(*sorted_data)

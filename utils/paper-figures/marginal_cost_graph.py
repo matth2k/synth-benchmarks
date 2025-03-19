@@ -53,10 +53,12 @@ if __name__ == "__main__":
     if not os.path.exists(graphs_dir):
         os.makedirs(graphs_dir)
 
+    max_iteration = 70
+
     # Plot 1: Marginal Cost of Iteration
     plt.figure(figsize=(12, 8))
     plt.title("Marginal Cost of E-graph Rewrite Iteration", fontsize=22)
-    plt.plot(iterations[:70], derivative_build_times[:70], linewidth=2.5)
+    plt.plot(iterations[:max_iteration], derivative_build_times[:max_iteration], linewidth=2.5)
     plt.xlabel("Rewrite Iteration", fontsize=22)
     plt.ylabel("Iteration Execution Time (s)", fontsize=22)
     plt.tight_layout()
@@ -67,7 +69,7 @@ if __name__ == "__main__":
     # Plot 2: Build Time vs. Iterations
     plt.figure(figsize=(12, 8))
     plt.title("Build Time vs. Number of Iterations", fontsize=22)
-    plt.plot(iterations[:70], avg_build_times[:70], linewidth=2.5)
+    plt.plot(iterations[:max_iteration], avg_build_times[:max_iteration], linewidth=2.5)
     plt.xlabel("Rewrite Iteration", fontsize=22)
     plt.ylabel("Average Build Time (s)", fontsize=22)
     plt.tight_layout()
