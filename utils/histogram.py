@@ -16,21 +16,24 @@ def plot_histogram(circuit_data, title, ylim, path=None):
     plt.figure(figsize=(14, 10))
     plt.bar(x, y)
     plt.title(title)
-    plt.xlabel("k-LUT")
-    plt.ylabel("Frequency")
+    plt.xlabel("k-LUT", fontsize=19)
+    plt.ylabel("Frequency", fontsize=19)
+    plt.tight_layout()
+    plt.xticks(fontsize=19)
+    plt.yticks(fontsize=19)
     plt.ylim(0, ylim)
     plt.xlim(0.5, 6.5)
     # add labels bars
     for i, v in enumerate(y):
-        plt.text(i + 1, v + 1, str(v), ha="center", fontsize=11)
+        plt.text(i + 1, v + 1, str(v), ha="center", fontsize=19)
     if path is None:
         plt.show()
     else:
         plt.savefig(path)
     plt.clf()
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Given a list of cat'ed json files, this script compares the 'afters' of the re-synthesized modules in the form of histograms. "
         "This means this script should be ran on files using the same pre-synthesis step (yosys/vivado)."
@@ -68,10 +71,9 @@ if __name__ == "__main__":
     # TODO: need to hash inputs for real
     if len(set([c["lut_count"] for c in beforeStats])) > 1:
         print(
-            f"Module {args.module} input is not the same for all input results",
+            f"WARNING: Module {args.module} input is not the same for all input results",
             file=sys.stderr,
         )
-        sys.exit(1)
 
     maxSize = -1
 
@@ -98,7 +100,7 @@ if __name__ == "__main__":
         data = KEYS["after"](data, args.module)
         plot_histogram(
             data["lut_distribution"],
-            f"{args.module} After ({data['lut_count']} LUTs)",
+            f"{args.module} Module After E-Pack Optimization ({data['lut_count']} LUTs)",
             maxSize,
             f"after_{i}_{args.module}.png",
         )
