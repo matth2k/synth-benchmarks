@@ -13,9 +13,9 @@ KEYS = {
 def plot_histogram(circuit_data, title, ylim, path=None):
     x = list(range(1, 7))
     y = [0 if str(i) not in circuit_data else circuit_data[str(i)] for i in x]
-    plt.figure(figsize=(14, 10))
+    plt.figure(figsize=(12, 8))
     plt.bar(x, y)
-    plt.title(title)
+    plt.title(title, fontsize=19)
     plt.xlabel("k-LUT", fontsize=19)
     plt.ylabel("Frequency", fontsize=19)
     plt.tight_layout()
