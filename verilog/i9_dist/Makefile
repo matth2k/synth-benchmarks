@@ -8,13 +8,15 @@ TIMEOUT=10 # 8 hours timeout
 EXTRA_FLAGS=
 FLAGS+=-t $(TIMEOUT) -s 10000000 -n 10000000 --no-verify $(EXTRA_FLAGS) 
 
-.PHONY: all clean
+.PHONY: all histogram clean
 
 clean:
 	rm -rf *.json *.vxil *.yxil *.rpt
 
 all: comparison.json
 
+histogram: yosys33.json yosys47.json
+	python3 ../../utils/histogram.py i9 yosys33.json yosys47.json
 
 comparison.json: yosys33.json yosys47.json
 	python3 ../../utils/merge.py $^ > $@
