@@ -29,7 +29,7 @@ def plot_histogram(circuit_data, title, ylim, path=None):
     if path is None:
         plt.show()
     else:
-        plt.savefig(path)
+        plt.savefig(path, format="pdf")
     plt.clf()
 
 
@@ -93,7 +93,7 @@ if __name__ == "__main__":
         beforeStats[0]["lut_distribution"],
         f"{args.module} Initial ({beforeStats[0]['lut_count']} LUTs)",
         maxSize,
-        f"before_{args.module}.png",
+        f"before_{args.module}.pdf",
     )
 
     for i, data in enumerate(dataList):
@@ -102,5 +102,5 @@ if __name__ == "__main__":
             data["lut_distribution"],
             f"{args.module} Module After E-Pack Optimization ({data['lut_count']} LUTs)",
             maxSize,
-            f"after_{i}_{args.module}.png",
+            f"after_{i}_{args.module}.pdf",
         )
