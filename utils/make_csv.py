@@ -37,6 +37,7 @@ if __name__ == "__main__":
     cw.writerow(init_row)
     rows_sorted = []
     improvements = []
+    sizes = []
     for module, v in data.items():
         row = [module]
 
@@ -67,15 +68,18 @@ if __name__ == "__main__":
             row[1] = row[1].replace("%", "\%")
             if best_after[0] - best_before[0] != 0:
                 improvements.append(percent_improvement)
+                sizes.append(best_after[0])
 
         rows_sorted.append((best_after[0], best_after[0] - best_before[0], row))
 
     rows_sorted.sort(key=lambda x: x[0], reverse=True)
     avg_improvement = sum(improvements) / float(len(improvements))
+    avg_size = sum(sizes) / float(len(sizes))
     for size, metric, row in rows_sorted:
         if metric == 0:
             continue
         cw.writerow(row)
 
     print(f"{avg_improvement:.2%} average improvement among improved", file=sys.stderr)
+    print(f"{int(avg_size)} average mapped LUT count", file=sys.stderr)
     print(f"{len(rows_sorted)} total benchmarks", file=sys.stderr)
