@@ -64,7 +64,7 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.xticks(fontsize=19)
     plt.yticks(fontsize=19)
-    plt.savefig(os.path.join(graphs_dir, "runtime_derivative.png"), bbox_inches="tight")
+    plt.savefig(os.path.join(graphs_dir, "runtime_derivative.pdf"), format="pdf", bbox_inches="tight")
 
     # Plot 2: Build Time vs. Iterations
     plt.figure(figsize=(12, 8))
@@ -75,4 +75,4 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.xticks(fontsize=19)
     plt.yticks(fontsize=19)
-    plt.savefig(os.path.join(graphs_dir, "runtime.png"), bbox_inches="tight")
+    plt.savefig(os.path.join(graphs_dir, "runtime.pdf"), format="pdf", bbox_inches="tight")

@@ -111,5 +111,5 @@ if __name__ == "__main__":
     if not os.path.exists(graphs_dir):
         os.makedirs(graphs_dir)
 
-    output_path = os.path.join(graphs_dir, "improvement.png")
-    plt.savefig(output_path, bbox_inches="tight")
+    output_path = os.path.join(graphs_dir, "improvement.pdf")
+    plt.savefig(output_path, format="pdf", bbox_inches="tight")
