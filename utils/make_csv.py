@@ -4,12 +4,14 @@ import json
 import csv
 
 CONFIG_NAME = {
-    "v2022,": "Vivado 2022",
+    # "v2022,": "Vivado 2022",
+    "v2024,": "Vivado 2024",
     "yosys33,": "Yosys 0.33",
+    "yosys47,": "Yosys 0.47",
 }
 
 BASELINES = {
-    "v2022,": "before",
+    "v2024,": "before",
     "yosys33,": "before",
 }
 
