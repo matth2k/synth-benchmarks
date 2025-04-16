@@ -100,7 +100,7 @@ if __name__ == "__main__":
         data = KEYS["after"](data, args.module)
         plot_histogram(
             data["lut_distribution"],
-            f"{args.module} Module After E-Pack Optimization ({data['lut_count']} LUTs)",
+            f"{args.module} Module After EqMap Optimization ({data['lut_count']} LUTs)",
             maxSize,
             f"after_{i}_{args.module}.pdf",
         )
