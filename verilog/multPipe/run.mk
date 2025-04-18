@@ -7,13 +7,13 @@ PERIOD=3.0
 RPTS=$(BENCHES:.v=.v.rpt)
 BUILDS=./impl_multPipe_n1 ./impl_multPipe_n2 ./impl_multPipe_n4 ./impl_multPipe_n8 ./impl_multPipe_n16 ./impl_multPipe_n1_opt ./impl_multPipe_n2_opt ./impl_multPipe_n4_opt ./impl_multPipe_n8_opt ./impl_multPipe_n16_opt
 
-TOOL=fam
-INFO=$(which fam)
+TOOL=epak
+INFO=$(which epak)
 CAT_TOOL=cat.py
 
 TIMEOUT=1
 EXTRA_FLAGS=
-FLAGS+=-t $(TIMEOUT) -s 10000000 -n 77 --no-verify $(EXTRA_FLAGS) 
+FLAGS+=-t $(TIMEOUT) -s 10000000 -n 40 --no-verify $(EXTRA_FLAGS) 
 
 .PHONY: all clean clean_lite all_pnr
 
@@ -22,7 +22,7 @@ all: $(BENCHMARK_NAME)_$(TOOL)_results.json
 all_pnr: $(BUILDS)
 
 clean: 
-	rm -rf *.v.rpt *.tcl *.ys *.tcl *.jou *.log *.json *.yxil ./impl_* *_opt.v *.xdc
+	rm -rf *.v.rpt *.tcl *.ys *.tcl *.jou *.log *.json *.yxil ./impl_* *_opt.v *.xdc nohup.out
 
 clean_lite: 
 	rm -rf *.v.rpt *.tcl *.ys *.tcl *.jou *.log
@@ -89,6 +89,3 @@ $(BENCHMARK_NAME)_$(TOOL)_results.json: $(RPTS)
 	@echo "report_timing_summary -file \$$OUT_DIR/timing_summary.txt" >> $@
 	@echo "# Save checkpoint for debugging" >> $@
 	@echo "write_checkpoint -force \$$OUT_DIR/post_route.dcp" >> $@
-	@echo "# Generate Bitstream (optional)" >> $@
-	@echo "write_bitstream -force \$$OUT_DIR/multPipe.bit" >> $@
-	@echo "puts \"=== Implementation Complete ===\"" >> $@
