@@ -10,11 +10,19 @@ KEYS = {
 }
 
 
-def plot_histogram(circuit_data, title, ylim, path=None):
-    x = list(range(1, 7))
-    y = [0 if str(i) not in circuit_data else circuit_data[str(i)] for i in x]
+def plot_histogram(before_circuit_data, after_circuit_data, title, ylim, path=None):
     plt.figure(figsize=(12, 8))
-    plt.bar(x, y, width=0.97)
+    x = list(range(1, 7))
+    y_b = [
+        0 if str(i) not in before_circuit_data else before_circuit_data[str(i)]
+        for i in x
+    ]
+    y_a = [
+        0 if str(i) not in after_circuit_data else after_circuit_data[str(i)] for i in x
+    ]
+    plt.bar(x, y_b, width=0.97, alpha=0.5, label="Yosys")
+    plt.bar(x, y_a, width=0.97, alpha=0.5, label="Yosys + EqMap")
+    plt.legend()
     plt.title(title, fontsize=19)
     plt.xlabel("k-LUT", fontsize=19)
     plt.ylabel("Frequency", fontsize=19)
@@ -24,12 +32,14 @@ def plot_histogram(circuit_data, title, ylim, path=None):
     plt.ylim(0, ylim)
     plt.xlim(0.5, 6.5)
     # add labels bars
-    for i, v in enumerate(y):
+    for i, v in enumerate(y_a):
+        plt.text(i + 1, v + 1, str(v), ha="center", fontsize=19)
+    for i, v in enumerate(y_b):
         plt.text(i + 1, v + 1, str(v), ha="center", fontsize=19)
     if path is None:
         plt.show()
     else:
-        plt.savefig(path, format="pdf")
+        plt.savefig(path, format="png")
     plt.clf()
 
 
@@ -89,18 +99,13 @@ if __name__ == "__main__":
     maxSize = maxSize + 5
 
     # Make the before histogram
-    plot_histogram(
-        beforeStats[0]["lut_distribution"],
-        f"{args.module} Initial ({beforeStats[0]['lut_count']} LUTs)",
-        maxSize,
-        f"before_{args.module}.pdf",
-    )
-
     for i, data in enumerate(dataList):
+
         data = KEYS["after"](data, args.module)
         plot_histogram(
+            beforeStats[i]["lut_distribution"],
             data["lut_distribution"],
             f"{args.module} Module After EqMap Optimization ({data['lut_count']} LUTs)",
             maxSize,
-            f"after_{i}_{args.module}.pdf",
+            f"after_{i}_{args.module}.png",
         )
