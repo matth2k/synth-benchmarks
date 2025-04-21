@@ -33,24 +33,26 @@ def plot_histogram(
         label="Yosys " + version + "+ EqMap",
         color="xkcd:sky blue",
     )
-    plt.legend()
-    plt.title(title, fontsize=19)
-    plt.xlabel("k-LUT", fontsize=19)
-    plt.ylabel("Frequency", fontsize=19)
+    fsize = 20
+    plt.legend(fontsize=fsize)
+    plt.title(title, fontsize=fsize)
+    plt.xlabel("k-LUT", fontsize=fsize)
+    plt.ylabel("Frequency", fontsize=fsize)
+    # plt.subplots_adjust(left=0.2)
     plt.tight_layout()
-    plt.xticks(fontsize=19)
-    plt.yticks(fontsize=19)
+    plt.xticks(fontsize=fsize)
+    plt.yticks(fontsize=fsize)
     plt.ylim(0, ylim)
     plt.xlim(0.5, 6.5)
     # add labels bars
     for i, v in enumerate(y_a):
-        plt.text(i + 1, v + 1, str(v), ha="center", fontsize=19)
+        plt.text(i + 1, v + 1, str(v), ha="center", fontsize=fsize)
     for i, v in enumerate(y_b):
-        plt.text(i + 1, v + 1, str(v), ha="center", fontsize=19)
+        plt.text(i + 1, v + 1, str(v), ha="center", fontsize=fsize)
     if path is None:
         plt.show()
     else:
-        plt.savefig(path, format="png")
+        plt.savefig(path, format="pdf")
     plt.clf()
 
 
@@ -117,6 +119,6 @@ if __name__ == "__main__":
             data["lut_distribution"],
             f"{args.module} Module After EqMap Optimization ({beforeStats[i]['lut_count']} -> {data['lut_count']} LUTs)",
             maxSize,
-            f"after_{i}_{args.module}.png",
+            f"after_{i}_{args.module}.pdf",
             version="0.33" if i == 0 else "0.47",
         )
