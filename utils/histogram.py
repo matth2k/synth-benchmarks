@@ -15,6 +15,7 @@ def plot_histogram(
 ):
     plt.figure(figsize=(12, 8))
     x = list(range(1, 7))
+    width = 0.46
     y_b = [
         0 if str(i) not in before_circuit_data else before_circuit_data[str(i)]
         for i in x
@@ -23,15 +24,25 @@ def plot_histogram(
         0 if str(i) not in after_circuit_data else after_circuit_data[str(i)] for i in x
     ]
     plt.bar(
-        x, y_b, width=0.97, alpha=0.5, label="Yosys " + version, color="xkcd:magenta"
+        [x - 0.23 for x in x],
+        y_b,
+        width=width,
+        alpha=0.8,
+        label="Yosys " + version,
+        color="xkcd:salmon",
+        edgecolor="black",
+        linewidth=1,
+        hatch="//"
     )
     plt.bar(
-        x,
+        [x + 0.23 for x in x],
         y_a,
-        width=0.97,
-        alpha=0.5,
+        width=width,
+        alpha=0.8,
         label="Yosys " + version + "+ EqMap",
         color="xkcd:sky blue",
+        edgecolor="black",
+        linewidth=1,
     )
     fsize = 20
     plt.legend(fontsize=fsize)
@@ -40,15 +51,17 @@ def plot_histogram(
     plt.ylabel("Frequency", fontsize=fsize)
     # plt.subplots_adjust(left=0.2)
     plt.tight_layout()
-    plt.xticks(fontsize=fsize)
+    plt.xticks(x, fontsize=fsize)
     plt.yticks(fontsize=fsize)
     plt.ylim(0, ylim)
     plt.xlim(0.5, 6.5)
     # add labels bars
     for i, v in enumerate(y_a):
-        plt.text(i + 1, v + 1, str(v), ha="center", fontsize=fsize)
+        if v != 0:
+            plt.text(i + 1 + 0.24, v + 1, str(v), ha="center", fontsize=fsize)
     for i, v in enumerate(y_b):
-        plt.text(i + 1, v + 1, str(v), ha="center", fontsize=fsize)
+        if v != 0:
+            plt.text(i + 1 - 0.24, v + 1, str(v), ha="center", fontsize=fsize)
     if path is None:
         plt.show()
     else:
