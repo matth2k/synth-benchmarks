@@ -20,8 +20,8 @@ def plot_histogram(before_circuit_data, after_circuit_data, title, ylim, path=No
     y_a = [
         0 if str(i) not in after_circuit_data else after_circuit_data[str(i)] for i in x
     ]
-    plt.bar(x, y_b, width=0.97, alpha=0.5, label="Yosys")
-    plt.bar(x, y_a, width=0.97, alpha=0.5, label="Yosys + EqMap")
+    plt.bar(x, y_b, width=0.97, alpha=0.5, label="Yosys", color="xkcd:magenta")
+    plt.bar(x, y_a, width=0.97, alpha=0.5, label="Yosys + EqMap", color="xkcd:sky blue")
     plt.legend()
     plt.title(title, fontsize=19)
     plt.xlabel("k-LUT", fontsize=19)
