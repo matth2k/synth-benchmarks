@@ -10,7 +10,9 @@ KEYS = {
 }
 
 
-def plot_histogram(before_circuit_data, after_circuit_data, title, ylim, path=None):
+def plot_histogram(
+    before_circuit_data, after_circuit_data, title, ylim, path=None, version=""
+):
     plt.figure(figsize=(12, 8))
     x = list(range(1, 7))
     y_b = [
@@ -20,8 +22,17 @@ def plot_histogram(before_circuit_data, after_circuit_data, title, ylim, path=No
     y_a = [
         0 if str(i) not in after_circuit_data else after_circuit_data[str(i)] for i in x
     ]
-    plt.bar(x, y_b, width=0.97, alpha=0.5, label="Yosys", color="xkcd:magenta")
-    plt.bar(x, y_a, width=0.97, alpha=0.5, label="Yosys + EqMap", color="xkcd:sky blue")
+    plt.bar(
+        x, y_b, width=0.97, alpha=0.5, label="Yosys " + version, color="xkcd:magenta"
+    )
+    plt.bar(
+        x,
+        y_a,
+        width=0.97,
+        alpha=0.5,
+        label="Yosys " + version + "+ EqMap",
+        color="xkcd:sky blue",
+    )
     plt.legend()
     plt.title(title, fontsize=19)
     plt.xlabel("k-LUT", fontsize=19)
@@ -100,12 +111,12 @@ if __name__ == "__main__":
 
     # Make the before histogram
     for i, data in enumerate(dataList):
-
         data = KEYS["after"](data, args.module)
         plot_histogram(
             beforeStats[i]["lut_distribution"],
             data["lut_distribution"],
-            f"{args.module} Module After EqMap Optimization ({data['lut_count']} LUTs)",
+            f"{args.module} Module After EqMap Optimization ({beforeStats[i]['lut_count']} -> {data['lut_count']} LUTs)",
             maxSize,
             f"after_{i}_{args.module}.png",
+            version="0.33" if i == 0 else "0.47",
         )
