@@ -11,9 +11,9 @@ TOOL=epak
 INFO=$(which epak)
 CAT_TOOL=cat.py
 
-TIMEOUT=1
+TIMEOUT=180
 EXTRA_FLAGS=
-FLAGS+=-t $(TIMEOUT) -s 10000000 -n 40 --no-verify $(EXTRA_FLAGS) 
+FLAGS+=-t $(TIMEOUT) --no-verify $(EXTRA_FLAGS) 
 
 .PHONY: all clean clean_lite all_pnr
 

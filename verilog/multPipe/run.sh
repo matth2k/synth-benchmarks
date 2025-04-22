@@ -4,7 +4,7 @@ set -eo pipefail
 make -f run.mk clean_lite
 
 source /work/shared/common/yosys/33/setup.sh
-make -f run.mk multPipe_epak_results.json TOOL=epak INFO=epak, -j 16 TIMEOUT=300 EXTRA_FLAGS="-w 2"
+make -f run.mk multPipe_epak_results.json TOOL=epak INFO=epak, -j 16 TIMEOUT=180 EXTRA_FLAGS="--no-retime"
 mv multPipe_epak_results.json yosys_no_decomp.json
 rm -rf *.rpt
 
