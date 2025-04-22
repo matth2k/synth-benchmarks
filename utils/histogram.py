@@ -39,7 +39,7 @@ def plot_histogram(
         y_a,
         width=width,
         alpha=0.8,
-        label="Yosys " + version + "+ EqMap",
+        label="Yosys " + version + " + EqMap",
         color="xkcd:sky blue",
         edgecolor="black",
         linewidth=1,
