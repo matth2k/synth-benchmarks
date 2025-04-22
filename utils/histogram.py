@@ -24,7 +24,7 @@ def plot_histogram(
         0 if str(i) not in after_circuit_data else after_circuit_data[str(i)] for i in x
     ]
     plt.bar(
-        [x - 0.23 for x in x],
+        [x - width / 2 for x in x],
         y_b,
         width=width,
         alpha=0.8,
@@ -32,10 +32,10 @@ def plot_histogram(
         color="xkcd:salmon",
         edgecolor="black",
         linewidth=1,
-        hatch="//"
+        hatch="//",
     )
     plt.bar(
-        [x + 0.23 for x in x],
+        [x + width / 2 for x in x],
         y_a,
         width=width,
         alpha=0.8,
