@@ -1,0 +1,27 @@
+{
+  "name": "c880",
+  "stats": {
+    "before": {
+      "ast_size": 618,
+      "cell_count": 0,
+      "cell_counts": {},
+      "area": 31.919983
+    },
+    "after": {
+      "ast_size": 302,
+      "cell_count": 241,
+      "cell_counts": {
+        "AND2_X1": 32,
+        "AND3_X1": 13,
+        "AOI21_X1": 4,
+        "AOI22_X1": 38,
+        "INV_X1": 22,
+        "NAND2_X1": 70,
+        "NAND3_X1": 20,
+        "NOR2_X1": 17,
+        "OR2_X1": 25
+      },
+      "area": 267.06393
+    }
+  }
+}

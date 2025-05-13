@@ -1,0 +1,23 @@
+{
+  "name": "c17",
+  "stats": {
+    "before": {
+      "ast_size": 18,
+      "cell_count": 0,
+      "cell_counts": {},
+      "area": 2.66
+    },
+    "after": {
+      "ast_size": 11,
+      "cell_count": 5,
+      "cell_counts": {
+        "AOI21_X1": 1,
+        "AOI22_X1": 1,
+        "INV_X1": 1,
+        "NAND2_X1": 1,
+        "NOR2_X1": 1
+      },
+      "area": 7.182
+    }
+  }
+}

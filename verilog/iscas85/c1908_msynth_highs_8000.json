@@ -1,0 +1,26 @@
+{
+  "name": "c1908",
+  "stats": {
+    "before": {
+      "ast_size": 1307,
+      "cell_count": 0,
+      "cell_counts": {},
+      "area": 17.555994
+    },
+    "after": {
+      "ast_size": 421,
+      "cell_count": 387,
+      "cell_counts": {
+        "AND2_X1": 55,
+        "AND3_X1": 21,
+        "AND4_X1": 3,
+        "INV_X1": 27,
+        "NAND2_X1": 178,
+        "NAND3_X1": 30,
+        "NOR2_X1": 1,
+        "OR2_X1": 72
+      },
+      "area": 374.52765
+    }
+  }
+}

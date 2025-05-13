@@ -1,0 +1,23 @@
+{
+  "name": "c432",
+  "stats": {
+    "before": {
+      "ast_size": 423,
+      "cell_count": 0,
+      "cell_counts": {},
+      "area": 19.151993
+    },
+    "after": {
+      "ast_size": 364,
+      "cell_count": 327,
+      "cell_counts": {
+        "AND2_X1": 84,
+        "INV_X1": 103,
+        "NAND4_X1": 4,
+        "OAI21_X1": 109,
+        "OR2_X1": 27
+      },
+      "area": 313.34747
+    }
+  }
+}
