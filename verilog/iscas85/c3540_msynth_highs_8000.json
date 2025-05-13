@@ -1,0 +1,31 @@
+{
+  "name": "c3540",
+  "stats": {
+    "before": {
+      "ast_size": 2177,
+      "cell_count": 0,
+      "cell_counts": {},
+      "area": 26.599987
+    },
+    "after": {
+      "ast_size": 1032,
+      "cell_count": 981,
+      "cell_counts": {
+        "AND2_X1": 333,
+        "AND3_X1": 78,
+        "AND4_X1": 8,
+        "AOI21_X1": 5,
+        "INV_X1": 144,
+        "NAND2_X1": 203,
+        "NAND3_X1": 33,
+        "NAND4_X1": 1,
+        "NOR2_X1": 22,
+        "NOR3_X1": 30,
+        "OAI21_X1": 2,
+        "OR2_X1": 39,
+        "OR3_X1": 83
+      },
+      "area": 981.2764
+    }
+  }
+}

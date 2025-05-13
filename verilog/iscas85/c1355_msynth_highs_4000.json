@@ -1,0 +1,23 @@
+{
+  "name": "c1355",
+  "stats": {
+    "before": {
+      "ast_size": 1016,
+      "cell_count": 0,
+      "cell_counts": {},
+      "area": 21.81199
+    },
+    "after": {
+      "ast_size": 530,
+      "cell_count": 488,
+      "cell_counts": {
+        "AND2_X1": 46,
+        "AND3_X1": 20,
+        "NAND2_X1": 400,
+        "NAND3_X1": 16,
+        "OR2_X1": 6
+      },
+      "area": 439.9643
+    }
+  }
+}

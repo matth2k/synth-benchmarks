@@ -1,0 +1,32 @@
+{
+  "name": "c2670",
+  "stats": {
+    "before": {
+      "ast_size": 1704,
+      "cell_count": 0,
+      "cell_counts": {},
+      "area": 123.95581
+    },
+    "after": {
+      "ast_size": 913,
+      "cell_count": 679,
+      "cell_counts": {
+        "AND2_X1": 128,
+        "AND3_X1": 108,
+        "AND4_X1": 8,
+        "AOI21_X1": 3,
+        "AOI22_X1": 7,
+        "INV_X1": 137,
+        "MUX2_X1": 1,
+        "NAND2_X1": 174,
+        "NAND3_X1": 12,
+        "NOR2_X1": 24,
+        "NOR3_X1": 8,
+        "OAI21_X1": 19,
+        "OR2_X1": 34,
+        "OR3_X1": 16
+      },
+      "area": 760.7595
+    }
+  }
+}
