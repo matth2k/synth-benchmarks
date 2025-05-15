@@ -36,13 +36,6 @@ if __name__ == "__main__":
         help="Minimum distance to the nearest other Percent improvement. Ex: 0.3",
         default=0.7,
     )
-    parser.add_argument(
-        "-p",
-        "--pack",
-        action="store_true",
-        help="If two data points fall into the same bin but are far enough, plots the data",
-    )
-
     args = parser.parse_args()
 
     data = json.load(args.input)
@@ -77,7 +70,7 @@ if __name__ == "__main__":
         can_graph = True
         for plotted_value, length in zip(plotted_values, iteration_lengths):
             if abs(plotted_value - sorted_lut_percents[-1]) < args.bin_size:
-                if not args.pack or (abs(length - len(sorted_iterations)) < 15):
+                if (abs(length - len(sorted_iterations)) < 15):
                     can_graph = False
                     break
 
@@ -107,7 +100,7 @@ if __name__ == "__main__":
     plt.xlim(0, max(iteration_lengths) + 13)
     plt.tight_layout()
 
-    graphs_dir = "graphs"
+    graphs_dir = "results"
     if not os.path.exists(graphs_dir):
         os.makedirs(graphs_dir)
 

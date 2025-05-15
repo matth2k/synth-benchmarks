@@ -1,0 +1,1556 @@
+{
+  "modules": {
+    "alu_1024": {
+      "v2024-t-300": {
+        "build_time": 303.38120584399996,
+        "circuit_stats": {
+          "after": {
+            "depth": 410,
+            "lut_count": 3680,
+            "lut_distribution": {
+              "2": 411,
+              "4": 413,
+              "5": 2036,
+              "6": 820
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 410,
+            "lut_count": 4292,
+            "lut_distribution": {
+              "2": 411,
+              "4": 1637,
+              "5": 1424,
+              "6": 820
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 37.653507155,
+        "input_contains_gates": false,
+        "input_size": 6369,
+        "num_classes": 7911,
+        "num_inputs": 2050,
+        "num_iterations": 48,
+        "num_nodes": 789227,
+        "num_outputs": 1024,
+        "saturated": false,
+        "stop_reason": "303.14841665 Seconds"
+      },
+      "v2024-t-600": {
+        "build_time": 602.904294062,
+        "circuit_stats": {
+          "after": {
+            "depth": 410,
+            "lut_count": 3679,
+            "lut_distribution": {
+              "2": 411,
+              "4": 412,
+              "5": 2035,
+              "6": 821
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 410,
+            "lut_count": 4292,
+            "lut_distribution": {
+              "2": 411,
+              "4": 1637,
+              "5": 1424,
+              "6": 820
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 54.354293322,
+        "input_contains_gates": false,
+        "input_size": 6369,
+        "num_classes": 8400,
+        "num_inputs": 2050,
+        "num_iterations": 61,
+        "num_nodes": 1169129,
+        "num_outputs": 1024,
+        "saturated": false,
+        "stop_reason": "602.564219247 Seconds"
+      },
+      "yosys33-t-300": {
+        "build_time": 300.061324068,
+        "circuit_stats": {
+          "after": {
+            "depth": 410,
+            "lut_count": 2516,
+            "lut_distribution": {
+              "2": 408,
+              "3": 266,
+              "4": 2,
+              "5": 1288,
+              "6": 552
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 410,
+            "lut_count": 2654,
+            "lut_distribution": {
+              "2": 608,
+              "3": 608,
+              "4": 6,
+              "5": 1018,
+              "6": 414
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 12.541359562,
+        "input_contains_gates": false,
+        "input_size": 4717,
+        "num_classes": 5147,
+        "num_inputs": 2050,
+        "num_iterations": 45,
+        "num_nodes": 586815,
+        "num_outputs": 1024,
+        "saturated": false,
+        "stop_reason": "300.029790342 Seconds"
+      },
+      "yosys33-t-600": {
+        "build_time": 521.49235863,
+        "circuit_stats": {
+          "after": {
+            "depth": 410,
+            "lut_count": 2516,
+            "lut_distribution": {
+              "2": 408,
+              "3": 266,
+              "4": 2,
+              "5": 1288,
+              "6": 552
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 410,
+            "lut_count": 2654,
+            "lut_distribution": {
+              "2": 608,
+              "3": 608,
+              "4": 6,
+              "5": 1018,
+              "6": 414
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 12.246763099,
+        "input_contains_gates": false,
+        "input_size": 4717,
+        "num_classes": 5147,
+        "num_inputs": 2050,
+        "num_iterations": 53,
+        "num_nodes": 626701,
+        "num_outputs": 1024,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "alu_128": {
+      "v2024-t-300": {
+        "build_time": 35.639997212,
+        "circuit_stats": {
+          "after": {
+            "depth": 52,
+            "lut_count": 398,
+            "lut_distribution": {
+              "2": 49,
+              "4": 1,
+              "5": 296,
+              "6": 52
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 52,
+            "lut_count": 398,
+            "lut_distribution": {
+              "2": 49,
+              "4": 1,
+              "5": 296,
+              "6": 52
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.238558802,
+        "input_contains_gates": false,
+        "input_size": 684,
+        "num_classes": 1574,
+        "num_inputs": 258,
+        "num_iterations": 45,
+        "num_nodes": 74258,
+        "num_outputs": 128,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "v2024-t-600": {
+        "build_time": 35.884567871,
+        "circuit_stats": {
+          "after": {
+            "depth": 52,
+            "lut_count": 398,
+            "lut_distribution": {
+              "2": 49,
+              "4": 1,
+              "5": 296,
+              "6": 52
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 52,
+            "lut_count": 398,
+            "lut_distribution": {
+              "2": 49,
+              "4": 1,
+              "5": 296,
+              "6": 52
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.2413558,
+        "input_contains_gates": false,
+        "input_size": 684,
+        "num_classes": 1574,
+        "num_inputs": 258,
+        "num_iterations": 45,
+        "num_nodes": 74258,
+        "num_outputs": 128,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-300": {
+        "build_time": 46.657313111,
+        "circuit_stats": {
+          "after": {
+            "depth": 52,
+            "lut_count": 308,
+            "lut_distribution": {
+              "2": 49,
+              "3": 31,
+              "4": 2,
+              "5": 156,
+              "6": 70
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 52,
+            "lut_count": 326,
+            "lut_distribution": {
+              "2": 72,
+              "3": 73,
+              "4": 3,
+              "5": 126,
+              "6": 52
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.20553631,
+        "input_contains_gates": false,
+        "input_size": 601,
+        "num_classes": 1148,
+        "num_inputs": 258,
+        "num_iterations": 40,
+        "num_nodes": 77046,
+        "num_outputs": 128,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-600": {
+        "build_time": 46.17561192,
+        "circuit_stats": {
+          "after": {
+            "depth": 52,
+            "lut_count": 308,
+            "lut_distribution": {
+              "2": 49,
+              "3": 31,
+              "4": 2,
+              "5": 156,
+              "6": 70
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 52,
+            "lut_count": 326,
+            "lut_distribution": {
+              "2": 72,
+              "3": 73,
+              "4": 3,
+              "5": 126,
+              "6": 52
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.210630534,
+        "input_contains_gates": false,
+        "input_size": 601,
+        "num_classes": 1148,
+        "num_inputs": 258,
+        "num_iterations": 40,
+        "num_nodes": 77046,
+        "num_outputs": 128,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "alu_16": {
+      "v2024-t-300": {
+        "build_time": 1.633617933,
+        "circuit_stats": {
+          "after": {
+            "depth": 8,
+            "lut_count": 30,
+            "lut_distribution": {
+              "3": 6,
+              "4": 2,
+              "5": 19,
+              "6": 3
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 8,
+            "lut_count": 30,
+            "lut_distribution": {
+              "3": 6,
+              "4": 2,
+              "5": 19,
+              "6": 3
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.003253265,
+        "input_contains_gates": false,
+        "input_size": 74,
+        "num_classes": 376,
+        "num_inputs": 34,
+        "num_iterations": 21,
+        "num_nodes": 4870,
+        "num_outputs": 16,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "v2024-t-600": {
+        "build_time": 1.676506757,
+        "circuit_stats": {
+          "after": {
+            "depth": 8,
+            "lut_count": 30,
+            "lut_distribution": {
+              "3": 6,
+              "4": 2,
+              "5": 19,
+              "6": 3
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 8,
+            "lut_count": 30,
+            "lut_distribution": {
+              "3": 6,
+              "4": 2,
+              "5": 19,
+              "6": 3
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.003279299,
+        "input_contains_gates": false,
+        "input_size": 74,
+        "num_classes": 376,
+        "num_inputs": 34,
+        "num_iterations": 21,
+        "num_nodes": 4870,
+        "num_outputs": 16,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-300": {
+        "build_time": 3.534670718,
+        "circuit_stats": {
+          "after": {
+            "depth": 7,
+            "lut_count": 35,
+            "lut_distribution": {
+              "2": 4,
+              "3": 4,
+              "4": 2,
+              "5": 18,
+              "6": 7
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 7,
+            "lut_count": 35,
+            "lut_distribution": {
+              "2": 5,
+              "3": 6,
+              "4": 3,
+              "5": 14,
+              "6": 7
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.004862296,
+        "input_contains_gates": false,
+        "input_size": 83,
+        "num_classes": 512,
+        "num_inputs": 34,
+        "num_iterations": 25,
+        "num_nodes": 8545,
+        "num_outputs": 16,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-600": {
+        "build_time": 3.5755284849999995,
+        "circuit_stats": {
+          "after": {
+            "depth": 7,
+            "lut_count": 35,
+            "lut_distribution": {
+              "2": 4,
+              "3": 4,
+              "4": 2,
+              "5": 18,
+              "6": 7
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 7,
+            "lut_count": 35,
+            "lut_distribution": {
+              "2": 5,
+              "3": 6,
+              "4": 3,
+              "5": 14,
+              "6": 7
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.004928464,
+        "input_contains_gates": false,
+        "input_size": 83,
+        "num_classes": 512,
+        "num_inputs": 34,
+        "num_iterations": 25,
+        "num_nodes": 8545,
+        "num_outputs": 16,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "alu_2048": {
+      "v2024-t-300": {
+        "build_time": 300.00656908299993,
+        "circuit_stats": {
+          "after": {
+            "depth": 820,
+            "lut_count": 7363,
+            "lut_distribution": {
+              "2": 819,
+              "4": 820,
+              "5": 2858,
+              "6": 2866
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 820,
+            "lut_count": 8592,
+            "lut_distribution": {
+              "2": 819,
+              "4": 3277,
+              "5": 2858,
+              "6": 1638
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 25.327307445,
+        "input_contains_gates": false,
+        "input_size": 12718,
+        "num_classes": 13341,
+        "num_inputs": 4098,
+        "num_iterations": 32,
+        "num_nodes": 528138,
+        "num_outputs": 2048,
+        "saturated": false,
+        "stop_reason": "300.01124917 Seconds"
+      },
+      "v2024-t-600": {
+        "build_time": 616.2923127430001,
+        "circuit_stats": {
+          "after": {
+            "depth": 820,
+            "lut_count": 7363,
+            "lut_distribution": {
+              "2": 819,
+              "4": 820,
+              "5": 4085,
+              "6": 1639
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 820,
+            "lut_count": 8592,
+            "lut_distribution": {
+              "2": 819,
+              "4": 3277,
+              "5": 2858,
+              "6": 1638
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 46.324532548,
+        "input_contains_gates": false,
+        "input_size": 12718,
+        "num_classes": 13717,
+        "num_inputs": 4098,
+        "num_iterations": 53,
+        "num_nodes": 947082,
+        "num_outputs": 2048,
+        "saturated": false,
+        "stop_reason": "615.968875929 Seconds"
+      },
+      "yosys33-t-300": {
+        "build_time": 311.766920987,
+        "circuit_stats": {
+          "after": {
+            "depth": 820,
+            "lut_count": 5242,
+            "lut_distribution": {
+              "2": 817,
+              "3": 741,
+              "4": 2,
+              "5": 2786,
+              "6": 896
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 820,
+            "lut_count": 5316,
+            "lut_distribution": {
+              "2": 1222,
+              "3": 1223,
+              "4": 5,
+              "5": 2044,
+              "6": 822
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 15.533829512,
+        "input_contains_gates": false,
+        "input_size": 9431,
+        "num_classes": 9861,
+        "num_inputs": 4098,
+        "num_iterations": 38,
+        "num_nodes": 484941,
+        "num_outputs": 2048,
+        "saturated": false,
+        "stop_reason": "311.591906599 Seconds"
+      },
+      "yosys33-t-600": {
+        "build_time": 600.5574086479999,
+        "circuit_stats": {
+          "after": {
+            "depth": 820,
+            "lut_count": 5242,
+            "lut_distribution": {
+              "2": 817,
+              "3": 741,
+              "4": 2,
+              "5": 2786,
+              "6": 896
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 820,
+            "lut_count": 5316,
+            "lut_distribution": {
+              "2": 1222,
+              "3": 1223,
+              "4": 5,
+              "5": 2044,
+              "6": 822
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 27.205858984,
+        "input_contains_gates": false,
+        "input_size": 9431,
+        "num_classes": 9960,
+        "num_inputs": 4098,
+        "num_iterations": 47,
+        "num_nodes": 878547,
+        "num_outputs": 2048,
+        "saturated": false,
+        "stop_reason": "600.384291172 Seconds"
+      }
+    },
+    "alu_256": {
+      "v2024-t-300": {
+        "build_time": 300.141394039,
+        "circuit_stats": {
+          "after": {
+            "depth": 128,
+            "lut_count": 772,
+            "lut_distribution": {
+              "2": 6,
+              "3": 125,
+              "4": 4,
+              "5": 378,
+              "6": 259
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 128,
+            "lut_count": 772,
+            "lut_distribution": {
+              "2": 6,
+              "3": 128,
+              "4": 1,
+              "5": 378,
+              "6": 259
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 8.327592943,
+        "input_contains_gates": false,
+        "input_size": 1305,
+        "num_classes": 3760,
+        "num_inputs": 514,
+        "num_iterations": 70,
+        "num_nodes": 623532,
+        "num_outputs": 256,
+        "saturated": false,
+        "stop_reason": "300.011886872 Seconds"
+      },
+      "v2024-t-600": {
+        "build_time": 601.715318314,
+        "circuit_stats": {
+          "after": {
+            "depth": 128,
+            "lut_count": 772,
+            "lut_distribution": {
+              "2": 6,
+              "3": 125,
+              "4": 4,
+              "5": 378,
+              "6": 259
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 128,
+            "lut_count": 772,
+            "lut_distribution": {
+              "2": 6,
+              "3": 128,
+              "4": 1,
+              "5": 378,
+              "6": 259
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 8.858129049,
+        "input_contains_gates": false,
+        "input_size": 1305,
+        "num_classes": 3761,
+        "num_inputs": 514,
+        "num_iterations": 79,
+        "num_nodes": 628825,
+        "num_outputs": 256,
+        "saturated": false,
+        "stop_reason": "600.854206484 Seconds"
+      },
+      "yosys33-t-300": {
+        "build_time": 98.09402931700001,
+        "circuit_stats": {
+          "after": {
+            "depth": 103,
+            "lut_count": 651,
+            "lut_distribution": {
+              "2": 100,
+              "3": 92,
+              "4": 2,
+              "5": 346,
+              "6": 111
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 103,
+            "lut_count": 659,
+            "lut_distribution": {
+              "2": 149,
+              "3": 150,
+              "4": 3,
+              "5": 254,
+              "6": 103
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.589460189,
+        "input_contains_gates": false,
+        "input_size": 1187,
+        "num_classes": 1616,
+        "num_inputs": 514,
+        "num_iterations": 43,
+        "num_nodes": 155617,
+        "num_outputs": 256,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-600": {
+        "build_time": 100.262241416,
+        "circuit_stats": {
+          "after": {
+            "depth": 103,
+            "lut_count": 651,
+            "lut_distribution": {
+              "2": 100,
+              "3": 92,
+              "4": 2,
+              "5": 346,
+              "6": 111
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 103,
+            "lut_count": 659,
+            "lut_distribution": {
+              "2": 149,
+              "3": 150,
+              "4": 3,
+              "5": 254,
+              "6": 103
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.632724012,
+        "input_contains_gates": false,
+        "input_size": 1187,
+        "num_classes": 1616,
+        "num_inputs": 514,
+        "num_iterations": 43,
+        "num_nodes": 155617,
+        "num_outputs": 256,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "alu_32": {
+      "v2024-t-300": {
+        "build_time": 2.4328569929999997,
+        "circuit_stats": {
+          "after": {
+            "depth": 16,
+            "lut_count": 62,
+            "lut_distribution": {
+              "3": 14,
+              "4": 2,
+              "5": 43,
+              "6": 3
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 16,
+            "lut_count": 62,
+            "lut_distribution": {
+              "3": 14,
+              "4": 2,
+              "5": 43,
+              "6": 3
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.008328256,
+        "input_contains_gates": false,
+        "input_size": 138,
+        "num_classes": 440,
+        "num_inputs": 66,
+        "num_iterations": 22,
+        "num_nodes": 7830,
+        "num_outputs": 32,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "v2024-t-600": {
+        "build_time": 2.423854628,
+        "circuit_stats": {
+          "after": {
+            "depth": 16,
+            "lut_count": 62,
+            "lut_distribution": {
+              "3": 14,
+              "4": 2,
+              "5": 43,
+              "6": 3
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 16,
+            "lut_count": 62,
+            "lut_distribution": {
+              "3": 14,
+              "4": 2,
+              "5": 43,
+              "6": 3
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.008480692,
+        "input_contains_gates": false,
+        "input_size": 138,
+        "num_classes": 440,
+        "num_inputs": 66,
+        "num_iterations": 22,
+        "num_nodes": 7830,
+        "num_outputs": 32,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-300": {
+        "build_time": 8.982546154000001,
+        "circuit_stats": {
+          "after": {
+            "depth": 13,
+            "lut_count": 79,
+            "lut_distribution": {
+              "2": 12,
+              "3": 11,
+              "4": 2,
+              "5": 40,
+              "6": 14
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 13,
+            "lut_count": 79,
+            "lut_distribution": {
+              "2": 17,
+              "3": 16,
+              "4": 2,
+              "5": 30,
+              "6": 14
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.015139339,
+        "input_contains_gates": false,
+        "input_size": 158,
+        "num_classes": 588,
+        "num_inputs": 66,
+        "num_iterations": 29,
+        "num_nodes": 19317,
+        "num_outputs": 32,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-600": {
+        "build_time": 9.213835110000002,
+        "circuit_stats": {
+          "after": {
+            "depth": 13,
+            "lut_count": 79,
+            "lut_distribution": {
+              "2": 12,
+              "3": 11,
+              "4": 2,
+              "5": 40,
+              "6": 14
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 13,
+            "lut_count": 79,
+            "lut_distribution": {
+              "2": 17,
+              "3": 16,
+              "4": 2,
+              "5": 30,
+              "6": 14
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.015576772,
+        "input_contains_gates": false,
+        "input_size": 158,
+        "num_classes": 588,
+        "num_inputs": 66,
+        "num_iterations": 29,
+        "num_nodes": 19317,
+        "num_outputs": 32,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "alu_4096": {
+      "v2024-t-300": {
+        "build_time": 302.92587831700007,
+        "circuit_stats": {
+          "after": {
+            "depth": 1782,
+            "lut_count": 15516,
+            "lut_distribution": {
+              "2": 1081,
+              "3": 3,
+              "4": 2033,
+              "5": 9536,
+              "6": 2863
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 1782,
+            "lut_count": 15516,
+            "lut_distribution": {
+              "2": 1081,
+              "3": 3,
+              "4": 6401,
+              "5": 5167,
+              "6": 2864
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 35.74459587,
+        "input_contains_gates": false,
+        "input_size": 23749,
+        "num_classes": 24095,
+        "num_inputs": 8194,
+        "num_iterations": 23,
+        "num_nodes": 323851,
+        "num_outputs": 4096,
+        "saturated": false,
+        "stop_reason": "302.834264784 Seconds"
+      },
+      "v2024-t-600": {
+        "build_time": 618.1631632579999,
+        "circuit_stats": {
+          "after": {
+            "depth": 1782,
+            "lut_count": 14401,
+            "lut_distribution": {
+              "2": 1081,
+              "3": 3,
+              "4": 918,
+              "5": 8417,
+              "6": 3982
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 1782,
+            "lut_count": 15516,
+            "lut_distribution": {
+              "2": 1081,
+              "3": 3,
+              "4": 6401,
+              "5": 5167,
+              "6": 2864
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 75.183168767,
+        "input_contains_gates": false,
+        "input_size": 23749,
+        "num_classes": 24230,
+        "num_inputs": 8194,
+        "num_iterations": 40,
+        "num_nodes": 611826,
+        "num_outputs": 4096,
+        "saturated": false,
+        "stop_reason": "617.947023816 Seconds"
+      },
+      "yosys33-t-300": {
+        "build_time": 323.29200922300004,
+        "circuit_stats": {
+          "after": {
+            "depth": 1639,
+            "lut_count": 9889,
+            "lut_distribution": {
+              "2": 1636,
+              "3": 882,
+              "4": 2,
+              "5": 4976,
+              "6": 2393
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 1639,
+            "lut_count": 10643,
+            "lut_distribution": {
+              "2": 2453,
+              "3": 2454,
+              "4": 3,
+              "5": 4094,
+              "6": 1639
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 16.338363893,
+        "input_contains_gates": false,
+        "input_size": 18851,
+        "num_classes": 18994,
+        "num_inputs": 8194,
+        "num_iterations": 35,
+        "num_nodes": 261426,
+        "num_outputs": 4096,
+        "saturated": false,
+        "stop_reason": "323.187880031 Seconds"
+      },
+      "yosys33-t-600": {
+        "build_time": 643.9812657,
+        "circuit_stats": {
+          "after": {
+            "depth": 1639,
+            "lut_count": 9889,
+            "lut_distribution": {
+              "2": 1636,
+              "3": 882,
+              "4": 2,
+              "5": 4976,
+              "6": 2393
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 1639,
+            "lut_count": 10643,
+            "lut_distribution": {
+              "2": 2453,
+              "3": 2454,
+              "4": 3,
+              "5": 4094,
+              "6": 1639
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 31.467389481,
+        "input_contains_gates": false,
+        "input_size": 18851,
+        "num_classes": 19076,
+        "num_inputs": 8194,
+        "num_iterations": 40,
+        "num_nodes": 507170,
+        "num_outputs": 4096,
+        "saturated": false,
+        "stop_reason": "643.773171506 Seconds"
+      }
+    },
+    "alu_512": {
+      "v2024-t-300": {
+        "build_time": 300.72772503000004,
+        "circuit_stats": {
+          "after": {
+            "depth": 256,
+            "lut_count": 1540,
+            "lut_distribution": {
+              "2": 6,
+              "3": 253,
+              "4": 4,
+              "5": 762,
+              "6": 515
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 256,
+            "lut_count": 1540,
+            "lut_distribution": {
+              "2": 6,
+              "3": 256,
+              "4": 1,
+              "5": 762,
+              "6": 515
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 22.867824236,
+        "input_contains_gates": false,
+        "input_size": 2584,
+        "num_classes": 4515,
+        "num_inputs": 1026,
+        "num_iterations": 64,
+        "num_nodes": 806544,
+        "num_outputs": 512,
+        "saturated": false,
+        "stop_reason": "300.634227408 Seconds"
+      },
+      "v2024-t-600": {
+        "build_time": 607.1479773750001,
+        "circuit_stats": {
+          "after": {
+            "depth": 256,
+            "lut_count": 1540,
+            "lut_distribution": {
+              "2": 6,
+              "3": 253,
+              "4": 4,
+              "5": 762,
+              "6": 515
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 256,
+            "lut_count": 1540,
+            "lut_distribution": {
+              "2": 6,
+              "3": 256,
+              "4": 1,
+              "5": 762,
+              "6": 515
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 17.666153363,
+        "input_contains_gates": false,
+        "input_size": 2584,
+        "num_classes": 5012,
+        "num_inputs": 1026,
+        "num_iterations": 75,
+        "num_nodes": 1219182,
+        "num_outputs": 512,
+        "saturated": false,
+        "stop_reason": "606.960605835 Seconds"
+      },
+      "yosys33-t-300": {
+        "build_time": 208.80248329500003,
+        "circuit_stats": {
+          "after": {
+            "depth": 205,
+            "lut_count": 1236,
+            "lut_distribution": {
+              "2": 204,
+              "3": 112,
+              "4": 2,
+              "5": 621,
+              "6": 297
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 205,
+            "lut_count": 1327,
+            "lut_distribution": {
+              "2": 305,
+              "3": 304,
+              "4": 2,
+              "5": 510,
+              "6": 206
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 2.974343558,
+        "input_contains_gates": false,
+        "input_size": 2366,
+        "num_classes": 2796,
+        "num_inputs": 1026,
+        "num_iterations": 49,
+        "num_nodes": 313461,
+        "num_outputs": 512,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-600": {
+        "build_time": 214.479915399,
+        "circuit_stats": {
+          "after": {
+            "depth": 205,
+            "lut_count": 1236,
+            "lut_distribution": {
+              "2": 204,
+              "3": 112,
+              "4": 2,
+              "5": 621,
+              "6": 297
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 205,
+            "lut_count": 1327,
+            "lut_distribution": {
+              "2": 305,
+              "3": 304,
+              "4": 2,
+              "5": 510,
+              "6": 206
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 3.109013307,
+        "input_contains_gates": false,
+        "input_size": 2366,
+        "num_classes": 2796,
+        "num_inputs": 1026,
+        "num_iterations": 49,
+        "num_nodes": 313461,
+        "num_outputs": 512,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "alu_64": {
+      "v2024-t-300": {
+        "build_time": 4.801701146,
+        "circuit_stats": {
+          "after": {
+            "depth": 32,
+            "lut_count": 126,
+            "lut_distribution": {
+              "3": 30,
+              "4": 2,
+              "5": 91,
+              "6": 3
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 32,
+            "lut_count": 126,
+            "lut_distribution": {
+              "3": 30,
+              "4": 2,
+              "5": 91,
+              "6": 3
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.029027945,
+        "input_contains_gates": false,
+        "input_size": 266,
+        "num_classes": 568,
+        "num_inputs": 130,
+        "num_iterations": 28,
+        "num_nodes": 13750,
+        "num_outputs": 64,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "v2024-t-600": {
+        "build_time": 4.871176682,
+        "circuit_stats": {
+          "after": {
+            "depth": 32,
+            "lut_count": 126,
+            "lut_distribution": {
+              "3": 30,
+              "4": 2,
+              "5": 91,
+              "6": 3
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 32,
+            "lut_count": 126,
+            "lut_distribution": {
+              "3": 30,
+              "4": 2,
+              "5": 91,
+              "6": 3
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.028972093,
+        "input_contains_gates": false,
+        "input_size": 266,
+        "num_classes": 568,
+        "num_inputs": 130,
+        "num_iterations": 28,
+        "num_nodes": 13750,
+        "num_outputs": 64,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-300": {
+        "build_time": 21.976478870999998,
+        "circuit_stats": {
+          "after": {
+            "depth": 26,
+            "lut_count": 151,
+            "lut_distribution": {
+              "2": 24,
+              "3": 13,
+              "4": 2,
+              "5": 75,
+              "6": 37
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 26,
+            "lut_count": 160,
+            "lut_distribution": {
+              "2": 34,
+              "3": 34,
+              "4": 4,
+              "5": 60,
+              "6": 28
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.059701852,
+        "input_contains_gates": false,
+        "input_size": 303,
+        "num_classes": 733,
+        "num_inputs": 130,
+        "num_iterations": 35,
+        "num_nodes": 38681,
+        "num_outputs": 64,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-600": {
+        "build_time": 22.459928554,
+        "circuit_stats": {
+          "after": {
+            "depth": 26,
+            "lut_count": 151,
+            "lut_distribution": {
+              "2": 24,
+              "3": 13,
+              "4": 2,
+              "5": 75,
+              "6": 37
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 26,
+            "lut_count": 160,
+            "lut_distribution": {
+              "2": 34,
+              "3": 34,
+              "4": 4,
+              "5": 60,
+              "6": 28
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.060000612,
+        "input_contains_gates": false,
+        "input_size": 303,
+        "num_classes": 733,
+        "num_inputs": 130,
+        "num_iterations": 35,
+        "num_nodes": 38681,
+        "num_outputs": 64,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "alu_8": {
+      "v2024-t-300": {
+        "build_time": 1.1664034340000002,
+        "circuit_stats": {
+          "after": {
+            "depth": 4,
+            "lut_count": 14,
+            "lut_distribution": {
+              "3": 2,
+              "4": 2,
+              "5": 7,
+              "6": 3
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 4,
+            "lut_count": 14,
+            "lut_distribution": {
+              "3": 2,
+              "4": 2,
+              "5": 7,
+              "6": 3
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.001641597,
+        "input_contains_gates": false,
+        "input_size": 42,
+        "num_classes": 344,
+        "num_inputs": 18,
+        "num_iterations": 19,
+        "num_nodes": 3390,
+        "num_outputs": 8,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "v2024-t-600": {
+        "build_time": 1.1572384189999998,
+        "circuit_stats": {
+          "after": {
+            "depth": 4,
+            "lut_count": 14,
+            "lut_distribution": {
+              "3": 2,
+              "4": 2,
+              "5": 7,
+              "6": 3
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 4,
+            "lut_count": 14,
+            "lut_distribution": {
+              "3": 2,
+              "4": 2,
+              "5": 7,
+              "6": 3
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.00160443,
+        "input_contains_gates": false,
+        "input_size": 42,
+        "num_classes": 344,
+        "num_inputs": 18,
+        "num_iterations": 19,
+        "num_nodes": 3390,
+        "num_outputs": 8,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-300": {
+        "build_time": 1.055173898,
+        "circuit_stats": {
+          "after": {
+            "depth": 4,
+            "lut_count": 15,
+            "lut_distribution": {
+              "2": 1,
+              "3": 2,
+              "4": 2,
+              "5": 7,
+              "6": 3
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 4,
+            "lut_count": 15,
+            "lut_distribution": {
+              "2": 1,
+              "3": 2,
+              "4": 2,
+              "5": 7,
+              "6": 3
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.00159482,
+        "input_contains_gates": false,
+        "input_size": 44,
+        "num_classes": 346,
+        "num_inputs": 18,
+        "num_iterations": 18,
+        "num_nodes": 3393,
+        "num_outputs": 8,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      },
+      "yosys33-t-600": {
+        "build_time": 1.0609687069999998,
+        "circuit_stats": {
+          "after": {
+            "depth": 4,
+            "lut_count": 15,
+            "lut_distribution": {
+              "2": 1,
+              "3": 2,
+              "4": 2,
+              "5": 7,
+              "6": 3
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 4,
+            "lut_count": 15,
+            "lut_distribution": {
+              "2": 1,
+              "3": 2,
+              "4": 2,
+              "5": 7,
+              "6": 3
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.001593194,
+        "input_contains_gates": false,
+        "input_size": 44,
+        "num_classes": 346,
+        "num_inputs": 18,
+        "num_iterations": 18,
+        "num_nodes": 3393,
+        "num_outputs": 8,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    }
+  }
+}

@@ -15,28 +15,28 @@ if __name__ == "__main__":
     args = parser.parse_args()
     data = json.load(args.input)
 
-    os.makedirs("graphs", exist_ok=True)
-    csv_path = os.path.join("graphs", "results.csv")
+    os.makedirs("results", exist_ok=True)
+    csv_path = os.path.join("results", "results.csv")
 
     bit_lengths = []
-    v2022_before_vals = []
-    v2022_after_vals = []
-    v2022_improvements = []
+    v2024_before_vals = []
+    v2024_after_vals = []
+    v2024_improvements = []
 
     for module in data["modules"]:
-        v2022_before = data["modules"][module]["v2022-t-300"]["circuit_stats"]["before"]["lut_count"]
-        v2022_after = data["modules"][module]["v2022-t-300"]["circuit_stats"]["after"]["lut_count"]
+        v2024_before = data["modules"][module]["v2024-t-300"]["circuit_stats"]["before"]["lut_count"]
+        v2024_after = data["modules"][module]["v2024-t-300"]["circuit_stats"]["after"]["lut_count"]
+        v2024_before_vals.append(v2024_before)
+        v2024_after_vals.append(v2024_after)
+        v2024_improvements.append(percent_decrease(v2024_before, v2024_after))
         bit_length = extract_bitlength(module)
         bit_lengths.append(bit_length)
-        v2022_before_vals.append(v2022_before)
-        v2022_after_vals.append(v2022_after)
-        v2022_improvements.append(percent_decrease(v2022_before, v2022_after))
 
-    sorted_data = sorted(zip(bit_lengths, v2022_before_vals, v2022_after_vals, v2022_improvements))
-    bit_lengths, v2022_before_vals, v2022_after_vals, v2022_improvements = zip(*sorted_data)
+    sorted_data = sorted(zip(bit_lengths, v2024_before_vals, v2024_after_vals, v2024_improvements))
+    bit_lengths, v2024_before_vals, v2024_after_vals, v2024_improvements = zip(*sorted_data)
 
     with open(csv_path, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["Bit Width", "Vivado2022 Before", "Vivado2022 After", "Percent LUT Improvement (%)"])
-        for bit_length, before, after, improvement in zip(bit_lengths, v2022_before_vals, v2022_after_vals, v2022_improvements):
+        writer.writerow(["Bit Width", "Vivado2024 Before", "Vivado2024 After", "Percent LUT Improvement (%)"])
+        for bit_length, before, after, improvement in zip(bit_lengths, v2024_before_vals, v2024_after_vals, v2024_improvements):
             writer.writerow([bit_length, before, after, f"{improvement:.2f}"])

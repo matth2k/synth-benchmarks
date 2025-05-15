@@ -1,14 +1,12 @@
-#!/bin/env python3
 import argparse
 import os
 import json
 import matplotlib.pyplot as plt
-import sys
 
+max_iteration = 70
 
 def get_iter(name):
     return int(name[name.find("_") + 1 :])
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -20,10 +18,8 @@ if __name__ == "__main__":
         help="Path to the input JSON file with iteration data",
     )
     args = parser.parse_args()
-
     data = json.load(args.input)
 
-    # Keep track of iteration build times for each iteration in this dictionary
     iteration_dict = {}
 
     for module in data["modules"]:
@@ -38,7 +34,6 @@ if __name__ == "__main__":
 
             if iteration not in iteration_dict:
                 iteration_dict[iteration] = []
-
             iteration_dict[iteration].append(build_time)
 
     # Calculate averages and derivatives
@@ -52,11 +47,9 @@ if __name__ == "__main__":
         for i in range(1, len(avg_build_times))
     ]
 
-    graphs_dir = "./graphs"
+    graphs_dir = "./results"
     if not os.path.exists(graphs_dir):
         os.makedirs(graphs_dir)
-
-    max_iteration = 70
 
     # Plot 1: Marginal Cost of Iteration
     plt.figure(figsize=(12, 8))
