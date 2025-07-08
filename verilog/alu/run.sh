@@ -8,8 +8,8 @@ values="300"
 for value in $values; do
 
     source /opt/xilinx/Vivado/2022.1/settings64.sh
-    make -f run.mk all TOOL=eqmap-vivado INFO=v2022-t-${value} -j 10  TIMEOUT=${value}
-    mv alus_eqmap-vivado_results.json vivado2022_no_decomp_t_${value}.json
+    make -f run.mk all TOOL=eqmap_vivado INFO=v2022-t-${value} -j 10  TIMEOUT=${value}
+    mv alus_eqmap_vivado_results.json vivado2022_no_decomp_t_${value}.json
     rm -rf *.rpt
 
     source /work/shared/common/yosys/33/setup.sh 
@@ -18,8 +18,8 @@ for value in $values; do
     rm -rf *.rpt
 
     source /opt/xilinx/Vivado/2022.1/settings64.sh
-    make -f run.mk all TOOL=eqmap-vivado INFO=v2022-decomp-t-${value} -j 10  TIMEOUT=${value} EXTRA_FLAGS="--decomp"
-    mv alus_eqmap-vivado_results.json vivado2022_decomp_t_${value}.json
+    make -f run.mk all TOOL=eqmap_vivado INFO=v2022-decomp-t-${value} -j 10  TIMEOUT=${value} EXTRA_FLAGS="--decomp"
+    mv alus_eqmap_vivado_results.json vivado2022_decomp_t_${value}.json
     rm -rf *.rpt
 
     source /work/shared/common/yosys/33/setup.sh 
