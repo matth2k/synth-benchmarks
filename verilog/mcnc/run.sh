@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e pipefail
 BENCHES="5xp1.v  c1908.v  c432.v  c880.v  chkn.v  count.v  dist.v  in5.v  in6.v  max512.v  misex3.v  mlp4.v  prom2.v  x1dn.v"
-ACTION=lvv
+ACTION=eqmap
 TIME=35
 FLAGS="--no-verify -s 4000000 -n 400000 -t ${TIME}"
 

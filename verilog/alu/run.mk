@@ -3,7 +3,7 @@ BENCHES= alu_8.v alu_16.v alu_32.v alu_64.v alu_128.v alu_256.v alu_512.v alu_10
 
 RPTS=$(BENCHES:.v=.v.rpt)
 
-TOOL=lvv
+TOOL=eqmap
 INFO=$(which yosys)
 CAT_TOOL=cat.py
 

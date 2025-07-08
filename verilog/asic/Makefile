@@ -11,11 +11,11 @@ FSTEM=synth
 all: one.png two.png
 
 one.v:
-	cellmap -k 2 -n 6 --command "(OR (OR (AND a1 b1) (AND (AND a0 b0) (OR a1 b1))) (AND c0 (AND (OR a1 b1) (OR a0 b0))))" --verilog > $@
+	eqmap_asic -k 2 -n 6 --command "(OR (OR (AND a1 b1) (AND (AND a0 b0) (OR a1 b1))) (AND c0 (AND (OR a1 b1) (OR a0 b0))))" --verilog > $@
 
 
 two.v:
-	cellmap -k 4 -n 8 --command "(OR (OR (AND a1 b1) (AND (AND a0 b0) (OR a1 b1))) (AND c0 (AND (OR a1 b1) (OR a0 b0))))" --verilog > $@
+	eqmap_asic -k 4 -n 8 --command "(OR (OR (AND a1 b1) (AND (AND a0 b0) (OR a1 b1))) (AND c0 (AND (OR a1 b1) (OR a0 b0))))" --verilog > $@
 
 clean:
 	rm -f one.v two.v *.dot *.png *.svg

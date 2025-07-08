@@ -5,7 +5,7 @@ BENCHES=adder.v arbiter.v bar.v cavlc.v ctrl.v dec.v i2c.v int2float.v max.v rou
 # log2.v, multiplier.v is slow
 RPTS=$(BENCHES:.v=.v.rpt)
 
-TOOL=lvv
+TOOL=eqmap
 INFO=$(which yosys)
 CAT_TOOL=cat.py
 

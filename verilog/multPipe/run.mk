@@ -7,8 +7,8 @@ PERIOD=3.0
 RPTS=$(BENCHES:.v=.v.rpt)
 BUILDS=./impl_multPipe_n1 ./impl_multPipe_n2 ./impl_multPipe_n4 ./impl_multPipe_n8 ./impl_multPipe_n16 ./impl_multPipe_n1_opt ./impl_multPipe_n2_opt ./impl_multPipe_n4_opt ./impl_multPipe_n8_opt ./impl_multPipe_n16_opt
 
-TOOL=epak
-INFO=$(which epak)
+TOOL=eqmap_fpga
+INFO=$(which eqmap_fpga)
 CAT_TOOL=cat.py
 
 TIMEOUT=180

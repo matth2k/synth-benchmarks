@@ -1,6 +1,6 @@
 
 
-TOOL=lvv
+TOOL=eqmap
 INFO=$(which yosys)
 CAT_TOOL=cat.py
 

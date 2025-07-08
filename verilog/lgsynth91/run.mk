@@ -15,7 +15,7 @@ cordic.v i1.v pcler8.v tcon.v
 # 9symml.v C2670.v
 RPTS=$(BENCHES:.v=.v.rpt)
 
-TOOL=lvv
+TOOL=eqmap
 INFO=$(which yosys)
 CAT_TOOL=cat.py
 
