@@ -66,8 +66,8 @@ if __name__ == "__main__":
 
         if best_before[0] > 0:
             percent_improvement = (best_after[0] - best_before[0]) / best_before[0]
-            row[1] = str(row[1]) + "\quad" + f"({percent_improvement:.2%})"
-            row[1] = row[1].replace("%", "\%")
+            row[1] = str(row[1]) + "\\quad" + f"({percent_improvement:.2%})"
+            row[1] = row[1].replace("%", "\\%")
             if best_after[0] - best_before[0] != 0:
                 improvements.append(percent_improvement)
                 sizes.append(best_after[0])
