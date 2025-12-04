@@ -40,7 +40,7 @@
         "saturated": true,
         "stop_reason": "Saturated"
       },
-      "EqMap": {
+      "Greedy": {
         "build_time": 62.286432167,
         "circuit_stats": {
           "after": {
@@ -158,7 +158,7 @@
         "saturated": true,
         "stop_reason": "Saturated"
       },
-      "EqMap": {
+      "Greedy": {
         "build_time": 18.160560373999996,
         "circuit_stats": {
           "after": {
@@ -275,7 +275,7 @@
         "saturated": true,
         "stop_reason": "Saturated"
       },
-      "EqMap": {
+      "Greedy": {
         "build_time": 118.931930464,
         "circuit_stats": {
           "after": {
@@ -398,7 +398,7 @@
         "saturated": true,
         "stop_reason": "Saturated"
       },
-      "EqMap": {
+      "Greedy": {
         "build_time": 174.19395878000003,
         "circuit_stats": {
           "after": {
@@ -519,7 +519,7 @@
         "saturated": true,
         "stop_reason": "Saturated"
       },
-      "EqMap": {
+      "Greedy": {
         "build_time": 735.782895599,
         "circuit_stats": {
           "after": {
@@ -642,7 +642,7 @@
         "saturated": true,
         "stop_reason": "Saturated"
       },
-      "EqMap": {
+      "Greedy": {
         "build_time": 21.465827021999996,
         "circuit_stats": {
           "after": {
