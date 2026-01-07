@@ -27,4 +27,6 @@ $(BENCHMARK_NAME)_$(TOOL)_results.json: $(RPTS)
 	$(CAT_TOOL) --version $(INFO) $(RPTS) > $@
 
 %.v.rpt: %.v
-	+$(TOOL) $< $(FLAGS) --report $@ >> /dev/null
+	+$(TOOL) $< $(FLAGS) --report $@ $@.tmp.v
+	rm $@.tmp.v
+

@@ -19,17 +19,17 @@ mv iscas85_eqmap_vivado_results.json vivado_no_decomp.json
 rm -rf *.rpt
 
 source /work/shared/common/yosys/33/setup.sh
-make -f run.mk all TOOL=eqmap INFO=yosys33,dyn-decomp -j 16  TIMEOUT=3600 EXTRA_FLAGS="--decomp"
+make -f run.mk all TOOL=eqmap INFO=yosys33,dyn-decomp -j 16  TIMEOUT=3600 EXTRA_FLAGS="--decomp --exact highs"
 mv iscas85_eqmap_results.json yosys_decomp.json
 rm -rf *.rpt
 
 source /opt/xilinx/Vivado/2024.2/settings64.sh
-make -f run.mk all TOOL=eqmap_vivado INFO=v2024,dyn-decomp -j 16  TIMEOUT=3600 EXTRA_FLAGS="--decomp"
+make -f run.mk all TOOL=eqmap_vivado INFO=v2024,dyn-decomp -j 16  TIMEOUT=3600 EXTRA_FLAGS="--decomp --exact highs"
 mv iscas85_eqmap_vivado_results.json vivado2024_decomp.json
 rm -rf *.rpt
 
 source /opt/xilinx/Vivado/2022.1/settings64.sh
-make -f run.mk all TOOL=eqmap_vivado INFO=v2022,dyn-decomp -j 16  TIMEOUT=3600 EXTRA_FLAGS="--decomp"
+make -f run.mk all TOOL=eqmap_vivado INFO=v2022,dyn-decomp -j 16  TIMEOUT=3600 EXTRA_FLAGS="--decomp --exact highs"
 mv iscas85_eqmap_vivado_results.json vivado_decomp.json
 rm -rf *.rpt
 
