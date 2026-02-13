@@ -10,9 +10,15 @@ C499.v c8.v cm82a.v f51m.v i9.v my_adder.v s953.v x3.v \
 C5315.v cc.v cm85a.v frg1.v k2.v pair.v x4.v \
 cht.v cmb.v frg2.v lal.v parity.v sct.v z4ml.v \
 C7552.v comp.v i10.v majority.v pcle.v t481.v C880.v \
-cordic.v i1.v pcler8.v tcon.v
+cordic.v i1.v pcler8.v tcon.v \
+s1196.v s382.v s400.v s526n.v s713.v s9234.1.v \
+s13207.1.v s15850.1.v s344.v s38417.v s420.1.v s526.v s820.v s953.v \
+s1423.v s208.1.v s349.v s444.v s5378.v s832.v \
+s1488.v s27.v s35932.v s386.v s510.v s641.v s838.1.v sct.v
 # Trouble list
 # 9symml.v C2670.v
+# sbc.v s38584.1.v s298.v s382.v (loop)
+# s1494.v (extracting logic loop)
 RPTS=$(BENCHES:.v=.v.rpt)
 
 TOOL=eqmap

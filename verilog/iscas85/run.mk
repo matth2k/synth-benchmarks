@@ -1,5 +1,5 @@
 BENCHMARK_NAME=iscas85
-BENCHES=c1355.v c17.v c1908.v c3540.v c432.v c499.v c5315.v c6288.v c7552.v c880.v # c2670.v gives a GND primitive from Vivado
+BENCHES=c1355.v c17.v c1908.v c3540.v c432.v c499.v c5315.v c6288.v c7552.v c880.v c2670.v
 RPTS=$(BENCHES:.v=.v.rpt)
 
 TOOL=eqmap
