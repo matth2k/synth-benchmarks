@@ -1,0 +1,574 @@
+{
+  "modules": {
+    "s1238": {
+      "eqmap,": {
+        "build_time": 45.232532844999994,
+        "circuit_stats": {
+          "after": {
+            "depth": 5,
+            "lut_count": 130,
+            "lut_distribution": {
+              "2": 19,
+              "3": 12,
+              "4": 19,
+              "5": 20,
+              "6": 60
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 5,
+            "lut_count": 138,
+            "lut_distribution": {
+              "2": 33,
+              "3": 19,
+              "4": 21,
+              "5": 21,
+              "6": 44
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.049412546,
+        "input_contains_gates": false,
+        "input_size": 263,
+        "num_classes": 18609,
+        "num_inputs": 32,
+        "num_iterations": 43,
+        "num_nodes": 77362,
+        "num_outputs": 68,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "s13207": {
+      "eqmap,": {
+        "build_time": 181.23012917100002,
+        "circuit_stats": {
+          "after": {
+            "depth": 6,
+            "lut_count": 588,
+            "lut_distribution": {
+              "2": 76,
+              "3": 89,
+              "4": 177,
+              "5": 113,
+              "6": 133
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 6,
+            "lut_count": 635,
+            "lut_distribution": {
+              "2": 175,
+              "3": 241,
+              "4": 92,
+              "5": 54,
+              "6": 73
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.144514143,
+        "input_contains_gates": false,
+        "input_size": 1271,
+        "num_classes": 15185,
+        "num_inputs": 511,
+        "num_iterations": 58,
+        "num_nodes": 194587,
+        "num_outputs": 1429,
+        "saturated": false,
+        "stop_reason": "181.161294841 Seconds"
+      }
+    },
+    "s1423": {
+      "eqmap,": {
+        "build_time": 44.519232896999995,
+        "circuit_stats": {
+          "after": {
+            "depth": 10,
+            "lut_count": 129,
+            "lut_distribution": {
+              "2": 11,
+              "3": 15,
+              "4": 26,
+              "5": 30,
+              "6": 47
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 10,
+            "lut_count": 140,
+            "lut_distribution": {
+              "2": 29,
+              "3": 40,
+              "4": 24,
+              "5": 21,
+              "6": 26
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.059875575,
+        "input_contains_gates": false,
+        "input_size": 306,
+        "num_classes": 16514,
+        "num_inputs": 92,
+        "num_iterations": 44,
+        "num_nodes": 69581,
+        "num_outputs": 227,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "s1488": {
+      "eqmap,": {
+        "build_time": 45.822203324,
+        "circuit_stats": {
+          "after": {
+            "depth": 3,
+            "lut_count": 157,
+            "lut_distribution": {
+              "2": 23,
+              "3": 13,
+              "4": 10,
+              "5": 29,
+              "6": 82
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 3,
+            "lut_count": 159,
+            "lut_distribution": {
+              "2": 24,
+              "3": 16,
+              "4": 11,
+              "5": 33,
+              "6": 75
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.051983416,
+        "input_contains_gates": false,
+        "input_size": 300,
+        "num_classes": 36846,
+        "num_inputs": 14,
+        "num_iterations": 47,
+        "num_nodes": 103437,
+        "num_outputs": 37,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "s15850": {
+      "eqmap,": {
+        "build_time": 180.32025058,
+        "circuit_stats": {
+          "after": {
+            "depth": 8,
+            "lut_count": 862,
+            "lut_distribution": {
+              "2": 104,
+              "3": 130,
+              "4": 184,
+              "5": 134,
+              "6": 310
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 8,
+            "lut_count": 899,
+            "lut_distribution": {
+              "2": 235,
+              "3": 286,
+              "4": 126,
+              "5": 99,
+              "6": 153
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.564069833,
+        "input_contains_gates": false,
+        "input_size": 1666,
+        "num_classes": 71285,
+        "num_inputs": 562,
+        "num_iterations": 59,
+        "num_nodes": 488583,
+        "num_outputs": 1603,
+        "saturated": false,
+        "stop_reason": "180.158539071 Seconds"
+      }
+    },
+    "s27": {
+      "eqmap,": {
+        "build_time": 0.537646583,
+        "circuit_stats": {
+          "after": {
+            "depth": 1,
+            "lut_count": 4,
+            "lut_distribution": {
+              "3": 1,
+              "5": 1,
+              "6": 2
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 1,
+            "lut_count": 4,
+            "lut_distribution": {
+              "3": 1,
+              "5": 1,
+              "6": 2
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.000531514,
+        "input_contains_gates": false,
+        "input_size": 18,
+        "num_classes": 757,
+        "num_inputs": 7,
+        "num_iterations": 17,
+        "num_nodes": 2319,
+        "num_outputs": 10,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "s35932": {
+      "eqmap,": {
+        "build_time": 181.17055268000001,
+        "circuit_stats": {
+          "after": {
+            "depth": 2,
+            "lut_count": 2432,
+            "lut_distribution": {
+              "2": 1408,
+              "3": 293,
+              "4": 107,
+              "5": 48,
+              "6": 576
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 2,
+            "lut_count": 2432,
+            "lut_distribution": {
+              "2": 1408,
+              "3": 293,
+              "4": 107,
+              "5": 48,
+              "6": 576
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.184178592,
+        "input_contains_gates": false,
+        "input_size": 4214,
+        "num_classes": 5575,
+        "num_inputs": 1763,
+        "num_iterations": 46,
+        "num_nodes": 430797,
+        "num_outputs": 5504,
+        "saturated": false,
+        "stop_reason": "181.102042024 Seconds"
+      }
+    },
+    "s382": {
+      "eqmap,": {
+        "build_time": 16.121687001,
+        "circuit_stats": {
+          "after": {
+            "depth": 3,
+            "lut_count": 29,
+            "lut_distribution": {
+              "2": 2,
+              "3": 3,
+              "4": 3,
+              "5": 7,
+              "6": 14
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 3,
+            "lut_count": 31,
+            "lut_distribution": {
+              "2": 4,
+              "3": 5,
+              "4": 6,
+              "5": 8,
+              "6": 8
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.010809188,
+        "input_contains_gates": false,
+        "input_size": 84,
+        "num_classes": 8505,
+        "num_inputs": 24,
+        "num_iterations": 35,
+        "num_nodes": 29056,
+        "num_outputs": 69,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "s38417": {
+      "eqmap,": {
+        "build_time": 182.39549399599997,
+        "circuit_stats": {
+          "after": {
+            "depth": 6,
+            "lut_count": 2147,
+            "lut_distribution": {
+              "2": 151,
+              "3": 385,
+              "4": 292,
+              "5": 305,
+              "6": 1014
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 6,
+            "lut_count": 2294,
+            "lut_distribution": {
+              "2": 364,
+              "3": 1050,
+              "4": 116,
+              "5": 171,
+              "6": 593
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.766252414,
+        "input_contains_gates": false,
+        "input_size": 3855,
+        "num_classes": 43117,
+        "num_inputs": 1373,
+        "num_iterations": 70,
+        "num_nodes": 692377,
+        "num_outputs": 4168,
+        "saturated": false,
+        "stop_reason": "182.170057324 Seconds"
+      }
+    },
+    "s38584": {
+      "eqmap,": {
+        "build_time": 181.570741893,
+        "circuit_stats": {
+          "after": {
+            "depth": 6,
+            "lut_count": 2097,
+            "lut_distribution": {
+              "2": 294,
+              "3": 238,
+              "4": 153,
+              "5": 378,
+              "6": 1034
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 6,
+            "lut_count": 2149,
+            "lut_distribution": {
+              "2": 486,
+              "3": 346,
+              "4": 254,
+              "5": 441,
+              "6": 622
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.950556935,
+        "input_contains_gates": false,
+        "input_size": 3809,
+        "num_classes": 85869,
+        "num_inputs": 1311,
+        "num_iterations": 68,
+        "num_nodes": 824945,
+        "num_outputs": 3929,
+        "saturated": false,
+        "stop_reason": "181.269436758 Seconds"
+      }
+    },
+    "s420": {
+      "eqmap,": {
+        "build_time": 6.020736092999999,
+        "circuit_stats": {
+          "after": {
+            "depth": 4,
+            "lut_count": 37,
+            "lut_distribution": {
+              "2": 8,
+              "3": 5,
+              "4": 6,
+              "5": 5,
+              "6": 13
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 4,
+            "lut_count": 40,
+            "lut_distribution": {
+              "2": 14,
+              "3": 5,
+              "4": 6,
+              "5": 3,
+              "6": 12
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.004934786,
+        "input_contains_gates": false,
+        "input_size": 97,
+        "num_classes": 4193,
+        "num_inputs": 34,
+        "num_iterations": 31,
+        "num_nodes": 14531,
+        "num_outputs": 49,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "s5378": {
+      "eqmap,": {
+        "build_time": 180.10933590399995,
+        "circuit_stats": {
+          "after": {
+            "depth": 4,
+            "lut_count": 302,
+            "lut_distribution": {
+              "2": 43,
+              "3": 33,
+              "4": 41,
+              "5": 45,
+              "6": 140
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 4,
+            "lut_count": 315,
+            "lut_distribution": {
+              "2": 99,
+              "3": 57,
+              "4": 43,
+              "5": 37,
+              "6": 79
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.157910884,
+        "input_contains_gates": false,
+        "input_size": 670,
+        "num_classes": 30800,
+        "num_inputs": 234,
+        "num_iterations": 64,
+        "num_nodes": 195641,
+        "num_outputs": 515,
+        "saturated": false,
+        "stop_reason": "180.039774315 Seconds"
+      }
+    },
+    "s713": {
+      "eqmap,": {
+        "build_time": 16.233657218,
+        "circuit_stats": {
+          "after": {
+            "depth": 5,
+            "lut_count": 61,
+            "lut_distribution": {
+              "2": 13,
+              "3": 14,
+              "4": 12,
+              "5": 5,
+              "6": 17
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 5,
+            "lut_count": 64,
+            "lut_distribution": {
+              "2": 31,
+              "3": 14,
+              "4": 4,
+              "5": 2,
+              "6": 13
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.013534054,
+        "input_contains_gates": false,
+        "input_size": 147,
+        "num_classes": 9013,
+        "num_inputs": 52,
+        "num_iterations": 37,
+        "num_nodes": 29300,
+        "num_outputs": 74,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    },
+    "s9234": {
+      "eqmap,": {
+        "build_time": 135.376036711,
+        "circuit_stats": {
+          "after": {
+            "depth": 5,
+            "lut_count": 229,
+            "lut_distribution": {
+              "2": 22,
+              "3": 19,
+              "4": 29,
+              "5": 57,
+              "6": 102
+            },
+            "reg_count": 0
+          },
+          "before": {
+            "depth": 5,
+            "lut_count": 244,
+            "lut_distribution": {
+              "2": 57,
+              "3": 45,
+              "4": 52,
+              "5": 34,
+              "6": 56
+            },
+            "reg_count": 0
+          }
+        },
+        "extract_time": 0.085465103,
+        "input_contains_gates": false,
+        "input_size": 509,
+        "num_classes": 19957,
+        "num_inputs": 166,
+        "num_iterations": 62,
+        "num_nodes": 133292,
+        "num_outputs": 404,
+        "saturated": true,
+        "stop_reason": "Saturated"
+      }
+    }
+  }
+}
