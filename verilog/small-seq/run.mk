@@ -9,7 +9,7 @@ CAT_TOOL=cat.py
 
 TIMEOUT=28800 # 8 hours timeout
 EXTRA_FLAGS=
-FLAGS+=-t $(TIMEOUT) -s 10000000 -n 10000000 --no-verify --no-retime $(EXTRA_FLAGS) 
+FLAGS+=-t $(TIMEOUT) -s 10000000 -n 10000000 --no-verify $(EXTRA_FLAGS) 
 
 .PHONY: all clean clean_lite
 
