@@ -33,4 +33,4 @@ make -f run.mk all TOOL=eqmap_vivado INFO=v2022,dyn-decomp -j 16  TIMEOUT=3600 E
 mv lgsynth91_eqmap_vivado_results.json vivado_decomp.json
 rm -rf *.rpt
 
-python3 ../../utils/merge.py yosys_no_decomp.json vivado_no_decomp.json yosys_decomp.json vivado_decomp.json vivado2024_no_decomp.json vivado2024_decomp.json > lgsynth91_master.json
+python3 ../../utils/merge.py yosys_no_decomp.json vivado_no_decomp.json yosys_decomp.json vivado_decomp.json vivado2024_no_decomp.json vivado2024_decomp.json > small_seq_master.json

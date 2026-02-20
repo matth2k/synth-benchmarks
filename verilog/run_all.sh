@@ -1,6 +1,11 @@
 #!/bin/bash
 set -eo pipefail
 
+cd small-seq
+./run.sh
+cd ..
+cp ./small-seq/small_seq_master.json .
+
 cd iscas85
 ./run.sh
 cd ..
@@ -16,4 +21,4 @@ cd epfl
 cd ..
 cp ./epfl/epfl_master.json .
 
-append.py iscas85_master.json lgsynth91_master.json epfl_master.json > master.json
+append.py iscas85_master.json lgsynth91_master.json epfl_master.json small_seq_master.json > master.json
