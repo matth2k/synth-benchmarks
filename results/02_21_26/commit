@@ -1,0 +1,5 @@
+commit 53c2c335a48cb89ea05efb8caaa3f58d3131bc47 (HEAD -> arc-set, origin/arc-set)
+Author: matth2k <mrh259@cornell.edu>
+Date:   Fri Feb 20 17:17:59 2026 -0500
+
+    Don't extract srl
