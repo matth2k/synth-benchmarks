@@ -1,0 +1,40 @@
+{
+  "name": "or1200_top",
+  "stop_reason": "1001.491038241 Seconds",
+  "extract_time": 19.43780361,
+  "build_time": 1001.9340293180002,
+  "input_size": 241295,
+  "input_contains_gates": false,
+  "num_inputs": 1536,
+  "num_outputs": 2315,
+  "num_classes": 678154,
+  "num_nodes": 3156451,
+  "num_iterations": 188,
+  "saturated": false,
+  "circuit_stats": {
+    "before": {
+      "lut_count": 79771,
+      "reg_count": 158539,
+      "lut_distribution": {
+        "2": 15916,
+        "3": 7078,
+        "4": 2073,
+        "5": 2281,
+        "6": 52423
+      },
+      "depth": 41
+    },
+    "after": {
+      "lut_count": 78289,
+      "reg_count": 158994,
+      "lut_distribution": {
+        "2": 1221,
+        "3": 9197,
+        "4": 3377,
+        "5": 9000,
+        "6": 55494
+      },
+      "depth": 38
+    }
+  }
+}
