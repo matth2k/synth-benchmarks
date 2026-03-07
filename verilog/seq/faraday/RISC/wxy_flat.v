@@ -702,17 +702,17 @@ module wxy_flat(SYSCLK, TMODE, RESET_D1_R_N, CLMI_RHOLD, REGA_E_R_0, REGA_E_R_1,
   assign _142_ = _131_ & _141_;
   assign _143_ = _130_ & _142_;
   reg [31:0] _274_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_134_) _274_ = { _090_, _089_, _087_, _086_, _085_, _084_, _083_, _082_, _081_, _080_, _079_, _078_, _076_, _075_, _074_, _073_, _072_, _071_, _070_, _069_, _068_, _067_, _096_, _095_, _094_, _093_, _092_, _091_, _088_, _077_, _066_, _065_ };
   assign { DADDR_E_31, DADDR_E_30, DADDR_E_29, DADDR_E_28, DADDR_E_27, DADDR_E_26, DADDR_E_25, DADDR_E_24, DADDR_E_23, DADDR_E_22, DADDR_E_21, DADDR_E_20, DADDR_E_19, DADDR_E_18, DADDR_E_17, DADDR_E_16, DADDR_E_15, DADDR_E_14, DADDR_E_13, DADDR_E_12, DADDR_E_11, DADDR_E_10, DADDR_E_9, DADDR_E_8, DADDR_E_7, DADDR_E_6, DADDR_E_5, DADDR_E_4, DADDR_E_3, DADDR_E_2, DADDR_E_1, DADDR_E_0 } = _274_;
   reg [3:0] _275_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_137_) _275_ = { _100_, _099_, _098_, _097_ };
   assign { DBYEN_E_3, DBYEN_E_2, DBYEN_E_1, DBYEN_E_0 } = _275_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_140_) DADALERR_E = _064_;
   reg [31:0] _277_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_143_) _277_ = { _057_, _056_, _054_, _053_, _052_, _051_, _050_, _049_, _048_, _047_, _046_, _045_, _043_, _042_, _041_, _040_, _039_, _038_, _037_, _036_, _035_, _034_, _063_, _062_, _061_, _060_, _059_, _058_, _055_, _044_, _033_, _032_ };
   assign { Adatareg_M_P_31, Adatareg_M_P_30, Adatareg_M_P_29, Adatareg_M_P_28, Adatareg_M_P_27, Adatareg_M_P_26, Adatareg_M_P_25, Adatareg_M_P_24, Adatareg_M_P_23, Adatareg_M_P_22, Adatareg_M_P_21, Adatareg_M_P_20, Adatareg_M_P_19, Adatareg_M_P_18, Adatareg_M_P_17, Adatareg_M_P_16, Adatareg_M_P_15, Adatareg_M_P_14, Adatareg_M_P_13, Adatareg_M_P_12, Adatareg_M_P_11, Adatareg_M_P_10, Adatareg_M_P_9, Adatareg_M_P_8, Adatareg_M_P_7, Adatareg_M_P_6, Adatareg_M_P_5, Adatareg_M_P_4, Adatareg_M_P_3, Adatareg_M_P_2, Adatareg_M_P_1, Adatareg_M_P_0 } = _277_;
   assign RESET_D2_R_N = RESET_X_R_N | TMODE;

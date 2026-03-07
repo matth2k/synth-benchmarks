@@ -10750,7 +10750,7 @@ module bcdef_flat(EJDI_DATA_0, EJDI_DATA_1, EJDI_DATA_2, EJDI_DATA_3, EJDI_DATA_
     \dclk.DCLK3pedge_R  <= _0369_;
   always @(posedge CORE_CLOCK)
     \dclk.DCLK3nedge_P_R  <= _0368_;
-  always @(posedge CORE_CLOCK_N)
+  always @(posedge CORE_CLOCK)
     \dclk.DCLK3nedge_NR  <= _0367_;
   always @(posedge CORE_CLOCK)
     \dclk.RESET_X_R_N  <= RESET_D1_R_N;

@@ -390,7 +390,7 @@ module vwxyz_flat(SYSCLK, TMODE, RESET_D1_R_N, INST_I_0, INST_I_1, INST_I_2, INS
   assign _068_ = _066_ & _067_;
   assign _069_ = _065_ & _068_;
   reg [31:0] _204_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_069_) _204_ = { _058_, _057_, _055_, _054_, _053_, _052_, _051_, _050_, _049_, _048_, _047_, _046_, _044_, _043_, _042_, _041_, _040_, _039_, _038_, _037_, _036_, _035_, _064_, _063_, _062_, _061_, _060_, _059_, _056_, _045_, _034_, _033_ };
   assign { InstSF_P_31, InstSF_P_30, InstSF_P_29, InstSF_P_28, InstSF_P_27, InstSF_P_26, InstSF_P_25, InstSF_P_24, InstSF_P_23, InstSF_P_22, InstSF_P_21, InstSF_P_20, InstSF_P_19, InstSF_P_18, InstSF_P_17, InstSF_P_16, InstSF_P_15, InstSF_P_14, InstSF_P_13, InstSF_P_12, InstSF_P_11, InstSF_P_10, InstSF_P_9, InstSF_P_8, InstSF_P_7, InstSF_P_6, InstSF_P_5, InstSF_P_4, InstSF_P_3, InstSF_P_2, InstSF_P_1, InstSF_P_0 } = _204_;
   always @(posedge SYSCLK)

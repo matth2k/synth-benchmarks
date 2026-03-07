@@ -2396,7 +2396,7 @@ module opq_flat(SYSCLK, RESET_D1_R_N, CP0_INSTM32_I_R_C1_N, CP0_XCPN_M_C1, INST_
   assign _0429_ = INIT_D3_R_N & _0428_;
   assign _0430_ = INIT_D3_R_N & _0429_;
   reg [8:0] _1758_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_0430_) _1758_ = { _0049_, _0048_, _0047_, _0046_, _0045_, _0044_, _0043_, _0042_, _0041_ };
   assign { SELA_S_8, SELA_S_7, SELA_S_6, SELA_S_5, SELA_S_4, SELA_S_3, SELA_S_2, SELA_S_1, SELA_S_0 } = _1758_;
   assign _0431_ = { INST_S_R_31, INST_S_R_30, INST_S_R_29, INST_S_R_28, INST_S_R_27, INST_S_R_26 } == 6'h2e;

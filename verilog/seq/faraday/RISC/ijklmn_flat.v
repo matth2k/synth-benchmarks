@@ -273,7 +273,7 @@ module ijklmn_flat(SYSCLKF, BUSCLKF, CFG_SLEEPENABLE, X_HALT_R_0, X_HALT_R_1, X_
   assign _054_ = _036_ & _053_;
   assign _055_ = _035_ & _054_;
   reg [3:0] _123_;
-  always @*
+  always @(posedge SYSCLK)
     if (!_055_) _123_ = { _020_, _019_, _018_, _017_ };
   assign { ST_P_3, ST_P_2, ST_P_1, ST_P_0 } = _123_;
   assign _056_ = ! { ST_R_3, ST_R_2, ST_R_1, ST_R_0 };

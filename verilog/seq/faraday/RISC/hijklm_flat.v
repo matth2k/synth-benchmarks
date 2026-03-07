@@ -474,7 +474,7 @@ module hijklm_flat(SYSCLK, TMODE, RESET_D1_R_N, INST_I_0, INST_I_1, INST_I_2, IN
   assign _083_ = _081_ & _082_;
   assign _084_ = _080_ & _083_;
   reg [31:0] _224_;
-  always @*
+  always @(posedge SYSCLK)
     if (!_084_) _224_ = { _070_, _069_, _067_, _066_, _065_, _064_, _063_, _062_, _061_, _060_, _059_, _058_, _056_, _055_, _054_, _053_, _052_, _051_, _050_, _049_, _048_, _047_, _076_, _075_, _074_, _073_, _072_, _071_, _068_, _057_, _046_, _045_ };
   assign { InstSF_P_31, InstSF_P_30, InstSF_P_29, InstSF_P_28, InstSF_P_27, InstSF_P_26, InstSF_P_25, InstSF_P_24, InstSF_P_23, InstSF_P_22, InstSF_P_21, InstSF_P_20, InstSF_P_19, InstSF_P_18, InstSF_P_17, InstSF_P_16, InstSF_P_15, InstSF_P_14, InstSF_P_13, InstSF_P_12, InstSF_P_11, InstSF_P_10, InstSF_P_9, InstSF_P_8, InstSF_P_7, InstSF_P_6, InstSF_P_5, InstSF_P_4, InstSF_P_3, InstSF_P_2, InstSF_P_1, InstSF_P_0 } = _224_;
   assign _085_ = { INST_S_R_31, INST_S_R_30, INST_S_R_29, INST_S_R_28, INST_S_R_27, INST_S_R_26 } == 6'h03;

@@ -1,5 +1,6 @@
 BENCHMARK_NAME=faraday
-BENCHES=$(wildcard *_flat.v)
+EXCLUDE ?=
+BENCHES=$(filter-out $(EXCLUDE),$(wildcard *_flat.v))
 
 RPTS=$(BENCHES:.v=.v.rpt)
 

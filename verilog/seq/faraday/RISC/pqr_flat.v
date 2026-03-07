@@ -10698,17 +10698,17 @@ module pqr_flat(SYSCLK, RESET1_N, CP0_INSTM32_I_R_C1_N, CP0_M16IADDRB1_I, CP0_XC
   assign _0143_ = _0132_ & _0142_;
   assign _0144_ = _0131_ & _0143_;
   reg [31:0] _7605_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_0135_) _7605_ = { _0091_, _0090_, _0088_, _0087_, _0086_, _0085_, _0084_, _0083_, _0082_, _0081_, _0080_, _0079_, _0077_, _0076_, _0075_, _0074_, _0073_, _0072_, _0071_, _0070_, _0069_, _0068_, _0097_, _0096_, _0095_, _0094_, _0093_, _0092_, _0089_, _0078_, _0067_, _0066_ };
   assign { RALU_DADDR_E_31, RALU_DADDR_E_30, RALU_DADDR_E_29, RALU_DADDR_E_28, RALU_DADDR_E_27, RALU_DADDR_E_26, RALU_DADDR_E_25, RALU_DADDR_E_24, RALU_DADDR_E_23, RALU_DADDR_E_22, RALU_DADDR_E_21, RALU_DADDR_E_20, RALU_DADDR_E_19, RALU_DADDR_E_18, RALU_DADDR_E_17, RALU_DADDR_E_16, RALU_DADDR_E_15, RALU_DADDR_E_14, RALU_DADDR_E_13, RALU_DADDR_E_12, RALU_DADDR_E_11, RALU_DADDR_E_10, RALU_DADDR_E_9, RALU_DADDR_E_8, RALU_DADDR_E_7, RALU_DADDR_E_6, RALU_DADDR_E_5, RALU_DADDR_E_4, RALU_DADDR_E_3, RALU_DADDR_E_2, RALU_DADDR_E_1, RALU_DADDR_E_0 } = _7605_;
   reg [3:0] _7606_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_0138_) _7606_ = { _0101_, _0100_, _0099_, _0098_ };
   assign { RALU_DBYEN_E_3, RALU_DBYEN_E_2, RALU_DBYEN_E_1, RALU_DBYEN_E_0 } = _7606_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_0141_) RALU_DADALERR_E = _0065_;
   reg [31:0] _7608_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_0144_) _7608_ = { _0058_, _0057_, _0055_, _0054_, _0053_, _0052_, _0051_, _0050_, _0049_, _0048_, _0047_, _0046_, _0044_, _0043_, _0042_, _0041_, _0040_, _0039_, _0038_, _0037_, _0036_, _0035_, _0064_, _0063_, _0062_, _0061_, _0060_, _0059_, _0056_, _0045_, _0034_, _0033_ };
   assign { \DADDR1.Adatareg_M_P_31 , \DADDR1.Adatareg_M_P_30 , \DADDR1.Adatareg_M_P_29 , \DADDR1.Adatareg_M_P_28 , \DADDR1.Adatareg_M_P_27 , \DADDR1.Adatareg_M_P_26 , \DADDR1.Adatareg_M_P_25 , \DADDR1.Adatareg_M_P_24 , \DADDR1.Adatareg_M_P_23 , \DADDR1.Adatareg_M_P_22 , \DADDR1.Adatareg_M_P_21 , \DADDR1.Adatareg_M_P_20 , \DADDR1.Adatareg_M_P_19 , \DADDR1.Adatareg_M_P_18 , \DADDR1.Adatareg_M_P_17 , \DADDR1.Adatareg_M_P_16 , \DADDR1.Adatareg_M_P_15 , \DADDR1.Adatareg_M_P_14 , \DADDR1.Adatareg_M_P_13 , \DADDR1.Adatareg_M_P_12 , \DADDR1.Adatareg_M_P_11 , \DADDR1.Adatareg_M_P_10 , \DADDR1.Adatareg_M_P_9 , \DADDR1.Adatareg_M_P_8 , \DADDR1.Adatareg_M_P_7 , \DADDR1.Adatareg_M_P_6 , \DADDR1.Adatareg_M_P_5 , \DADDR1.Adatareg_M_P_4 , \DADDR1.Adatareg_M_P_3 , \DADDR1.Adatareg_M_P_2 , \DADDR1.Adatareg_M_P_1 , \DADDR1.Adatareg_M_P_0  } = _7608_;
   assign \DADDR1.RESET_D2_R_N  = \DADDR1.RESET_X_R_N  | TMODE;
@@ -10977,7 +10977,7 @@ module pqr_flat(SYSCLK, RESET1_N, CP0_INSTM32_I_R_C1_N, CP0_M16IADDRB1_I, CP0_XC
   assign _1712_ = \DCONT1.INIT_D3_R_N  & _1711_;
   assign _1713_ = \DCONT1.INIT_D3_R_N  & _1712_;
   reg [8:0] _7775_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_1713_) _7775_ = { _1332_, _1331_, _1330_, _1329_, _1328_, _1327_, _1326_, _1325_, _1324_ };
   assign { \DCONT1.SELA_S_8 , \DCONT1.SELA_S_7 , \DCONT1.SELA_S_6 , \DCONT1.SELA_S_5 , \DCONT1.SELA_S_4 , \DCONT1.SELA_S_3 , \DCONT1.SELA_S_2 , \DCONT1.SELA_S_1 , \DCONT1.SELA_S_0  } = _7775_;
   assign _1714_ = { \DCONT1.INST_S_R_31 , \DCONT1.INST_S_R_30 , \DCONT1.INST_S_R_29 , \DCONT1.INST_S_R_28 , \DCONT1.INST_S_R_27 , \DCONT1.INST_S_R_26  } == 6'h2e;
@@ -12946,7 +12946,7 @@ module pqr_flat(SYSCLK, RESET1_N, CP0_INSTM32_I_R_C1_N, CP0_M16IADDRB1_I, CP0_XC
   assign _3188_ = _3186_ & _3187_;
   assign _3189_ = _3185_ & _3188_;
   reg [31:0] _8674_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_3189_) _8674_ = { _3175_, _3174_, _3172_, _3171_, _3170_, _3169_, _3168_, _3167_, _3166_, _3165_, _3164_, _3163_, _3161_, _3160_, _3159_, _3158_, _3157_, _3156_, _3155_, _3154_, _3153_, _3152_, _3181_, _3180_, _3179_, _3178_, _3177_, _3176_, _3173_, _3162_, _3151_, _3150_ };
   assign { \PCONT1.InstSF_P_31 , \PCONT1.InstSF_P_30 , \PCONT1.InstSF_P_29 , \PCONT1.InstSF_P_28 , \PCONT1.InstSF_P_27 , \PCONT1.InstSF_P_26 , \PCONT1.InstSF_P_25 , \PCONT1.InstSF_P_24 , \PCONT1.InstSF_P_23 , \PCONT1.InstSF_P_22 , \PCONT1.InstSF_P_21 , \PCONT1.InstSF_P_20 , \PCONT1.InstSF_P_19 , \PCONT1.InstSF_P_18 , \PCONT1.InstSF_P_17 , \PCONT1.InstSF_P_16 , \PCONT1.InstSF_P_15 , \PCONT1.InstSF_P_14 , \PCONT1.InstSF_P_13 , \PCONT1.InstSF_P_12 , \PCONT1.InstSF_P_11 , \PCONT1.InstSF_P_10 , \PCONT1.InstSF_P_9 , \PCONT1.InstSF_P_8 , \PCONT1.InstSF_P_7 , \PCONT1.InstSF_P_6 , \PCONT1.InstSF_P_5 , \PCONT1.InstSF_P_4 , \PCONT1.InstSF_P_3 , \PCONT1.InstSF_P_2 , \PCONT1.InstSF_P_1 , \PCONT1.InstSF_P_0  } = _8674_;
   assign _3190_ = { \DCONT1.INST_S_R_31 , \DCONT1.INST_S_R_30 , \DCONT1.INST_S_R_29 , \DCONT1.INST_S_R_28 , \DCONT1.INST_S_R_27 , \DCONT1.INST_S_R_26  } == 6'h03;
@@ -13139,11 +13139,11 @@ module pqr_flat(SYSCLK, RESET1_N, CP0_INSTM32_I_R_C1_N, CP0_M16IADDRB1_I, CP0_XC
   assign _4906_ = _4923_ & _4905_;
   assign _4919_ = _4923_ & _4906_;
   reg [31:0] _8855_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_4866_) _8855_ = { _3347_, _3346_, _3344_, _3343_, _3342_, _3341_, _3340_, _3339_, _3338_, _3337_, _3336_, _3335_, _3333_, _3332_, _3331_, _3330_, _3329_, _3328_, _3327_, _3326_, _3325_, _3324_, _3353_, _3352_, _3351_, _3350_, _3349_, _3348_, _3345_, _3334_, _3323_, _3322_ };
   assign { \DMUX1.REGA_S_31 , \DMUX1.REGA_S_30 , \DMUX1.REGA_S_29 , \DMUX1.REGA_S_28 , \DMUX1.REGA_S_27 , \DMUX1.REGA_S_26 , \DMUX1.REGA_S_25 , \DMUX1.REGA_S_24 , \DMUX1.REGA_S_23 , \DMUX1.REGA_S_22 , \DMUX1.REGA_S_21 , \DMUX1.REGA_S_20 , \DMUX1.REGA_S_19 , \DMUX1.REGA_S_18 , \DMUX1.REGA_S_17 , \DMUX1.REGA_S_16 , \DMUX1.REGA_S_15 , \DMUX1.REGA_S_14 , \DMUX1.REGA_S_13 , \DMUX1.REGA_S_12 , \DMUX1.REGA_S_11 , \DMUX1.REGA_S_10 , \DMUX1.REGA_S_9 , \DMUX1.REGA_S_8 , \DMUX1.REGA_S_7 , \DMUX1.REGA_S_6 , \DMUX1.REGA_S_5 , \DMUX1.REGA_S_4 , \DMUX1.REGA_S_3 , \DMUX1.REGA_S_2 , \DMUX1.REGA_S_1 , \DMUX1.REGA_S_0  } = _8855_;
   reg [31:0] _8856_;
-  always @*
+  always @ (posedge SYSCLK)
     if (!_4907_) _8856_ = { _3379_, _3378_, _3376_, _3375_, _3374_, _3373_, _3372_, _3371_, _3370_, _3369_, _3368_, _3367_, _3365_, _3364_, _3363_, _3362_, _3361_, _3360_, _3359_, _3358_, _3357_, _3356_, _3385_, _3384_, _3383_, _3382_, _3381_, _3380_, _3377_, _3366_, _3355_, _3354_ };
   assign { \DMUX1.REGB_S_31 , \DMUX1.REGB_S_30 , \DMUX1.REGB_S_29 , \DMUX1.REGB_S_28 , \DMUX1.REGB_S_27 , \DMUX1.REGB_S_26 , \DMUX1.REGB_S_25 , \DMUX1.REGB_S_24 , \DMUX1.REGB_S_23 , \DMUX1.REGB_S_22 , \DMUX1.REGB_S_21 , \DMUX1.REGB_S_20 , \DMUX1.REGB_S_19 , \DMUX1.REGB_S_18 , \DMUX1.REGB_S_17 , \DMUX1.REGB_S_16 , \DMUX1.REGB_S_15 , \DMUX1.REGB_S_14 , \DMUX1.REGB_S_13 , \DMUX1.REGB_S_12 , \DMUX1.REGB_S_11 , \DMUX1.REGB_S_10 , \DMUX1.REGB_S_9 , \DMUX1.REGB_S_8 , \DMUX1.REGB_S_7 , \DMUX1.REGB_S_6 , \DMUX1.REGB_S_5 , \DMUX1.REGB_S_4 , \DMUX1.REGB_S_3 , \DMUX1.REGB_S_2 , \DMUX1.REGB_S_1 , \DMUX1.REGB_S_0  } = _8856_;
   assign _4920_ = ! \DCONT1.REGAADDR_S_4 ;

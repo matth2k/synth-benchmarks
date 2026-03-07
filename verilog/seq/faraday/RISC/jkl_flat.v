@@ -4792,11 +4792,11 @@ module jkl_flat(INT, IEC_W_R, CU_W_R_0, CU_W_R_1, CU_W_R_2, CU_W_R_3, KUC_W_R, C
   assign _0803_ = _0790_ & _0802_;
   assign _0804_ = _0789_ & _0803_;
   reg [31:0] _2383_;
-  always @*
+  always @(posedge INT)
     if (!_0798_) _2383_ = { _0211_, _0210_, _0208_, _0207_, _0206_, _0205_, _0204_, _0203_, _0202_, _0201_, _0200_, _0199_, _0197_, _0196_, _0195_, _0194_, _0193_, _0192_, _0191_, _0190_, _0189_, _0188_, _0217_, _0216_, _0215_, _0214_, _0213_, _0212_, _0209_, _0198_, _0187_, _0186_ };
   assign { CP0_PCREL_S_31, CP0_PCREL_S_30, CP0_PCREL_S_29, CP0_PCREL_S_28, CP0_PCREL_S_27, CP0_PCREL_S_26, CP0_PCREL_S_25, CP0_PCREL_S_24, CP0_PCREL_S_23, CP0_PCREL_S_22, CP0_PCREL_S_21, CP0_PCREL_S_20, CP0_PCREL_S_19, CP0_PCREL_S_18, CP0_PCREL_S_17, CP0_PCREL_S_16, CP0_PCREL_S_15, CP0_PCREL_S_14, CP0_PCREL_S_13, CP0_PCREL_S_12, CP0_PCREL_S_11, CP0_PCREL_S_10, CP0_PCREL_S_9, CP0_PCREL_S_8, CP0_PCREL_S_7, CP0_PCREL_S_6, CP0_PCREL_S_5, CP0_PCREL_S_4, CP0_PCREL_S_3, CP0_PCREL_S_2, CP0_PCREL_S_1, CP0_PCREL_S_0 } = _2383_;
   reg [31:0] _2384_;
-  always @*
+  always @(posedge INT)
     if (!_0804_) _2384_ = { _0468_, _0467_, _0465_, _0464_, _0463_, _0462_, _0461_, _0460_, _0459_, _0458_, _0457_, _0456_, _0454_, _0453_, _0452_, _0451_, _0450_, _0449_, _0448_, _0447_, _0446_, _0445_, _0474_, _0473_, _0472_, _0471_, _0470_, _0469_, _0466_, _0455_, _0444_, _0443_ };
   assign { IaddrNoXB_I_P_31, IaddrNoXB_I_P_30, IaddrNoXB_I_P_29, IaddrNoXB_I_P_28, IaddrNoXB_I_P_27, IaddrNoXB_I_P_26, IaddrNoXB_I_P_25, IaddrNoXB_I_P_24, IaddrNoXB_I_P_23, IaddrNoXB_I_P_22, IaddrNoXB_I_P_21, IaddrNoXB_I_P_20, IaddrNoXB_I_P_19, IaddrNoXB_I_P_18, IaddrNoXB_I_P_17, IaddrNoXB_I_P_16, IaddrNoXB_I_P_15, IaddrNoXB_I_P_14, IaddrNoXB_I_P_13, IaddrNoXB_I_P_12, IaddrNoXB_I_P_11, IaddrNoXB_I_P_10, IaddrNoXB_I_P_9, IaddrNoXB_I_P_8, IaddrNoXB_I_P_7, IaddrNoXB_I_P_6, IaddrNoXB_I_P_5, IaddrNoXB_I_P_4, IaddrNoXB_I_P_3, IaddrNoXB_I_P_2, IaddrNoXB_I_P_1, IaddrNoXB_I_P_0 } = _2384_;
   assign _0805_ = { EXCCODEIN_M_4, EXCCODEIN_M_3, EXCCODEIN_M_2, EXCCODEIN_M_1, EXCCODEIN_M_0 } == 5'h04;
