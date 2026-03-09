@@ -18,7 +18,7 @@ FLAGS+=-t $(TIMEOUT) -s 250000 -n 64 --no-verify $(EXTRA_FLAGS)
 all: $(BENCHMARK_NAME)_$(TOOL)_results.json
 
 clean: 
-	rm -rf *.v.rpt *.tcl *.ys *.v.mk *.json *_opt.v *.v.yxil *v.vxil bad* .bad* *.err
+	rm -rf *.v.rpt *.tcl *.ys *.v.mk *.json *_opt.v *.v.yxil *v.vxil bad* .bad* *.err *.log
 
 clean_lite: 
 	rm -rf *.v.rpt *.tcl *.ys *.v.mk
