@@ -1,0 +1,1493 @@
+nohup: ignoring input
+rm -rf *.v.rpt *.tcl *.ys *.v.mk
+eqmap_vivado dma_ahbmst_flat.v -t 600 -s 250000 -n 64 --no-verify --no-retime  --report dma_ahbmst_flat.v.rpt >> /dev/null
+eqmap_vivado dma_ahbmux_flat.v -t 600 -s 250000 -n 64 --no-verify --no-retime  --report dma_ahbmux_flat.v.rpt >> /dev/null
+eqmap_vivado dma_ahbslv_flat.v -t 600 -s 250000 -n 64 --no-verify --no-retime  --report dma_ahbslv_flat.v.rpt >> /dev/null
+eqmap_vivado dma_chrf_flat.v -t 600 -s 250000 -n 64 --no-verify --no-retime  --report dma_chrf_flat.v.rpt >> /dev/null
+eqmap_vivado dma_engine_flat.v -t 600 -s 250000 -n 64 --no-verify --no-retime  --report dma_engine_flat.v.rpt >> /dev/null
+eqmap_vivado dma_rrarb_flat.v -t 600 -s 250000 -n 64 --no-verify --no-retime  --report dma_rrarb_flat.v.rpt >> /dev/null
+make[1]: Entering directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+make[1]: Entering directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+make[1]: Entering directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+make[1]: Entering directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+make[1]: Entering directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+make[1]: Entering directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+/opt/xilinx/Vivado/2024.2/bin/vivado -mode tcl -source dma_chrf_flat_vxil.tcl -nolog -nojournal
+/opt/xilinx/Vivado/2024.2/bin/vivado -mode tcl -source dma_ahbmux_flat_vxil.tcl -nolog -nojournal
+/opt/xilinx/Vivado/2024.2/bin/vivado -mode tcl -source dma_rrarb_flat_vxil.tcl -nolog -nojournal
+/opt/xilinx/Vivado/2024.2/bin/vivado -mode tcl -source dma_engine_flat_vxil.tcl -nolog -nojournal
+/opt/xilinx/Vivado/2024.2/bin/vivado -mode tcl -source dma_ahbslv_flat_vxil.tcl -nolog -nojournal
+/opt/xilinx/Vivado/2024.2/bin/vivado -mode tcl -source dma_ahbmst_flat_vxil.tcl -nolog -nojournal
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Feb 27 23:17:01 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source dma_ahbslv_flat_vxil.tcl
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Feb 27 23:17:01 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source dma_engine_flat_vxil.tcl
+# add_files dma_ahbslv_flat.v
+# add_files dma_engine_flat.v
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Feb 27 23:17:01 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source dma_ahbmux_flat_vxil.tcl
+# add_files dma_ahbmux_flat.v
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Feb 27 23:17:01 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source dma_ahbmst_flat_vxil.tcl
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Feb 27 23:17:01 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source dma_rrarb_flat_vxil.tcl
+# add_files dma_ahbmst_flat.v
+# add_files dma_rrarb_flat.v
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Feb 27 23:17:01 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source dma_chrf_flat_vxil.tcl
+# add_files dma_chrf_flat.v
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1726.566 ; gain = 89.875 ; free physical = 228900 ; free virtual = 348590
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1725.973 ; gain = 87.875 ; free physical = 228900 ; free virtual = 348590
+# synth_design -top dma_ahbslv_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+# synth_design -top dma_chrf_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+Command: synth_design -top dma_ahbslv_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+Command: synth_design -top dma_chrf_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+Starting synth_design
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1726.500 ; gain = 92.883 ; free physical = 228887 ; free virtual = 348576
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+# synth_design -top dma_ahbmux_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+Command: synth_design -top dma_ahbmux_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1726.008 ; gain = 88.875 ; free physical = 228876 ; free virtual = 348566
+# synth_design -top dma_rrarb_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1725.594 ; gain = 93.883 ; free physical = 228868 ; free virtual = 348557
+# synth_design -top dma_engine_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+Command: synth_design -top dma_rrarb_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+Command: synth_design -top dma_engine_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1726.555 ; gain = 93.875 ; free physical = 228847 ; free virtual = 348536
+# synth_design -top dma_ahbmst_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+Command: synth_design -top dma_ahbmst_flat -no_srlextract -flatten_hierarchy full -mode out_of_context -part xczu3eg-sbva484-1-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 226807
+INFO: [Synth 8-7075] Helper process launched with PID 226808
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 226809
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 226849
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 226899
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 227029
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2174.242 ; gain = 441.734 ; free physical = 225247 ; free virtual = 344937
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2174.648 ; gain = 442.734 ; free physical = 225246 ; free virtual = 344936
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2174.176 ; gain = 441.734 ; free physical = 225232 ; free virtual = 344921
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2174.684 ; gain = 442.734 ; free physical = 225230 ; free virtual = 344920
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2174.270 ; gain = 442.734 ; free physical = 225225 ; free virtual = 344915
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2174.262 ; gain = 441.766 ; free physical = 225210 ; free virtual = 344900
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dma_chrf_flat' [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_chrf_flat.v:3]
+INFO: [Synth 8-6157] synthesizing module 'dma_ahbslv_flat' [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_ahbslv_flat.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'dma_chrf_flat' (0#1) [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_chrf_flat.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'dma_ahbslv_flat' (0#1) [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_ahbslv_flat.v:3]
+INFO: [Synth 8-6157] synthesizing module 'dma_rrarb_flat' [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_rrarb_flat.v:3]
+INFO: [Synth 8-6157] synthesizing module 'dma_ahbmux_flat' [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_ahbmux_flat.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'dma_ahbmux_flat' (0#1) [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_ahbmux_flat.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'dma_rrarb_flat' (0#1) [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_rrarb_flat.v:3]
+INFO: [Synth 8-6157] synthesizing module 'dma_engine_flat' [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_engine_flat.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'dma_engine_flat' (0#1) [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_engine_flat.v:3]
+WARNING: [Synth 8-3917] design dma_ahbslv_flat has port hresp_reg_0 driven by constant 0
+WARNING: [Synth 8-3917] design dma_ahbslv_flat has port hresp_reg_1 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_25 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_26 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_27 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_28 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_29 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_30 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_3 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_4 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_5 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_6 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_7 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_9 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_10 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_11 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_12 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_13 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_14 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_15 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_20 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_21 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_22 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_23 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_24 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_25 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_26 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_27 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_28 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_29 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_30 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_31 driven by constant 0
+WARNING: [Synth 8-7129] Port de_csr_0 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_1 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_2 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_3 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_4 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_5 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_6 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_7 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_8 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_9 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_10 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_11 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_12 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_13 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_14 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_15 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_29 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_30 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_31 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_st_llp0 in module dma_chrf_flat is either unconnected or has no load
+INFO: [Synth 8-6157] synthesizing module 'dma_ahbmst_flat' [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_ahbmst_flat.v:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2251.180 ; gain = 518.672 ; free physical = 224729 ; free virtual = 344422
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6155] done synthesizing module 'dma_ahbmst_flat' (0#1) [/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA/dma_ahbmst_flat.v:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2253.586 ; gain = 521.672 ; free physical = 224715 ; free virtual = 344408
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2247.113 ; gain = 514.672 ; free physical = 224708 ; free virtual = 344400
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7129] Port slv_brst_cmd in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ff_cbe_0 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ff_cbe_1 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_0 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_7 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_14 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_15 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_19 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_20 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_21 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_22 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_23 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_24 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_25 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_26 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_27 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_28 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_29 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_30 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_31 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_1 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rf_cherr in module dma_engine_flat is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2252.652 ; gain = 520.703 ; free physical = 224690 ; free virtual = 344385
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2253.207 ; gain = 521.672 ; free physical = 224684 ; free virtual = 344378
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7129] Port arb_chcsr_0 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_1 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_2 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_3 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_4 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_5 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_6 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_7 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_14 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_15 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_16 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_17 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_18 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_22 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_23 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_24 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_25 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_26 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_27 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_28 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_29 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_30 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_31 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_0 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_1 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_2 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_3 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_4 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_5 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_6 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_7 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_8 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_9 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_10 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_11 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_12 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_13 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_14 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_15 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_16 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_17 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_18 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_19 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_20 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_21 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_22 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_23 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_24 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_25 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_26 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_27 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_28 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_29 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_30 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_31 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chabt in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bst_eq1 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tsz_eq1 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_st_6 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_st_7 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_st_10 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m0endian in module dma_ahbmst_flat is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2259.199 ; gain = 526.703 ; free physical = 224675 ; free virtual = 344369
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2268.992 ; gain = 536.484 ; free physical = 224666 ; free virtual = 344362
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2271.398 ; gain = 539.484 ; free physical = 224666 ; free virtual = 344360
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2276.996 ; gain = 544.488 ; free physical = 224659 ; free virtual = 344354
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2288.309 ; gain = 556.395 ; free physical = 224659 ; free virtual = 344354
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2264.926 ; gain = 532.484 ; free physical = 224654 ; free virtual = 344351
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2281.836 ; gain = 549.395 ; free physical = 224646 ; free virtual = 344345
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2285.004 ; gain = 552.496 ; free physical = 224611 ; free virtual = 344316
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 32    
+	   2 Input    3 Bit        Muxes := 2     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2288.309 ; gain = 556.395 ; free physical = 224610 ; free virtual = 344316
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2281.836 ; gain = 549.395 ; free physical = 224609 ; free virtual = 344316
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 13    
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 26    
+	   2 Input    4 Bit        Muxes := 3     
+	   2 Input    3 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2270.465 ; gain = 538.516 ; free physical = 224609 ; free virtual = 344315
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-i
+No constraint files found.
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2271.020 ; gain = 539.484 ; free physical = 224602 ; free virtual = 344307
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2287.375 ; gain = 555.426 ; free physical = 224598 ; free virtual = 344301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2287.930 ; gain = 556.395 ; free physical = 224595 ; free virtual = 344299
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2277.012 ; gain = 544.516 ; free physical = 224578 ; free virtual = 344284
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-i
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2293.922 ; gain = 561.426 ; free physical = 224571 ; free virtual = 344276
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2287.375 ; gain = 555.426 ; free physical = 224567 ; free virtual = 344274
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    3 Bit        Muxes := 87    
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2287.930 ; gain = 556.395 ; free physical = 224563 ; free virtual = 344270
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               30 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 6     
+	   2 Input   30 Bit        Muxes := 3     
+	   2 Input   12 Bit        Muxes := 3     
+	   2 Input   11 Bit        Muxes := 11    
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 3     
+	   9 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 13    
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2293.922 ; gain = 561.426 ; free physical = 224556 ; free virtual = 344263
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   6 Input   32 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 8     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design dma_ahbslv_flat has port hresp_reg_0 driven by constant 0
+WARNING: [Synth 8-3917] design dma_ahbslv_flat has port hresp_reg_1 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_25 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_26 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_27 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_28 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_29 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcsr_30 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_3 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_4 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_5 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_6 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_7 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_9 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_10 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_11 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_12 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_13 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_14 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_15 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_20 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_21 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_22 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_23 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_24 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_25 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_26 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_27 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_28 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_29 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_30 driven by constant 0
+WARNING: [Synth 8-3917] design dma_chrf_flat has port chcfg_31 driven by constant 0
+WARNING: [Synth 8-7129] Port de_csr_0 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_1 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_2 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_3 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_4 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_5 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_6 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_7 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_8 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_9 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_10 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_11 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_12 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_13 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_14 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_15 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_29 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_30 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_csr_31 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port de_st_llp0 in module dma_chrf_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_0 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_1 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_2 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_3 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_4 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_5 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_6 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_7 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_14 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_15 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_16 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_17 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_18 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_22 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_23 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_24 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_25 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_26 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_27 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_28 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_29 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_30 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_31 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_0 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_1 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_2 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_3 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_4 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_5 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_6 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_7 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_8 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_9 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_10 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_11 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_12 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_13 in module dma_ahbmst_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_14 in module dma_ahbmst_flat is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port slv_brst_cmd in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ff_cbe_0 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ff_cbe_1 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_0 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_7 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_14 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_15 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_19 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_20 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_21 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_22 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_23 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_24 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_25 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_26 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_27 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_28 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_29 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_30 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chcsr_31 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arb_chllp_1 in module dma_engine_flat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rf_cherr in module dma_engine_flat is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2979.195 ; gain = 1247.246 ; free physical = 220347 ; free virtual = 340175
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2979.195 ; gain = 1247.246 ; free physical = 220339 ; free virtual = 340167
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2979.195 ; gain = 1247.246 ; free physical = 220332 ; free virtual = 340160
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2981.129 ; gain = 1249.215 ; free physical = 220332 ; free virtual = 340160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2981.129 ; gain = 1249.215 ; free physical = 220328 ; free virtual = 340156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2981.129 ; gain = 1249.215 ; free physical = 220328 ; free virtual = 340156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2980.184 ; gain = 1247.676 ; free physical = 220328 ; free virtual = 340156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2980.184 ; gain = 1247.676 ; free physical = 220328 ; free virtual = 340156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2980.184 ; gain = 1247.676 ; free physical = 220328 ; free virtual = 340156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2983.742 ; gain = 1251.246 ; free physical = 220328 ; free virtual = 340157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2980.758 ; gain = 1249.223 ; free physical = 220328 ; free virtual = 340157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+No constraint files found.
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2979.836 ; gain = 1247.395 ; free physical = 220328 ; free virtual = 340157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2983.742 ; gain = 1251.246 ; free physical = 220328 ; free virtual = 340157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2980.758 ; gain = 1249.223 ; free physical = 220328 ; free virtual = 340157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2983.742 ; gain = 1251.246 ; free physical = 220328 ; free virtual = 340157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2979.836 ; gain = 1247.395 ; free physical = 220328 ; free virtual = 340157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2980.758 ; gain = 1249.223 ; free physical = 220328 ; free virtual = 340157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2979.836 ; gain = 1247.395 ; free physical = 220328 ; free virtual = 340157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2982.164 ; gain = 1250.215 ; free physical = 220191 ; free virtual = 340020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2982.164 ; gain = 1250.215 ; free physical = 220191 ; free virtual = 340020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2982.164 ; gain = 1250.215 ; free physical = 220191 ; free virtual = 340020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     9|
+|3     |LUT3 |     2|
+|4     |LUT4 |     4|
+|5     |LUT5 |     3|
+|6     |LUT6 |    20|
+|7     |FDCE |     3|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    42|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2982.164 ; gain = 1250.215 ; free physical = 220191 ; free virtual = 340020
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2985.098 ; gain = 1253.184 ; free physical = 220191 ; free virtual = 340020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2985.098 ; gain = 1253.184 ; free physical = 220191 ; free virtual = 340020
+---------------------------------------------------------------------------------
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2982.164 ; gain = 1250.215 ; free physical = 220191 ; free virtual = 340019
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2982.172 ; gain = 1250.215 ; free physical = 220191 ; free virtual = 340019
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2985.098 ; gain = 1253.184 ; free physical = 220191 ; free virtual = 340019
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     2|
+|3     |LUT3 |     2|
+|4     |LUT4 |   117|
+|5     |LUT5 |     9|
+|6     |LUT6 |    38|
+|7     |FDCE |   138|
+|8     |FDPE |     5|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   312|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2985.098 ; gain = 1253.184 ; free physical = 220191 ; free virtual = 340019
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 101 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2985.098 ; gain = 1253.184 ; free physical = 220191 ; free virtual = 340019
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2985.105 ; gain = 1253.184 ; free physical = 220191 ; free virtual = 340019
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-571] Translating synthesized netlist
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2986.121 ; gain = 1253.613 ; free physical = 220492 ; free virtual = 340321
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2986.121 ; gain = 1253.613 ; free physical = 220492 ; free virtual = 340321
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2986.121 ; gain = 1253.613 ; free physical = 220492 ; free virtual = 340320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     2|
+|3     |LUT3 |     3|
+|4     |LUT4 |     5|
+|5     |LUT5 |   133|
+|6     |LUT6 |     7|
+|7     |FDCE |   109|
+|8     |FDPE |     3|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   263|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2986.121 ; gain = 1253.613 ; free physical = 220492 ; free virtual = 340320
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2986.121 ; gain = 1253.613 ; free physical = 220490 ; free virtual = 340318
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2986.129 ; gain = 1253.613 ; free physical = 220490 ; free virtual = 340318
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3003.039 ; gain = 0.000 ; free physical = 220483 ; free virtual = 340311
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2999.973 ; gain = 0.000 ; free physical = 220483 ; free virtual = 340311
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2999.996 ; gain = 0.000 ; free physical = 220639 ; free virtual = 340467
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Project 1-570] Preparing netlist for logic optimization
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2987.773 ; gain = 1255.332 ; free physical = 220625 ; free virtual = 340455
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2987.773 ; gain = 1255.332 ; free physical = 220625 ; free virtual = 340454
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2987.711 ; gain = 1255.215 ; free physical = 220625 ; free virtual = 340454
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2987.711 ; gain = 1255.215 ; free physical = 220624 ; free virtual = 340454
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2987.773 ; gain = 1255.332 ; free physical = 220624 ; free virtual = 340454
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     1|
+|2     |LUT3  |     4|
+|3     |LUT4  |     1|
+|4     |LUT5  |     7|
+|5     |LUT6  |   164|
+|6     |MUXF7 |    71|
+|7     |MUXF8 |    33|
+|8     |FDCE  |     5|
+|9     |FDPE  |     2|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   288|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 2987.773 ; gain = 1255.332 ; free physical = 220624 ; free virtual = 340454
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2987.711 ; gain = 1255.215 ; free physical = 220623 ; free virtual = 340454
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |    14|
+|3     |LUT3 |    42|
+|4     |LUT4 |    10|
+|5     |LUT5 |    41|
+|6     |LUT6 |    62|
+|7     |FDCE |    46|
+|8     |FDPE |     2|
+|9     |FDRE |     3|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   221|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2987.711 ; gain = 1255.215 ; free physical = 220622 ; free virtual = 340454
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 125 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 2987.773 ; gain = 1255.332 ; free physical = 220622 ; free virtual = 340454
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 2987.781 ; gain = 1255.332 ; free physical = 220621 ; free virtual = 340453
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2987.711 ; gain = 1255.215 ; free physical = 220613 ; free virtual = 340445
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2987.719 ; gain = 1255.215 ; free physical = 220613 ; free virtual = 340445
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2987.695 ; gain = 1256.160 ; free physical = 220606 ; free virtual = 340438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2987.695 ; gain = 1256.160 ; free physical = 220604 ; free virtual = 340435
+---------------------------------------------------------------------------------
+INFO: [Project 1-571] Translating synthesized netlist
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2987.695 ; gain = 1256.160 ; free physical = 220602 ; free virtual = 340434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     5|
+|2     |LUT2 |    30|
+|3     |LUT3 |    60|
+|4     |LUT4 |    68|
+|5     |LUT5 |   137|
+|6     |LUT6 |    78|
+|7     |FDCE |    72|
+|8     |FDPE |     3|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   453|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2987.695 ; gain = 1256.160 ; free physical = 220602 ; free virtual = 340434
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 45 warnings.
+INFO: [Project 1-571] Translating synthesized netlist
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2987.695 ; gain = 1256.160 ; free physical = 220588 ; free virtual = 340420
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2987.703 ; gain = 1256.160 ; free physical = 220587 ; free virtual = 340419
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3001.648 ; gain = 0.000 ; free physical = 221064 ; free virtual = 340896
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3001.586 ; gain = 0.000 ; free physical = 221062 ; free virtual = 340894
+INFO: [Netlist 29-17] Analyzing 104 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3011.539 ; gain = 0.000 ; free physical = 221056 ; free virtual = 340888
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3130.629 ; gain = 0.000 ; free physical = 220849 ; free virtual = 340688
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3077.527 ; gain = 0.000 ; free physical = 220849 ; free virtual = 340688
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3132.531 ; gain = 0.000 ; free physical = 220849 ; free virtual = 340688
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 87e16823
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 3077.527 ; gain = 1350.961 ; free physical = 220849 ; free virtual = 340688
+Synth Design complete | Checksum: bad0694f
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 3130.629 ; gain = 1404.621 ; free physical = 220848 ; free virtual = 340687
+Synth Design complete | Checksum: 18a62b3a
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 3132.531 ; gain = 1406.559 ; free physical = 220849 ; free virtual = 340688
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1972.452; main = 1948.753; forked = 193.921
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4533.297; main = 3077.531; forked = 1553.109
+# write_verilog -force dma_ahbslv_flat.v.vxil
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1961.411; main = 1941.241; forked = 192.857
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4532.309; main = 3130.633; forked = 1553.109
+# write_verilog -force dma_rrarb_flat.v.vxil
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1966.608; main = 1949.667; forked = 192.080
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4534.242; main = 3132.535; forked = 1553.109
+# write_verilog -force dma_chrf_flat.v.vxil
+# quit
+# quit
+# quit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 27 23:17:36 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 27 23:17:36 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 27 23:17:36 2026...
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3133.902 ; gain = 0.000 ; free physical = 220672 ; free virtual = 340507
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3135.145 ; gain = 0.000 ; free physical = 220670 ; free virtual = 340505
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3135.223 ; gain = 0.000 ; free physical = 220649 ; free virtual = 340483
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: e6e027a
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 3133.902 ; gain = 1407.402 ; free physical = 220649 ; free virtual = 340484
+Synth Design complete | Checksum: 37209da1
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 3135.145 ; gain = 1408.590 ; free physical = 220649 ; free virtual = 340484
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1965.864; main = 1946.195; forked = 194.623
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4532.949; main = 3133.906; forked = 1553.109
+# write_verilog -force dma_ahbmux_flat.v.vxil
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1965.524; main = 1946.019; forked = 197.940
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4536.855; main = 3135.148; forked = 1553.109
+# write_verilog -force dma_ahbmst_flat.v.vxil
+Synth Design complete | Checksum: 365f2354
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 45 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 3135.223 ; gain = 1409.629 ; free physical = 220641 ; free virtual = 340476
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1961.323; main = 1947.208; forked = 192.354
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4533.871; main = 3135.227; forked = 1553.109
+# write_verilog -force dma_engine_flat.v.vxil
+# quit
+# quit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 27 23:17:36 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 27 23:17:36 2026...
+# quit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 27 23:17:36 2026...
+rm dma_rrarb_flat_vxil.tcl
+make[1]: Leaving directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+INFO: EqMap (FPGA Technology Mapping w/ E-Graphs)
+INFO: Parsing Verilog...
+rm dma_ahbslv_flat_vxil.tcl
+make[1]: Leaving directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+INFO: EqMap (FPGA Technology Mapping w/ E-Graphs)
+INFO: Parsing Verilog...
+INFO: Compiling Verilog...
+INFO: Module dma_rrarb_flat has 3 outputs
+INFO: Extracting logic...
+INFO: Building e-graph...
+rm dma_chrf_flat_vxil.tcl
+make[1]: Leaving directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+INFO: EqMap (FPGA Technology Mapping w/ E-Graphs)
+INFO: Parsing Verilog...
+INFO: Compiling Verilog...
+INFO: Module dma_ahbslv_flat has 213 outputs
+INFO: Extracting logic...
+INFO: Building e-graph...
+INFO: Compiling Verilog...
+INFO: Module dma_chrf_flat has 174 outputs
+INFO: Extracting logic...
+Error: Custom { kind: Other, error: NonuniqueNets([Net { identifier: Identifier { name: "_111_", id_type: Normal }, data_type: FourState }]) }
+make: *** [run.mk:32: dma_chrf_flat.v.rpt] Error 1
+make: *** Waiting for unfinished jobs....
+rm dma_ahbmux_flat_vxil.tcl
+make[1]: Leaving directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+INFO: EqMap (FPGA Technology Mapping w/ E-Graphs)
+INFO: Parsing Verilog...
+rm dma_ahbmst_flat_vxil.tcl
+make[1]: Leaving directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+INFO: EqMap (FPGA Technology Mapping w/ E-Graphs)
+INFO: Parsing Verilog...
+rm dma_engine_flat_vxil.tcl
+make[1]: Leaving directory '/home/dp665/synth-benchmarks/verilog/seq/faraday/DMA'
+INFO: EqMap (FPGA Technology Mapping w/ E-Graphs)
+INFO: Parsing Verilog...
+INFO: Compiling Verilog...
+INFO: Module dma_ahbmst_flat has 152 outputs
+INFO: Extracting logic...
+Error: Custom { kind: Other, error: NonuniqueNets([Net { identifier: Identifier { name: "_3152_", id_type: Normal }, data_type: FourState }]) }
+INFO: Compiling Verilog...
+make: *** [run.mk:32: dma_ahbmst_flat.v.rpt] Error 1
+INFO: Module dma_ahbmux_flat has 35 outputs
+INFO: Extracting logic...
+Error: Custom { kind: Other, error: NonuniqueNets([Net { identifier: Identifier { name: "_088_", id_type: Normal }, data_type: FourState }]) }
+make: *** [run.mk:32: dma_ahbmux_flat.v.rpt] Error 1
+INFO: Compiling Verilog...
+INFO: Module dma_engine_flat has 285 outputs
+INFO: Extracting logic...
+Error: Custom { kind: Other, error: NonuniqueNets([Net { identifier: Identifier { name: "p_0_in", id_type: Normal }, data_type: FourState }]) }
+make: *** [run.mk:32: dma_engine_flat.v.rpt] Error 1
+INFO: Extracting...
+INFO: Grown to 22357 nodes with reason Saturated
+INFO: Generating report...
+INFO: Skipping functionality tests...
+INFO: Synthesis Report
+INFO: name = "dma_ahbslv_flat"
+INFO: stop_reason = "Saturated"
+INFO: extract_time = 0.005739926
+INFO: build_time = 5.58273229
+INFO: input_size = 436
+INFO: input_contains_gates = false
+INFO: num_inputs = 259
+INFO: num_outputs = 289
+INFO: num_classes = 1364
+INFO: num_nodes = 22357
+INFO: num_iterations = 27
+INFO: saturated = true
+INFO: 
+INFO: [circuit_stats.before]
+INFO: lut_count = 151
+INFO: reg_count = 0
+INFO: depth = 2
+INFO: 
+INFO: [circuit_stats.before.lut_distribution]
+INFO: 1 = 1
+INFO: 2 = 2
+INFO: 3 = 3
+INFO: 4 = 5
+INFO: 5 = 133
+INFO: 6 = 7
+INFO: 
+INFO: [circuit_stats.after]
+INFO: lut_count = 151
+INFO: reg_count = 0
+INFO: depth = 2
+INFO: 
+INFO: [circuit_stats.after.lut_distribution]
+INFO: 1 = 1
+INFO: 2 = 2
+INFO: 3 = 3
+INFO: 4 = 5
+INFO: 5 = 133
+INFO: 6 = 7
+INFO: Writing output to Verilog...
+INFO: Extracting...
+INFO: Grown to 21162 nodes with reason Saturated
+INFO: Generating report...
+INFO: (BUS (LUT 18446744073691655918 (LUT 18230563564696957168 next_ch vld_req_3 gnt_chno_0 (LUT 2324335104 vld_req_1 vld_req_5 gnt_chno_0 gnt_chno_1 next_ch) (LUT 11 ... => 
+INFO: Skipping functionality tests...
+INFO: Synthesis Report
+INFO: name = "dma_rrarb_flat"
+INFO: stop_reason = "Saturated"
+INFO: extract_time = 0.006593887
+INFO: build_time = 6.556572837000001
+INFO: input_size = 85
+INFO: input_contains_gates = false
+INFO: num_inputs = 13
+INFO: num_outputs = 8
+INFO: num_classes = 6313
+INFO: num_nodes = 21162
+INFO: num_iterations = 25
+INFO: saturated = true
+INFO: 
+INFO: [circuit_stats.before]
+INFO: lut_count = 39
+INFO: reg_count = 0
+INFO: depth = 3
+INFO: 
+INFO: [circuit_stats.before.lut_distribution]
+INFO: 1 = 1
+INFO: 2 = 9
+INFO: 3 = 2
+INFO: 4 = 4
+INFO: 5 = 3
+INFO: 6 = 20
+INFO: 
+INFO: [circuit_stats.after]
+INFO: lut_count = 39
+INFO: reg_count = 0
+INFO: depth = 3
+INFO: 
+INFO: [circuit_stats.after.lut_distribution]
+INFO: 1 = 1
+INFO: 2 = 9
+INFO: 3 = 2
+INFO: 4 = 4
+INFO: 5 = 3
+INFO: 6 = 20
+INFO: Writing output to Verilog...
