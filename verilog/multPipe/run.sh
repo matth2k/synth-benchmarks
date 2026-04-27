@@ -4,7 +4,7 @@ set -eo pipefail
 make -f run.mk clean_lite
 
 source /work/shared/common/yosys/33/setup.sh
-make -f run.mk multPipe_eqmap_fpga_results.json TOOL=eqmap_fpga INFO=eqmap_fpga, -j 16 TIMEOUT=180 EXTRA_FLAGS="--no-retime"
+make -f run.mk multPipe_eqmap_fpga_results.json TOOL=eqmap_fpga INFO=eqmap_fpga, -j 16 TIMEOUT=180 EXTRA_FLAGS="--partition r2r"
 mv multPipe_eqmap_fpga_results.json yosys_no_decomp.json
 rm -rf *.rpt
 
